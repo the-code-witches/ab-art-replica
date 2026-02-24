@@ -12,6 +12,9 @@ export default {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      serif: ['EB Garamond', 'Georgia', 'serif'],
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
