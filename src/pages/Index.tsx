@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const works = [
   "shop lift - to fill the void",
@@ -60,12 +61,12 @@ const Index = () => {
 
         {/* Info Link — positioned right */}
         <div className="flex justify-end pb-8">
-          <a
-            href="#"
+          <Link
+            to="/info"
             className="text-lg md:text-xl text-foreground hover:opacity-60 transition-opacity duration-200"
           >
             Info
-          </a>
+          </Link>
         </div>
       </main>
 
