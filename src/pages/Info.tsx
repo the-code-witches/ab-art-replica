@@ -132,9 +132,9 @@ const Info = () => {
 
         {/* Footer links */}
         <div className="flex gap-6 text-sm mt-8">
-          <a href="#" className="text-foreground hover:opacity-60 transition-opacity underline">
+          <Link to={`/imprint?lang=${lang}`} className="text-foreground hover:opacity-60 transition-opacity underline">
             {lang === "DE" ? "Impressum" : "Imprint"}
-          </a>
+          </Link>
           <a href="#" className="text-foreground hover:opacity-60 transition-opacity underline">
             {lang === "DE" ? "Datenschutz" : "Privacy"}
           </a>
