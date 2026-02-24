@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import placeholder from "/placeholder.svg";
 
-const works = [
+const worksDE = [
   "shop lift - to fill the void",
   "Ode Toilette",
   "BA:T",
@@ -14,9 +14,23 @@ const works = [
   "Konstruktion der Erinnerung",
 ];
 
+const worksEN = [
+  "shop lift - to fill the void",
+  "Ode Toilet",
+  "BA:T",
+  "Built on return",
+  "B(l)auarbeit - Positions 1 Wall",
+  "2nd order observation",
+  "Poets among us",
+  "Follies of Quiet Desires",
+  "Construction of memory",
+];
+
 const Index = () => {
   const [lang, setLang] = useState<"DE" | "EN">("DE");
   const [hoveredWork, setHoveredWork] = useState<string | null>(null);
+
+  const works = lang === "DE" ? worksDE : worksEN;
 
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col relative">
@@ -56,7 +70,7 @@ const Index = () => {
               <li key={title}>
                 <a
                   href="#"
-                  className="text-lg md:text-xl lg:text-2xl leading-relaxed text-foreground hover:opacity-60 transition-opacity duration-200 cursor-pointer"
+                  className="text-lg md:text-xl lg:text-2xl leading-relaxed text-foreground transition-all duration-200 cursor-pointer hover:italic"
                   onMouseEnter={() => setHoveredWork(title)}
                   onMouseLeave={() => setHoveredWork(null)}
                 >
@@ -70,10 +84,10 @@ const Index = () => {
         {/* Info Link — positioned right */}
         <div className="flex justify-end pb-8">
           <Link
-            to="/info"
+            to={`/info?lang=${lang}`}
             className="text-lg md:text-xl text-foreground hover:opacity-60 transition-opacity duration-200"
           >
-            Info
+            {lang === "DE" ? "Info" : "info"}
           </Link>
         </div>
       </main>
@@ -81,7 +95,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="px-8 md:px-16 lg:px-24 pb-6 pt-2">
         <p className="text-xs text-foreground opacity-50">
-          A.B. - Alexander Böckel
+          {lang === "DE" ? "A.B. - Alexander Böckel" : "AB - Alexander Böckel"}
         </p>
       </footer>
     </div>
