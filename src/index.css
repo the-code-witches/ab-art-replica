@@ -80,26 +80,10 @@
 @layer base {
   * {
     @apply border-border;
-    cursor: none;
   }
 
   body {
     @apply bg-background text-foreground font-serif antialiased;
     font-family: 'EB Garamond', Georgia, serif;
-  }
-
-  a, button, [role="button"], input, textarea, select, label, .cursor-pointer {
-    cursor: none;
-  }
-
-  a:hover, button:hover, [role="button"]:hover, input:hover, textarea:hover, select:hover, label:hover {
-    cursor: none;
-  }
-
-  /* Show default cursor on mobile/touch devices */
-  @media (pointer: coarse) {
-    *, a, button, [role="button"], input, textarea, select, label {
-      cursor: auto;
-    }
   }
 }
