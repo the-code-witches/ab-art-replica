@@ -8,6 +8,7 @@ import Info from "./pages/Info";
 import Imprint from "./pages/Imprint";
 import ArtistStatement from "./pages/ArtistStatement";
 import WorkDetail from "./pages/WorkDetail";
+import Privacy from "./pages/Privacy";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
