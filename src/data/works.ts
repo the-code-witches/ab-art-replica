@@ -221,6 +221,7 @@ export const works: Work[] = [
     year: "2017",
     subtitleDE: "Zeichnungen, digital",
     subtitleEN: "Drawings, digital",
+    titleImage: folliesTitlePic,
     imageLayout: "paired-with-full",
     images: [
       follies03, follies04, folliesDSC1114,
