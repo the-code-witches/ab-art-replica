@@ -209,7 +209,9 @@ export const works: Work[] = [
     year: "2018",
     subtitleDE: "Holz, Bewehrungsstahl, Spiegelblech, 480x400x250 cm",
     subtitleEN: "Wood, reinforcing steel, mirror sheet, 480x400x250 cm",
-    images: ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+    titleImage: dichterTitlePic,
+    imageGroups: [1, 1, 1, 1, 2, 1],
+    images: [dichter1216, dichter1222, dichter1217, dichter6472, dichterMG1426, dichterMG1267, dichter6456],
     descriptionDE: [
       "Der kopierte Sockel von Goethe und Schiller wird auf den Kopf gestellt. Ihre Figuren sind unter der Erde verschwunden, während eine leere, verspiegelt Plattform zurückbleibt.",
       "Die Silhouette aus Bewehrungsstahl bleibt brüchig und unvollständig – eine gespiegelt-umgekehrte Präsenz.",
