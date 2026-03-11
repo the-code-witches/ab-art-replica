@@ -21,16 +21,16 @@ const Index = () => {
       )}
 
       {/* Language Toggle */}
-      <nav className="flex justify-end gap-4 px-8 pt-4 text-sm tracking-wide relative z-20">
+      <nav className="flex justify-end gap-4 px-[25%] pt-4 text-sm tracking-wide relative z-20">
         <button
           onClick={() => setLang("DE")}
-          className={`transition-opacity ${lang === "DE" ? "text-accent opacity-100" : "text-foreground opacity-60 hover:opacity-100"}`}
+          className={`transition-opacity ${lang === "DE" ? "text-accent opacity-100" : "text-foreground opacity-60 hover:opacity-100`}`}
         >
           DE
         </button>
         <button
           onClick={() => setLang("EN")}
-          className={`transition-opacity ${lang === "EN" ? "text-accent opacity-100" : "text-foreground opacity-60 hover:opacity-100"}`}
+          className={`transition-opacity ${lang === "EN" ? "text-accent opacity-100" : "text-foreground opacity-60 hover:opacity-100`}`}
         >
           EN
         </button>
