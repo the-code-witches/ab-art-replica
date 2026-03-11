@@ -11,6 +11,10 @@ import folliesDSC1032 from "@/assets/follies/DSC_1032.jpg";
 import folliesDSC1096 from "@/assets/follies/DSC_1096.jpg";
 import folliesDSC1108 from "@/assets/follies/DSC_1108.jpg";
 import folliesDSC1114 from "@/assets/follies/DSC_1114.jpg";
+import follies03 from "@/assets/follies/entenhausen_03.jpg";
+import follies04 from "@/assets/follies/entenhausen_04.jpg";
+import follies09 from "@/assets/follies/entenhausen_09.jpg";
+import follies10 from "@/assets/follies/entenhausen_10.jpg";
 
 export interface Work {
   slug: string;
