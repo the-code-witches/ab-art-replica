@@ -39,6 +39,20 @@ const WorkDetail = () => {
           </p>
         </div>
 
+        {/* Video embed */}
+        {work.videoUrl && (
+          <div className="mb-8 aspect-video">
+            <iframe
+              src={work.videoUrl}
+              className="w-full h-full"
+              frameBorder="0"
+              allow="autoplay; fullscreen; picture-in-picture"
+              allowFullScreen
+              title={title}
+            />
+          </div>
+        )}
+
         {/* Preamble (poem-like text before images, e.g. B(l)auarbeit) */}
         {preamble && preamble.length > 0 && (
           <div className="mb-8 space-y-1">
