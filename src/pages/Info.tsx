@@ -132,9 +132,9 @@ const Info = () => {
           <Link to={`/imprint?lang=${lang}`} className="text-foreground hover:opacity-60 transition-opacity underline">
             {lang === "DE" ? "Impressum" : "Imprint"}
           </Link>
-          <a href="#" className="text-foreground hover:opacity-60 transition-opacity underline">
+          <Link to={`/privacy?lang=${lang}`} className="text-foreground hover:opacity-60 transition-opacity underline">
             {lang === "DE" ? "Datenschutz" : "Privacy"}
-          </a>
+          </Link>
         </div>
       </main>
     </div>
