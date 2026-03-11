@@ -224,10 +224,10 @@ export const works: Work[] = [
     titleImage: folliesTitlePic,
     imageLayout: "paired-with-full",
     images: [
-      follies03, follies04, folliesDSC1114,
-      follies09, follies10, folliesDSC1032,
+      follies13, follies14, folliesDSC1114,
       follies11, follies12, folliesDSC1108,
-      follies13, follies14, folliesDSC1096,
+      follies09, follies10, folliesDSC1096,
+      follies03, follies04, folliesDSC1032,
     ],
     descriptionDE: [
       "Rauchen, Schwimmen, Denken, Mitteilen, Trinken – alltägliche Rituale, eingefangen in architektonischen Fragmenten. Die Pavillons sind offene Räume des Erlebens, kreisförmig, ohne Grenzen, ohne Ecken, ohne Versteck.",
