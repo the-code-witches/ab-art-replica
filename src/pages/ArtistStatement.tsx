@@ -1,0 +1,39 @@
+import { useParams, useSearchParams, Link } from "react-router-dom";
+import { artistStatements } from "@/data/artistStatements";
+import NotFound from "./NotFound";
+
+const ArtistStatement = () => {
+  const { slug } = useParams<{ slug: string }>();
+  const [searchParams] = useSearchParams();
+  const lang = (searchParams.get("lang") as "DE" | "EN") || "DE";
+
+  const statement = artistStatements.find((s) => s.slug === slug);
+
+  if (!statement) return <NotFound />;
+
+  const paragraphs = lang === "DE" ? statement.paragraphsDE : statement.paragraphsEN;
+
+  return (
+    <div className="min-h-screen bg-background text-foreground">
+      {/* Close button */}
+      <Link
+        to={`/info?lang=${lang}`}
+        className="fixed top-6 right-8 text-3xl font-light text-foreground z-50 hover:opacity-60 transition-opacity no-underline"
+      >
+        ✕
+      </Link>
+
+      <main className="px-8 md:px-16 lg:px-24 py-12 max-w-4xl">
+        <div className="space-y-6 mt-4">
+          {paragraphs.map((p, i) => (
+            <p key={i} className="text-base md:text-lg leading-relaxed whitespace-pre-line">
+              {p}
+            </p>
+          ))}
+        </div>
+      </main>
+    </div>
+  );
+};
+
+export default ArtistStatement;
