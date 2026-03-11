@@ -26,6 +26,7 @@ export interface Work {
   preambleDE?: string[];
   preambleEN?: string[];
   titleImage?: string;
+  imageLayout?: "stacked" | "paired-with-full";
   images: string[];
   descriptionDE: string[];
   descriptionEN: string[];
