@@ -37,7 +37,7 @@ const Index = () => {
       </nav>
 
       {/* Main Content */}
-      <main className="flex-1 flex flex-col justify-between px-8 md:px-16 lg:px-24 relative z-20">
+      <main className="flex-1 flex flex-col justify-between px-[25%] relative z-20">
         {/* Project List */}
         <div className="flex-1 flex items-start">
           <ul className="space-y-1 py-4 mt-4">
