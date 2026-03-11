@@ -18,7 +18,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/ab-art-replica">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/work/:slug" element={<WorkDetail />} />
