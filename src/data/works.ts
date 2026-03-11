@@ -23,6 +23,16 @@ import dichterMG1426 from "@/assets/dichter/MG_1426.jpg";
 import dichterMG1267 from "@/assets/dichter/MG_1267.jpg";
 import dichter6456 from "@/assets/dichter/6456.jpg";
 import dichterTitlePic from "@/assets/dichter/titlepicture.jpg";
+import beobachtung05 from "@/assets/beobachtung/05_foto.jpg";
+import beobachtung07 from "@/assets/beobachtung/07_foto.jpg";
+import beobachtung11 from "@/assets/beobachtung/11_foto.jpg";
+import beobachtungSpectA from "@/assets/beobachtung/6_spect_a.jpg";
+import beobachtungSpectB from "@/assets/beobachtung/6_spect_b.jpg";
+import beobachtungSpectC from "@/assets/beobachtung/6_spect_c.jpg";
+import beobachtungSpectD from "@/assets/beobachtung/6_spect_d.jpg";
+import beobachtungSpectE from "@/assets/beobachtung/6_spect_e.jpg";
+import beobachtungSpectF from "@/assets/beobachtung/6_spect_f.jpg";
+import beobachtungTitlePic from "@/assets/beobachtung/titlepicture.jpg";
 
 export interface Work {
   slug: string;
