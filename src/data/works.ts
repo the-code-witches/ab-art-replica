@@ -218,7 +218,12 @@ export const works: Work[] = [
     year: "2017",
     subtitleDE: "Fotocollagen, digital",
     subtitleEN: "Photo collages, digital",
-    images: ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+    images: [
+      "/src/assets/titlepicture.jpg",
+      "/src/assets/1_Lücke.jpg",
+      "/src/assets/1_Spur.jpg",
+      "/src/assets/1_Treppe.jpg",
+    ],
     descriptionDE: [
       "Spuren von Vergangenem wecken in uns Erinnerungen. Was passiert, wenn wir diesen Momenten besondere Aufmerksamkeit schenken? Wenn wir das Gedächtnis des Auges nutzen, um Neues zu erschaffen? Fragmentarische Erinnerungsbilder wurden an verschiedenen Orten festgehalten und zu fiktiven Realitäten montiert. Imaginäre Konstruktionen im Stadtraum.",
       "Neue Erinnerungen die zwischen Realität und Fiktion changieren. Fiktion ist dabei nicht unbedingt mit Fantasie gleichzusetzen. Sie zieht ihre Kraft vielmehr aus der Fähigkeit, eine Reflexion über die Realität anzustoßen.",
