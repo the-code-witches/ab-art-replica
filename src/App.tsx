@@ -19,6 +19,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/work/:slug" element={<WorkDetail />} />
           <Route path="/info" element={<Info />} />
           <Route path="/imprint" element={<Imprint />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
