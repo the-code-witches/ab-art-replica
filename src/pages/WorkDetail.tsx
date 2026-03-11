@@ -50,8 +50,34 @@ const WorkDetail = () => {
           </div>
         )}
 
-        {/* Images - stacked vertically */}
-        {work.images.length > 0 && (
+        {/* Images */}
+        {work.images.length > 0 && work.imageLayout === "paired-with-full" ? (
+          <div className="space-y-6 mb-8">
+            {(() => {
+              const elements: React.ReactNode[] = [];
+              for (let i = 0; i < work.images.length; i += 3) {
+                // Pair of two side by side
+                elements.push(
+                  <div key={`pair-${i}`} className="grid grid-cols-2 gap-4">
+                    {work.images[i] && (
+                      <img src={work.images[i]} alt={`${title} ${i + 1}`} className="w-full h-auto object-contain" />
+                    )}
+                    {work.images[i + 1] && (
+                      <img src={work.images[i + 1]} alt={`${title} ${i + 2}`} className="w-full h-auto object-contain" />
+                    )}
+                  </div>
+                );
+                // Full-width image
+                if (work.images[i + 2]) {
+                  elements.push(
+                    <img key={`full-${i}`} src={work.images[i + 2]} alt={`${title} ${i + 3}`} className="w-full h-auto object-contain" />
+                  );
+                }
+              }
+              return elements;
+            })()}
+          </div>
+        ) : work.images.length > 0 ? (
           <div className="space-y-6 mb-8">
             {work.images.map((img, i) => (
               <img
@@ -62,7 +88,7 @@ const WorkDetail = () => {
               />
             ))}
           </div>
-        )}
+        ) : null}
 
         {/* Description text */}
         <div className="max-w-3xl space-y-6 mt-10 mb-8">
