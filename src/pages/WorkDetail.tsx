@@ -13,6 +13,7 @@ const WorkDetail = () => {
 
   const title = lang === "DE" ? work.titleDE : work.titleEN;
   const subtitle = lang === "DE" ? work.subtitleDE : work.subtitleEN;
+  const preamble = lang === "DE" ? work.preambleDE : work.preambleEN;
   const descriptions = lang === "DE" ? work.descriptionDE : work.descriptionEN;
   const credit = lang === "DE" ? work.creditDE : work.creditEN;
   const exhibition = lang === "DE" ? work.exhibitionDE : work.exhibitionEN;
@@ -33,19 +34,32 @@ const WorkDetail = () => {
           <h1 className="text-2xl md:text-3xl font-normal">
             {title}, {work.year}
           </h1>
-          <p className="text-lg md:text-xl italic text-foreground opacity-90 mt-1">
+          <p className="text-lg md:text-xl italic text-foreground opacity-90 mt-1 whitespace-pre-line">
             {subtitle}
           </p>
         </div>
 
+        {/* Preamble (poem-like text before images, e.g. B(l)auarbeit) */}
+        {preamble && preamble.length > 0 && (
+          <div className="mb-8 space-y-1">
+            {preamble.map((line, i) => (
+              <p key={i} className="text-base md:text-lg leading-relaxed">
+                {line}
+              </p>
+            ))}
+          </div>
+        )}
+
         {/* Hero image */}
-        <div className="mb-6">
-          <img
-            src={work.images[0]}
-            alt={title}
-            className="w-full h-auto object-contain"
-          />
-        </div>
+        {work.images.length > 0 && (
+          <div className="mb-6">
+            <img
+              src={work.images[0]}
+              alt={title}
+              className="w-full h-auto object-contain"
+            />
+          </div>
+        )}
 
         {/* Image grid - pairs of images side by side */}
         {work.images.length > 1 && (
