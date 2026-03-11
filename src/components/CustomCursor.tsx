@@ -18,7 +18,7 @@ export const CustomCursor = () => {
 
     const updateCursorType = () => {
       const element = document.elementFromPoint(position.x, position.y);
-      const isInteractive = element?.closest("a, button, [role='button'], input, textarea, select, label, .cursor-pointer, img");
+      const isInteractive = element?.closest("a, button, [role='button'], input, textarea, select, label, .cursor-pointer, img, p, h1, h2, h3, h4, h5, h6, span, div");
       setIsPointer(!!isInteractive);
     };
 
@@ -30,16 +30,26 @@ export const CustomCursor = () => {
     document.addEventListener("mouseleave", handleMouseLeave);
     document.addEventListener("mouseenter", handleMouseEnter);
 
+    // Hide default cursor on desktop
+    document.body.style.cursor = "none";
+
     return () => {
       document.removeEventListener("mousemove", updatePosition);
       document.removeEventListener("mouseover", updateCursorType);
       document.removeEventListener("mouseleave", handleMouseLeave);
       document.removeEventListener("mouseenter", handleMouseEnter);
+      document.body.style.cursor = "auto";
     };
   }, [position.x, position.y]);
 
   // Don't render on touch devices
   if (typeof window !== "undefined" && window.matchMedia("(pointer: coarse)").matches) {
+    return null;
+  }
+
+  // When hovering over text/images, let browser show native pointer (cursor: auto from body)
+  // When in free space, show animated hourglass
+  if (isPointer) {
     return null;
   }
 
@@ -54,37 +64,18 @@ export const CustomCursor = () => {
         transform: "translate(-50%, -50%)",
       }}
     >
-      {isPointer ? (
-        // Pointer cursor (arrow)
-        <svg
-          width="20"
-          height="28"
-          viewBox="0 0 20 28"
-          fill="none"
-          className="drop-shadow-sm"
-          style={{ marginLeft: "-4px", marginTop: "-4px" }}
-        >
-          <path
-            d="M3.5 2L3.5 20L7.5 16L11.5 24L14 23L10 15L16 15L3.5 2Z"
-            fill="white"
-            stroke="#3F00FF"
-            strokeWidth="1.5"
-          />
-        </svg>
-      ) : (
-        // Animated pixel art hourglass
-        <div className="relative w-8 h-8 animate-hourglass-flip">
-          <img
-            src={hourglassCursor}
-            alt=""
-            className="w-8 h-8 object-contain"
-            style={{ 
-              imageRendering: "pixelated",
-              filter: "invert(1) drop-shadow(0 0 1px rgba(255,255,255,0.4))"
-            }}
-          />
-        </div>
-      )}
+      {/* Animated pixel art hourglass - white on transparent */}
+      <div className="relative w-8 h-8 animate-hourglass-flip">
+        <img
+          src={hourglassCursor}
+          alt=""
+          className="w-8 h-8 object-contain"
+          style={{ 
+            imageRendering: "pixelated",
+            filter: "invert(1)"
+          }}
+        />
+      </div>
       
       <style>{`
         @keyframes hourglass-flip {
