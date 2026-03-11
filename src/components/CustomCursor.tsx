@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import hourglassCursor from "@/assets/hourglass-cursor.png";
 
 export const CustomCursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -17,7 +18,7 @@ export const CustomCursor = () => {
 
     const updateCursorType = () => {
       const element = document.elementFromPoint(position.x, position.y);
-      const isInteractive = element?.closest("a, button, [role='button'], input, textarea, select, label, .cursor-pointer");
+      const isInteractive = element?.closest("a, button, [role='button'], input, textarea, select, label, .cursor-pointer, img");
       setIsPointer(!!isInteractive);
     };
 
@@ -44,7 +45,7 @@ export const CustomCursor = () => {
 
   return (
     <div
-      className={`fixed pointer-events-none z-[9999] transition-transform duration-100 ${
+      className={`fixed pointer-events-none z-[9999] transition-opacity duration-75 ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
       style={{
@@ -71,56 +72,41 @@ export const CustomCursor = () => {
           />
         </svg>
       ) : (
-        // Animated sandclock
-        <div className="relative w-6 h-6">
-          {/* Hourglass SVG with animation */}
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            className="drop-shadow-sm"
-          >
-            {/* Top bulb */}
-            <path
-              d="M6 3H18V5C18 7 15 9 12 9C9 9 6 7 6 5V3Z"
-              fill="white"
-              stroke="#3F00FF"
-              strokeWidth="1.5"
-            />
-            {/* Bottom bulb */}
-            <path
-              d="M6 21H18V19C18 17 15 15 12 15C9 15 6 17 6 19V21Z"
-              fill="white"
-              stroke="#3F00FF"
-              strokeWidth="1.5"
-            />
-            {/* Connecting lines */}
-            <line x1="12" y1="9" x2="12" y2="15" stroke="#3F00FF" strokeWidth="1.5" />
-            {/* Animated sand */}
-            <circle cx="12" cy="12" r="2" fill="#3F00FF" className="animate-sand-drop" />
-          </svg>
+        // Animated pixel art hourglass
+        <div className="relative w-8 h-8 animate-hourglass-flip">
+          <img
+            src={hourglassCursor}
+            alt=""
+            className="w-8 h-8 object-contain drop-shadow-sm"
+            style={{ 
+              imageRendering: "pixelated",
+              filter: "drop-shadow(0 0 2px rgba(255,255,255,0.5))"
+            }}
+          />
         </div>
       )}
       
       <style>{`
-        @keyframes sand-drop {
+        @keyframes hourglass-flip {
           0% {
-            transform: translateY(-4px);
-            opacity: 1;
+            transform: rotate(0deg);
+          }
+          45% {
+            transform: rotate(0deg);
           }
           50% {
-            transform: translateY(4px);
-            opacity: 1;
+            transform: rotate(180deg);
+          }
+          95% {
+            transform: rotate(180deg);
           }
           100% {
-            transform: translateY(4px);
-            opacity: 0;
+            transform: rotate(360deg);
           }
         }
         
-        .animate-sand-drop {
-          animation: sand-drop 1.2s ease-in-out infinite;
+        .animate-hourglass-flip {
+          animation: hourglass-flip 2s ease-in-out infinite;
         }
       `}</style>
     </div>
