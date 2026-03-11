@@ -18,7 +18,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename="/ab-art-replica">
+      <BrowserRouter basename={import.meta.env.PROD ? '/ab-art-replica/' : '/'}>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/work/:slug" element={<WorkDetail />} />
