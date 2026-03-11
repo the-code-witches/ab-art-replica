@@ -42,6 +42,12 @@ import blauarbeit13 from "@/assets/blauarbeit/7_blauarbeit_13.jpg";
 import blauarbeit14 from "@/assets/blauarbeit/7_blauarbeit_14.jpg";
 import blauarbeit15 from "@/assets/blauarbeit/7_blauarbeit_15.jpg";
 import blauarbeit16 from "@/assets/blauarbeit/7_blauarbeit_16.jpg";
+import gegenleistungKopf5 from "@/assets/gegenleistung/12_kopf_5.jpg";
+import gegenleistungKopf6 from "@/assets/gegenleistung/12_kopf_6.jpg";
+import gegenleistungHochformat from "@/assets/gegenleistung/A_Hochformat.jpg";
+import gegenleistungHochformat2 from "@/assets/gegenleistung/A_Hochformat_2.jpg";
+import gegenleistungQuerformat from "@/assets/gegenleistung/A_Querformat.JPG";
+import gegenleistungTitlePic from "@/assets/gegenleistung/titlepicture.jpg";
 
 export interface Work {
   slug: string;
