@@ -80,6 +80,7 @@
 @layer base {
   * {
     @apply border-border;
+    cursor: none;
   }
 
   body {
@@ -87,11 +88,18 @@
     font-family: 'EB Garamond', Georgia, serif;
   }
 
-  a {
-    @apply transition-opacity duration-200;
+  a, button, [role="button"], input, textarea, select, label, .cursor-pointer {
+    cursor: none;
   }
 
-  a:hover {
-    opacity: 0.7;
+  a:hover, button:hover, [role="button"]:hover, input:hover, textarea:hover, select:hover, label:hover {
+    cursor: none;
+  }
+
+  /* Show default cursor on mobile/touch devices */
+  @media (pointer: coarse) {
+    *, a, button, [role="button"], input, textarea, select, label {
+      cursor: auto;
+    }
   }
 }
