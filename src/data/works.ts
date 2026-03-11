@@ -12,6 +12,7 @@ export interface Work {
   subtitleEN: string;
   preambleDE?: string[];
   preambleEN?: string[];
+  titleImage?: string;
   images: string[];
   descriptionDE: string[];
   descriptionEN: string[];
