@@ -15,6 +15,14 @@ import follies03 from "@/assets/follies/entenhausen_03.jpg";
 import follies04 from "@/assets/follies/entenhausen_04.jpg";
 import follies09 from "@/assets/follies/entenhausen_09.jpg";
 import follies10 from "@/assets/follies/entenhausen_10.jpg";
+import dichter1216 from "@/assets/dichter/1216.jpg";
+import dichter1222 from "@/assets/dichter/1222.jpg";
+import dichter1217 from "@/assets/dichter/1217.jpg";
+import dichter6472 from "@/assets/dichter/6472.jpg";
+import dichterMG1426 from "@/assets/dichter/MG_1426.jpg";
+import dichterMG1267 from "@/assets/dichter/MG_1267.jpg";
+import dichter6456 from "@/assets/dichter/6456.jpg";
+import dichterTitlePic from "@/assets/dichter/titlepicture.jpg";
 
 export interface Work {
   slug: string;
@@ -27,6 +35,7 @@ export interface Work {
   preambleEN?: string[];
   titleImage?: string;
   imageLayout?: "stacked" | "paired-with-full";
+  imageGroups?: number[];
   images: string[];
   descriptionDE: string[];
   descriptionEN: string[];
@@ -200,7 +209,9 @@ export const works: Work[] = [
     year: "2018",
     subtitleDE: "Holz, Bewehrungsstahl, Spiegelblech, 480x400x250 cm",
     subtitleEN: "Wood, reinforcing steel, mirror sheet, 480x400x250 cm",
-    images: ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+    titleImage: dichterTitlePic,
+    imageGroups: [1, 1, 1, 1, 2, 1],
+    images: [dichter1216, dichter1222, dichter1217, dichter6472, dichterMG1426, dichterMG1267, dichter6456],
     descriptionDE: [
       "Der kopierte Sockel von Goethe und Schiller wird auf den Kopf gestellt. Ihre Figuren sind unter der Erde verschwunden, während eine leere, verspiegelt Plattform zurückbleibt.",
       "Die Silhouette aus Bewehrungsstahl bleibt brüchig und unvollständig – eine gespiegelt-umgekehrte Präsenz.",
