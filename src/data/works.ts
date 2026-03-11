@@ -26,7 +26,7 @@ export const works: Work[] = [
     subtitleEN: "Shop lift, wood, cardboard, wrapping paper, sheet metal, minicomputer, pushbutton, matrix, robot, sound, 260x190x20 cm\nMeltdown Gems, \"stolen pictures\", digital print on plexiglass, dimensions variable\nFaded Glory, \"stolen images\", 3D print made of PLA, digital print on silicone, dimensions variable\nNeverfull, digital print on PVC, 31x28x14 cm",
     images: ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
     descriptionDE: [
-      "„shoplift – to fill the void" erforscht die Mechanismen von Konsum und sozialer Mobilität. Die Arbeit thematisiert den Rausch des Kaufens, die Verheißung von Besitz und den Moment, in dem die Erfüllung ins Leere läuft. Was passiert, wenn das Begehren nachlässt und Objekte ihre Bedeutung verlieren?",
+      `„shoplift – to fill the void" erforscht die Mechanismen von Konsum und sozialer Mobilität. Die Arbeit thematisiert den Rausch des Kaufens, die Verheißung von Besitz und den Moment, in dem die Erfüllung ins Leere läuft. Was passiert, wenn das Begehren nachlässt und Objekte ihre Bedeutung verlieren?`,
       "Mittels Imitation von wertvollen Luxusobjekten durch gestohlene Bilder hinterfragt die Installation, wie gesellschaftliche Strukturen unsere Wünsche formen und welchen Preis wir für Zugehörigkeit zahlen.",
     ],
     descriptionEN: [
