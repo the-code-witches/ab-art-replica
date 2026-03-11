@@ -77,7 +77,7 @@ const Info = () => {
         </Link>
       </div>
 
-      <main className="flex-1 px-8 md:px-16 lg:px-24 pb-16">
+      <main className="flex-1 px-[25%] pb-16">
         {/* Artist Statement */}
         <section className="mt-8 mb-16">
           <h3 className="text-sm font-semibold tracking-wide mb-2 text-foreground">

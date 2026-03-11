@@ -18,12 +18,12 @@ const ArtistStatement = () => {
       {/* Close button */}
       <Link
         to={`/info?lang=${lang}`}
-        className="fixed top-6 right-8 text-3xl font-light text-foreground z-50 hover:opacity-60 transition-opacity no-underline"
+        className="fixed top-6 right-[25%] text-3xl font-light text-foreground z-50 hover:opacity-60 transition-opacity no-underline"
       >
         ✕
       </Link>
 
-      <main className="px-8 md:px-16 lg:px-24 py-12 max-w-4xl">
+      <main className="px-[25%] py-12">
         <div className="space-y-6 mt-4">
           {paragraphs.map((p, i) => (
             <p key={i} className="text-base md:text-lg leading-relaxed whitespace-pre-line">
