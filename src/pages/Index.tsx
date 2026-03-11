@@ -24,13 +24,13 @@ const Index = () => {
       <nav className="flex justify-end gap-4 px-[25%] pt-4 text-sm tracking-wide relative z-20">
         <button
           onClick={() => setLang("DE")}
-          className={`transition-opacity ${lang === "DE" ? "text-accent opacity-100" : "text-foreground opacity-60 hover:opacity-100`}`}
+          className={lang === "DE" ? "text-accent opacity-100 transition-opacity" : "text-foreground opacity-60 hover:opacity-100 transition-opacity"}
         >
           DE
         </button>
         <button
           onClick={() => setLang("EN")}
-          className={`transition-opacity ${lang === "EN" ? "text-accent opacity-100" : "text-foreground opacity-60 hover:opacity-100`}`}
+          className={lang === "EN" ? "text-accent opacity-100 transition-opacity" : "text-foreground opacity-60 hover:opacity-100 transition-opacity"}
         >
           EN
         </button>
