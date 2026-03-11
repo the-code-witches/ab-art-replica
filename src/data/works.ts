@@ -1,3 +1,8 @@
+import titlepicture from "@/assets/titlepicture.jpg";
+import luecke from "@/assets/1_Lücke.jpg";
+import spur from "@/assets/1_Spur.jpg";
+import treppe from "@/assets/1_Treppe.jpg";
+
 export interface Work {
   slug: string;
   titleDE: string;
