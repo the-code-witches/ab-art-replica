@@ -1,18 +1,15 @@
 import { Link, useSearchParams } from "react-router-dom";
+import { artistStatements } from "@/data/artistStatements";
 
-const artistStatementDE = [
-  { label: "bürokratische Sprache", href: "#" },
-  { label: "institutionelle Sprache", href: "#" },
-  { label: "nicht-akademische Sprache", href: "#" },
-  { label: "hippe Sprache", href: "#" },
-];
+const artistStatementLabelsDE = artistStatements.map((s) => ({
+  label: s.labelDE,
+  slug: s.slug,
+}));
 
-const artistStatementEN = [
-  { label: "bureaucratic language", href: "#" },
-  { label: "institutional language", href: "#" },
-  { label: "non-academic language", href: "#" },
-  { label: "hip language", href: "#" },
-];
+const artistStatementLabelsEN = artistStatements.map((s) => ({
+  label: s.labelEN,
+  slug: s.slug,
+}));
 
 const educationDE = [
   { years: "2024-2025", desc: "Meisterschüler bei Nasan Tur, Hochschule der Bildenden Künste Braunschweig" },
