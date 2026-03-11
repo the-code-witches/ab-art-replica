@@ -216,7 +216,8 @@ export const works: Work[] = [
     year: "2017",
     subtitleDE: "Zeichnungen, digital",
     subtitleEN: "Drawings, digital",
-    images: ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+    titleImage: folliesTitlePic,
+    images: [follies11, follies12, follies13, follies14, folliesDSC1032, folliesDSC1096, folliesDSC1108, folliesDSC1114],
     descriptionDE: [
       "Rauchen, Schwimmen, Denken, Mitteilen, Trinken – alltägliche Rituale, eingefangen in architektonischen Fragmenten. Die Pavillons sind offene Räume des Erlebens, kreisförmig, ohne Grenzen, ohne Ecken, ohne Versteck.",
       "Konkave und konvexe Formen fließen ineinander, Farben und Materialien treffen eklektisch aufeinander. Architektur wird zur Geste, zur stillen Einladung, zum Ort des Genusses und der Begegnung.",
