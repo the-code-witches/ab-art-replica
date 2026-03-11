@@ -35,6 +35,7 @@ export interface Work {
   preambleEN?: string[];
   titleImage?: string;
   imageLayout?: "stacked" | "paired-with-full";
+  imageGroups?: number[];
   images: string[];
   descriptionDE: string[];
   descriptionEN: string[];
