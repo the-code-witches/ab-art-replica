@@ -46,6 +46,7 @@ export interface Work {
   titleImage?: string;
   imageLayout?: "stacked" | "paired-with-full";
   imageGroups?: number[];
+  videoUrl?: string;
   images: string[];
   descriptionDE: string[];
   descriptionEN: string[];
