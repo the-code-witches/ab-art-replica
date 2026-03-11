@@ -46,7 +46,7 @@ import gegenleistungKopf5 from "@/assets/gegenleistung/12_kopf_5.jpg";
 import gegenleistungKopf6 from "@/assets/gegenleistung/12_kopf_6.jpg";
 import gegenleistungHochformat from "@/assets/gegenleistung/A_Hochformat.jpg";
 import gegenleistungHochformat2 from "@/assets/gegenleistung/A_Hochformat_2.jpg";
-import gegenleistungQuerformat from "@/assets/gegenleistung/A_Querformat.JPG";
+import gegenleistungQuerformat from "@/assets/gegenleistung/A_Querformat.jpg";
 import gegenleistungTitlePic from "@/assets/gegenleistung/titlepicture.jpg";
 
 export interface Work {
