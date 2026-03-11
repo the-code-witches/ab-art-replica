@@ -84,14 +84,14 @@ const Info = () => {
             Artist Statement:
           </h3>
           <ul className="space-y-0.5">
-            {artistStatement.map((link) => (
-              <li key={link.label}>
-                <a
-                  href={link.href}
+            {artistStatement.map((item) => (
+              <li key={item.slug}>
+                <Link
+                  to={`/statement/${item.slug}?lang=${lang}`}
                   className="text-sm italic text-foreground hover:opacity-60 transition-opacity"
                 >
-                  {link.label}
-                </a>
+                  {item.label}
+                </Link>
               </li>
             ))}
           </ul>
