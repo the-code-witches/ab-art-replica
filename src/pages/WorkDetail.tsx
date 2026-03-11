@@ -51,23 +51,42 @@ const WorkDetail = () => {
         )}
 
         {/* Images */}
-        {work.images.length > 0 && work.imageLayout === "paired-with-full" ? (
+        {work.images.length > 0 && work.imageGroups ? (
+          <div className="space-y-6 mb-8">
+            {(() => {
+              const elements: React.ReactNode[] = [];
+              let idx = 0;
+              for (let g = 0; g < work.imageGroups.length; g++) {
+                const count = work.imageGroups[g];
+                if (count === 1 && work.images[idx]) {
+                  elements.push(
+                    <img key={idx} src={work.images[idx]} alt={`${title} ${idx + 1}`} className="w-full h-auto object-contain" />
+                  );
+                  idx++;
+                } else if (count === 2) {
+                  elements.push(
+                    <div key={`pair-${idx}`} className="grid grid-cols-2 gap-4">
+                      {work.images[idx] && <img src={work.images[idx]} alt={`${title} ${idx + 1}`} className="w-full h-auto object-contain" />}
+                      {work.images[idx + 1] && <img src={work.images[idx + 1]} alt={`${title} ${idx + 2}`} className="w-full h-auto object-contain" />}
+                    </div>
+                  );
+                  idx += 2;
+                }
+              }
+              return elements;
+            })()}
+          </div>
+        ) : work.images.length > 0 && work.imageLayout === "paired-with-full" ? (
           <div className="space-y-6 mb-8">
             {(() => {
               const elements: React.ReactNode[] = [];
               for (let i = 0; i < work.images.length; i += 3) {
-                // Pair of two side by side
                 elements.push(
                   <div key={`pair-${i}`} className="grid grid-cols-2 gap-4">
-                    {work.images[i] && (
-                      <img src={work.images[i]} alt={`${title} ${i + 1}`} className="w-full h-auto object-contain" />
-                    )}
-                    {work.images[i + 1] && (
-                      <img src={work.images[i + 1]} alt={`${title} ${i + 2}`} className="w-full h-auto object-contain" />
-                    )}
+                    {work.images[i] && <img src={work.images[i]} alt={`${title} ${i + 1}`} className="w-full h-auto object-contain" />}
+                    {work.images[i + 1] && <img src={work.images[i + 1]} alt={`${title} ${i + 2}`} className="w-full h-auto object-contain" />}
                   </div>
                 );
-                // Full-width image
                 if (work.images[i + 2]) {
                   elements.push(
                     <img key={`full-${i}`} src={work.images[i + 2]} alt={`${title} ${i + 3}`} className="w-full h-auto object-contain" />
@@ -80,12 +99,7 @@ const WorkDetail = () => {
         ) : work.images.length > 0 ? (
           <div className="space-y-6 mb-8">
             {work.images.map((img, i) => (
-              <img
-                key={i}
-                src={img}
-                alt={`${title} ${i + 1}`}
-                className="w-full h-auto object-contain"
-              />
+              <img key={i} src={img} alt={`${title} ${i + 1}`} className="w-full h-auto object-contain" />
             ))}
           </div>
         ) : null}
