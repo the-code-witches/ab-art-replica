@@ -1,36 +1,11 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { works } from "@/data/works";
 import placeholder from "/placeholder.svg";
-
-const worksDE = [
-  "shop lift - to fill the void",
-  "Ode Toilette",
-  "BA:T",
-  "Auf Gegenleistung gebaut",
-  "B(l)auarbeit - Positionen 1 Wand",
-  "Beobachtung 2. Ordnung",
-  "Dichter unter uns",
-  "Follies of Quiet Desires",
-  "Konstruktion der Erinnerung",
-];
-
-const worksEN = [
-  "shop lift - to fill the void",
-  "Ode Toilet",
-  "BA:T",
-  "Built on return",
-  "B(l)auarbeit - Positions 1 Wall",
-  "2nd order observation",
-  "Poets among us",
-  "Follies of Quiet Desires",
-  "Construction of memory",
-];
 
 const Index = () => {
   const [lang, setLang] = useState<"DE" | "EN">("DE");
   const [hoveredWork, setHoveredWork] = useState<string | null>(null);
-
-  const works = lang === "DE" ? worksDE : worksEN;
 
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col relative">
@@ -66,18 +41,21 @@ const Index = () => {
         {/* Project List */}
         <div className="flex-1 flex items-start">
           <ul className="space-y-1 py-4 mt-4">
-            {works.map((title) => (
-              <li key={title}>
-                <a
-                  href="#"
-                  className="text-lg md:text-xl lg:text-2xl leading-relaxed text-foreground transition-all duration-200 cursor-pointer hover:italic"
-                  onMouseEnter={() => setHoveredWork(title)}
-                  onMouseLeave={() => setHoveredWork(null)}
-                >
-                  {title}
-                </a>
-              </li>
-            ))}
+            {works.map((work) => {
+              const title = lang === "DE" ? work.titleDE : work.titleEN;
+              return (
+                <li key={work.slug}>
+                  <Link
+                    to={`/work/${work.slug}?lang=${lang}`}
+                    className="text-lg md:text-xl lg:text-2xl leading-relaxed text-foreground transition-all duration-200 cursor-pointer hover:italic no-underline"
+                    onMouseEnter={() => setHoveredWork(title)}
+                    onMouseLeave={() => setHoveredWork(null)}
+                  >
+                    {title}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         </div>
 
