@@ -42,6 +42,12 @@ import blauarbeit13 from "@/assets/blauarbeit/7_blauarbeit_13.jpg";
 import blauarbeit14 from "@/assets/blauarbeit/7_blauarbeit_14.jpg";
 import blauarbeit15 from "@/assets/blauarbeit/7_blauarbeit_15.jpg";
 import blauarbeit16 from "@/assets/blauarbeit/7_blauarbeit_16.jpg";
+import gegenleistungKopf5 from "@/assets/gegenleistung/12_kopf_5.jpg";
+import gegenleistungKopf6 from "@/assets/gegenleistung/12_kopf_6.jpg";
+import gegenleistungHochformat from "@/assets/gegenleistung/A_Hochformat.jpg";
+import gegenleistungHochformat2 from "@/assets/gegenleistung/A_Hochformat_2.jpg";
+import gegenleistungQuerformat from "@/assets/gegenleistung/A_Querformat.jpg";
+import gegenleistungTitlePic from "@/assets/gegenleistung/titlepicture.jpg";
 
 export interface Work {
   slug: string;
@@ -128,7 +134,9 @@ export const works: Work[] = [
     year: "2021",
     subtitleDE: "Bauholz, Gießton (glasiert), Vertrag, 412x300x247 cm, 22x30x24 cm",
     subtitleEN: "Timber, cast clay (glazed), contract, 412x300x247 cm, 22x30x24 cm",
-    images: ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+    titleImage: gegenleistungTitlePic,
+    imageGroups: [1, 2, 2],
+    images: [gegenleistungQuerformat, gegenleistungKopf5, gegenleistungHochformat2, gegenleistungKopf6, gegenleistungHochformat],
     descriptionDE: [
       "Während der Ausstellungsdauer wurde versucht, die Auftragssumme von den Besucher*innen einzusammeln, in dem sie das Geld in den Schlitz im Kopf werfen sollten. Reichte das Geld nicht, musste A.B. die offene Rechnung mit der eigenen Arbeitskraft bei Zimmerei Dahms begleichen.",
       "Fazit:\n\nEs wurde nicht genug Geld gesammelt. A.B. hat die Rechnung im Anschluss beglichen und 3 Tage bei Zimmerei Dahms gearbeitet.",
