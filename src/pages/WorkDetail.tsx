@@ -50,25 +50,14 @@ const WorkDetail = () => {
           </div>
         )}
 
-        {/* Hero image */}
+        {/* Images - stacked vertically */}
         {work.images.length > 0 && (
-          <div className="mb-6">
-            <img
-              src={work.images[0]}
-              alt={title}
-              className="w-full h-auto object-contain"
-            />
-          </div>
-        )}
-
-        {/* Image grid - pairs of images side by side */}
-        {work.images.length > 1 && (
-          <div className="grid grid-cols-2 gap-4 mb-8">
-            {work.images.slice(1).map((img, i) => (
+          <div className="space-y-6 mb-8">
+            {work.images.map((img, i) => (
               <img
                 key={i}
                 src={img}
-                alt={`${title} ${i + 2}`}
+                alt={`${title} ${i + 1}`}
                 className="w-full h-auto object-contain"
               />
             ))}

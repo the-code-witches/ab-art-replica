@@ -7,13 +7,18 @@ const Index = () => {
   const [lang, setLang] = useState<"DE" | "EN">("DE");
   const [hoveredWork, setHoveredWork] = useState<string | null>(null);
 
+  const hoveredWorkData = works.find(
+    (w) => (lang === "DE" ? w.titleDE : w.titleEN) === hoveredWork
+  );
+  const hoverImage = hoveredWorkData?.titleImage || hoveredWorkData?.images?.[0];
+
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col relative">
       {/* Hover Image Overlay */}
-      {hoveredWork && (
+      {hoveredWork && hoverImage && (
         <div className="fixed inset-0 flex items-center justify-center pointer-events-none z-10">
           <img
-            src={placeholder}
+            src={hoverImage}
             alt={hoveredWork}
             className="max-w-[60vw] max-h-[60vh] object-contain"
           />
