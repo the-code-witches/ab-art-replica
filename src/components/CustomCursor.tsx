@@ -77,10 +77,10 @@ export const CustomCursor = () => {
           <img
             src={hourglassCursor}
             alt=""
-            className="w-8 h-8 object-contain drop-shadow-sm"
+            className="w-8 h-8 object-contain"
             style={{ 
               imageRendering: "pixelated",
-              filter: "drop-shadow(0 0 2px rgba(255,255,255,0.5))"
+              filter: "invert(1) drop-shadow(0 0 1px rgba(255,255,255,0.4))"
             }}
           />
         </div>
