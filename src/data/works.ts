@@ -11,6 +11,10 @@ import folliesDSC1032 from "@/assets/follies/DSC_1032.jpg";
 import folliesDSC1096 from "@/assets/follies/DSC_1096.jpg";
 import folliesDSC1108 from "@/assets/follies/DSC_1108.jpg";
 import folliesDSC1114 from "@/assets/follies/DSC_1114.jpg";
+import follies03 from "@/assets/follies/entenhausen_03.jpg";
+import follies04 from "@/assets/follies/entenhausen_04.jpg";
+import follies09 from "@/assets/follies/entenhausen_09.jpg";
+import follies10 from "@/assets/follies/entenhausen_10.jpg";
 
 export interface Work {
   slug: string;
@@ -22,6 +26,7 @@ export interface Work {
   preambleDE?: string[];
   preambleEN?: string[];
   titleImage?: string;
+  imageLayout?: "stacked" | "paired-with-full";
   images: string[];
   descriptionDE: string[];
   descriptionEN: string[];
@@ -217,7 +222,13 @@ export const works: Work[] = [
     subtitleDE: "Zeichnungen, digital",
     subtitleEN: "Drawings, digital",
     titleImage: folliesTitlePic,
-    images: [follies11, follies12, follies13, follies14, folliesDSC1032, folliesDSC1096, folliesDSC1108, folliesDSC1114],
+    imageLayout: "paired-with-full",
+    images: [
+      follies03, follies04, folliesDSC1114,
+      follies09, follies10, folliesDSC1032,
+      follies11, follies12, folliesDSC1108,
+      follies13, follies14, folliesDSC1096,
+    ],
     descriptionDE: [
       "Rauchen, Schwimmen, Denken, Mitteilen, Trinken – alltägliche Rituale, eingefangen in architektonischen Fragmenten. Die Pavillons sind offene Räume des Erlebens, kreisförmig, ohne Grenzen, ohne Ecken, ohne Versteck.",
       "Konkave und konvexe Formen fließen ineinander, Farben und Materialien treffen eklektisch aufeinander. Architektur wird zur Geste, zur stillen Einladung, zum Ort des Genusses und der Begegnung.",
