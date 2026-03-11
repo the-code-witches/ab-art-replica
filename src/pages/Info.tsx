@@ -61,7 +61,7 @@ const Info = () => {
   const [searchParams] = useSearchParams();
   const lang = searchParams.get("lang") === "EN" ? "EN" : "DE";
 
-  const artistStatement = lang === "DE" ? artistStatementDE : artistStatementEN;
+  const artistStatement = lang === "DE" ? artistStatementLabelsDE : artistStatementLabelsEN;
   const education = lang === "DE" ? educationDE : educationEN;
   const exhibitions = lang === "DE" ? exhibitionsDE : exhibitionsEN;
 
