@@ -1,18 +1,15 @@
 import { Link, useSearchParams } from "react-router-dom";
+import { artistStatements } from "@/data/artistStatements";
 
-const artistStatementDE = [
-  { label: "bürokratische Sprache", href: "#" },
-  { label: "institutionelle Sprache", href: "#" },
-  { label: "nicht-akademische Sprache", href: "#" },
-  { label: "hippe Sprache", href: "#" },
-];
+const artistStatementLabelsDE = artistStatements.map((s) => ({
+  label: s.labelDE,
+  slug: s.slug,
+}));
 
-const artistStatementEN = [
-  { label: "bureaucratic language", href: "#" },
-  { label: "institutional language", href: "#" },
-  { label: "non-academic language", href: "#" },
-  { label: "hip language", href: "#" },
-];
+const artistStatementLabelsEN = artistStatements.map((s) => ({
+  label: s.labelEN,
+  slug: s.slug,
+}));
 
 const educationDE = [
   { years: "2024-2025", desc: "Meisterschüler bei Nasan Tur, Hochschule der Bildenden Künste Braunschweig" },
@@ -64,7 +61,7 @@ const Info = () => {
   const [searchParams] = useSearchParams();
   const lang = searchParams.get("lang") === "EN" ? "EN" : "DE";
 
-  const artistStatement = lang === "DE" ? artistStatementDE : artistStatementEN;
+  const artistStatement = lang === "DE" ? artistStatementLabelsDE : artistStatementLabelsEN;
   const education = lang === "DE" ? educationDE : educationEN;
   const exhibitions = lang === "DE" ? exhibitionsDE : exhibitionsEN;
 
@@ -87,14 +84,14 @@ const Info = () => {
             Artist Statement:
           </h3>
           <ul className="space-y-0.5">
-            {artistStatement.map((link) => (
-              <li key={link.label}>
-                <a
-                  href={link.href}
+            {artistStatement.map((item) => (
+              <li key={item.slug}>
+                <Link
+                  to={`/statement/${item.slug}?lang=${lang}`}
                   className="text-sm italic text-foreground hover:opacity-60 transition-opacity"
                 >
-                  {link.label}
-                </a>
+                  {item.label}
+                </Link>
               </li>
             ))}
           </ul>
