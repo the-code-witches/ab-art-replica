@@ -68,7 +68,7 @@ const Info = () => {
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col">
       {/* Close button */}
-      <div className="flex justify-end px-8 pt-6">
+      <div className="flex justify-end px-[25%] pt-6">
         <Link
           to="/"
           className="text-2xl text-foreground hover:opacity-60 transition-opacity"
