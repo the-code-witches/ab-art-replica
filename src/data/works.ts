@@ -33,6 +33,15 @@ import beobachtungSpectD from "@/assets/beobachtung/6_spect_d.jpg";
 import beobachtungSpectE from "@/assets/beobachtung/6_spect_e.jpg";
 import beobachtungSpectF from "@/assets/beobachtung/6_spect_f.jpg";
 import beobachtungTitlePic from "@/assets/beobachtung/titlepicture.jpg";
+import blauarbeitTitlePic from "@/assets/blauarbeit/titlepicture.jpg";
+import blauarbeit7 from "@/assets/blauarbeit/7_blauarbeit_7.jpg";
+import blauarbeit8 from "@/assets/blauarbeit/7_blauarbeit_8.jpg";
+import blauarbeit11 from "@/assets/blauarbeit/7_blauarbeit_11.jpg";
+import blauarbeit12 from "@/assets/blauarbeit/7_blauarbeit_12.jpg";
+import blauarbeit13 from "@/assets/blauarbeit/7_blauarbeit_13.jpg";
+import blauarbeit14 from "@/assets/blauarbeit/7_blauarbeit_14.jpg";
+import blauarbeit15 from "@/assets/blauarbeit/7_blauarbeit_15.jpg";
+import blauarbeit16 from "@/assets/blauarbeit/7_blauarbeit_16.jpg";
 
 export interface Work {
   slug: string;
