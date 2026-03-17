@@ -20,7 +20,7 @@ const App = () => (
       
       <Toaster />
       <Sonner />
-      <BrowserRouter basename={import.meta.env.PROD ? '/ab-art-replica/' : '/'}>
+      <BrowserRouter basename={import.meta.env.VITE_GITHUB_PAGES ? '/ab-art-replica/' : '/'}>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/work/:slug" element={<WorkDetail />} />

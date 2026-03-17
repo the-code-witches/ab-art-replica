@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => ({
       overlay: false,
     },
   },
-  base: process.env.NODE_ENV === 'production' ? '/ab-art-replica/' : '/',
+  base: process.env.VITE_GITHUB_PAGES ? '/ab-art-replica/' : '/',
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
     alias: {
