@@ -48,6 +48,13 @@ import gegenleistungHochformat from "@/assets/gegenleistung/A_Hochformat.jpg";
 import gegenleistungHochformat2 from "@/assets/gegenleistung/A_Hochformat_2.jpg";
 import gegenleistungQuerformat from "@/assets/gegenleistung/A_Querformat.jpg";
 import gegenleistungTitlePic from "@/assets/gegenleistung/titlepicture.jpg";
+import odeToiletteTitlePic from "@/assets/ode-toilette/titlepicture.jpg";
+import odeToilette1 from "@/assets/ode-toilette/1.jpg";
+import odeToilette2 from "@/assets/ode-toilette/2.jpg";
+import odeToilette3 from "@/assets/ode-toilette/3.jpg";
+import odeToilette4 from "@/assets/ode-toilette/4.jpg";
+import odeToilette5 from "@/assets/ode-toilette/5.jpg";
+import odeToilette6 from "@/assets/ode-toilette/6.jpg";
 
 export interface Work {
   slug: string;
