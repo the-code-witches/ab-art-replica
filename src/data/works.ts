@@ -51,6 +51,7 @@ import pos1_5 from "@/assets/blauarbeit/pos1_5.jpg";
 import pos1_6 from "@/assets/blauarbeit/pos1_6.jpg";
 import pos1_7 from "@/assets/blauarbeit/pos1_7.jpg";
 import pos1_8 from "@/assets/blauarbeit/pos1_8.jpg";
+import batTitlePic from "@/assets/bat/titlepicture.jpg";
 import gegenleistungKopf5 from "@/assets/gegenleistung/12_kopf_5.jpg";
 import gegenleistungKopf6 from "@/assets/gegenleistung/12_kopf_6.jpg";
 import gegenleistungHochformat from "@/assets/gegenleistung/A_Hochformat.jpg";
@@ -140,6 +141,7 @@ export const works: Work[] = [
     subtitleDE: "Kurzfilm, Super-8, 17:43 min",
     subtitleEN: "Short film, Super-8, 17:43 min",
     videoUrl: "https://player.vimeo.com/video/681392972",
+    titleImage: batTitlePic,
     images: [],
     descriptionDE: [
       "BA:T: beleuchtet die Dynamik zwischen Kunst, Handwerk und wirtschaftlicher Verwertbarkeit. Produktionsprozesse erstrecken sich über lange, globale Ketten der Verantwortungsauslagerung, während kreative Arbeit oft zwischen Broterwerb und Selbstausbeutung schwankt. Was bedeutet Wertschöpfung in einem System, das künstlerische, manuelle und industrielle Arbeit gegeneinander ausspielt?",
