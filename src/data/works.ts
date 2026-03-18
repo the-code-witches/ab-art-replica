@@ -48,6 +48,13 @@ import gegenleistungHochformat from "@/assets/gegenleistung/A_Hochformat.jpg";
 import gegenleistungHochformat2 from "@/assets/gegenleistung/A_Hochformat_2.jpg";
 import gegenleistungQuerformat from "@/assets/gegenleistung/A_Querformat.jpg";
 import gegenleistungTitlePic from "@/assets/gegenleistung/titlepicture.jpg";
+import odeToiletteTitlePic from "@/assets/ode-toilette/titlepicture.jpg";
+import odeToilette1 from "@/assets/ode-toilette/1.jpg";
+import odeToilette2 from "@/assets/ode-toilette/2.jpg";
+import odeToilette3 from "@/assets/ode-toilette/3.jpg";
+import odeToilette4 from "@/assets/ode-toilette/4.jpg";
+import odeToilette5 from "@/assets/ode-toilette/5.jpg";
+import odeToilette6 from "@/assets/ode-toilette/6.jpg";
 
 export interface Work {
   slug: string;
@@ -100,7 +107,9 @@ export const works: Work[] = [
     year: "2023",
     subtitleDE: "Baustahl, Styropor, Polymergips, Kunststoff, Lack, Springbrunnenpumpe, 200x60x455 cm",
     subtitleEN: "Structural steel, Styrofoam, polymer gypsum, plastic, varnish, fountain pump, 200x60x455 cm",
-    images: ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+    titleImage: odeToiletteTitlePic,
+    images: [odeToilette1, odeToilette2, odeToilette3, odeToilette4, odeToilette5, odeToilette6],
+    imageGroups: [1, 1, 1, 1, 2],
     descriptionDE: [
       "Sanitärinfrastrukturen spiegeln gesellschaftliche Machtverhältnisse wider. Wer hat freien Zugang, wer wird ausgeschlossen? Geschlecht, Mobilität und finanzielle Mittel entscheiden darüber, ob ein Grundbedürfnis erfüllt werden kann.",
       "Toiletten sind existenziell, universell – und gerade deshalb ein wirkungsvolles Instrument sozialer Kontrolle. Die Arbeit macht die Unerreichbarkeit grundlegender Infrastruktur erfahrbar und verdeutlicht, wie tief soziale Spaltungen in die Stadt eingeschrieben sind und wie grundlegende Bedürfnisse durch ökonomische und politische Strukturen reguliert werden.",
