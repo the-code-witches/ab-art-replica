@@ -107,7 +107,9 @@ export const works: Work[] = [
     year: "2023",
     subtitleDE: "Baustahl, Styropor, Polymergips, Kunststoff, Lack, Springbrunnenpumpe, 200x60x455 cm",
     subtitleEN: "Structural steel, Styrofoam, polymer gypsum, plastic, varnish, fountain pump, 200x60x455 cm",
-    images: ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+    titleImage: odeToiletteTitlePic,
+    images: [odeToilette1, odeToilette2, odeToilette3, odeToilette4, odeToilette5, odeToilette6],
+    imageGroups: [1, 1, 1, 1, 2],
     descriptionDE: [
       "Sanitärinfrastrukturen spiegeln gesellschaftliche Machtverhältnisse wider. Wer hat freien Zugang, wer wird ausgeschlossen? Geschlecht, Mobilität und finanzielle Mittel entscheiden darüber, ob ein Grundbedürfnis erfüllt werden kann.",
       "Toiletten sind existenziell, universell – und gerade deshalb ein wirkungsvolles Instrument sozialer Kontrolle. Die Arbeit macht die Unerreichbarkeit grundlegender Infrastruktur erfahrbar und verdeutlicht, wie tief soziale Spaltungen in die Stadt eingeschrieben sind und wie grundlegende Bedürfnisse durch ökonomische und politische Strukturen reguliert werden.",
