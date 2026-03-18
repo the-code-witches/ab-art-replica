@@ -161,7 +161,7 @@ export const works: Work[] = [
     subtitleEN: "Timber, cast clay (glazed), contract, 412x300x247 cm, 22x30x24 cm",
     titleImage: gegenleistungTitlePic,
     imageGroups: [1, 2, 2],
-    images: [gegenleistungQuerformat, gegenleistungKopf5, gegenleistungHochformat2, gegenleistungKopf6, gegenleistungHochformat],
+    images: [gegenleistung1, gegenleistung2, gegenleistung3, gegenleistung4, gegenleistung5],
     descriptionDE: [
       "Während der Ausstellungsdauer wurde versucht, die Auftragssumme von den Besucher*innen einzusammeln, in dem sie das Geld in den Schlitz im Kopf werfen sollten. Reichte das Geld nicht, musste A.B. die offene Rechnung mit der eigenen Arbeitskraft bei Zimmerei Dahms begleichen.",
       "Fazit:\n\nEs wurde nicht genug Geld gesammelt. A.B. hat die Rechnung im Anschluss beglichen und 3 Tage bei Zimmerei Dahms gearbeitet.",
