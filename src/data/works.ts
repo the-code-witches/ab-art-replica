@@ -114,8 +114,10 @@ export const works: Work[] = [
   },
   {
     slug: "ba-t",
-    titleDE: "BA:T",
-    titleEN: "BA:T",
+    titleDE: "BA:T, Bevorstehender Abriss - Tischlerei",
+    titleEN: "BA:T, Upcoming Demolition - Carpentry",
+    listTitleDE: "BA:T",
+    listTitleEN: "BA:T",
     year: "2022",
     subtitleDE: "Kurzfilm, Super-8, 17:43 min",
     subtitleEN: "Short film, Super-8, 17:43 min",
