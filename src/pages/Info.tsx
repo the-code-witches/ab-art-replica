@@ -1,14 +1,8 @@
 import { Link, useSearchParams } from "react-router-dom";
 
 const artistStatementDE = [
-  "Ich arbeite mit skulpturalen und medialen Setups, in denen Systeme körperlich spürbar werden.",
-  "Mich interessiert der Moment, in dem Optimierung, Kontrolle und Begehren funktionieren, aber nichts mehr erfüllen.",
-  "Meine Arbeiten untersuchen den Zustand danach: Erschöpfung, Stillstand, Rest.",
-  "Meine Arbeiten entstehen aus der Beobachtung, dass Systeme selten scheitern, sondern weiterlaufen.",
-  "Sie funktionieren, regulieren, optimieren – auch dann, wenn Sinn, Lust oder Entlastung längst verschwunden sind.",
-  "In Installationen und räumlichen Setups wird diese Logik körperlich erfahrbar: durch Wärme, Dauer, Druck, Stillstand oder Wiederholung.",
-  "Der Körper erscheint dabei nicht als autonomes Subjekt, sondern als Messinstrument für Zustände, die oft erst später begriffen werden.",
-  "Am Ende interessiert mich weniger der Moment der Erfüllung als das, was bleibt: ein funktionierender Betrieb, erschöpfte Körper sowie materielle und atmosphärische Reste.",
+  "Ich arbeite mit skulpturalen und medialen Setups, in denen Systeme körperlich spürbar werden. Mich interessiert der Moment, in dem Optimierung, Kontrolle und Begehren funktionieren, aber nichts mehr erfüllen. Meine Arbeiten untersuchen den Zustand danach: Erschöpfung, Stillstand, Rest.",
+  "Meine Arbeiten entstehen aus der Beobachtung, dass Systeme selten scheitern, sondern weiterlaufen. Sie funktionieren, regulieren, optimieren – auch dann, wenn Sinn, Lust oder Entlastung längst verschwunden sind. In Installationen und räumlichen Setups wird diese Logik körperlich erfahrbar: durch Wärme, Dauer, Druck, Stillstand oder Wiederholung. Der Körper erscheint dabei nicht als autonomes Subjekt, sondern als Messinstrument für Zustände, die oft erst später begriffen werden. Am Ende interessiert mich weniger der Moment der Erfüllung als das, was bleibt: ein funktionierender Betrieb, erschöpfte Körper sowie materielle und atmosphärische Reste.",
 ];
 
 const educationDE = [
