@@ -184,7 +184,7 @@ export const works: Work[] = [
     year: "2020",
     subtitleDE: "Videoanimation, Austausch / Angebote",
     subtitleEN: "Video animation, exchange / offers",
-    titleImage: blauarbeitTitlePic,
+     titleImage: pos1TitlePic,
     videoUrl: "https://player.vimeo.com/video/510338690",
     preambleDE: [
       "B(u)ilder schicken",
@@ -222,8 +222,7 @@ export const works: Work[] = [
       "turn off the light",
       "waiting for work",
     ],
-    imageGroups: [2, 2, 2, 2],
-    images: [blauarbeit16, blauarbeit12, blauarbeit13, blauarbeit8, blauarbeit7, blauarbeit11, blauarbeit14, blauarbeit15],
+    images: [pos1_1, pos1_2, pos1_3, pos1_4, pos1_5, pos1_6, pos1_7, pos1_8],
     descriptionDE: [
       "Ein Raum, der die Schnittstelle zwischen Kunst und Handwerk zeigt, eine Wand, die Beide trennt. Das Handwerk im digitalen Zeitalter: Arbeitskraft online anbieten, anonyme Bewertungen, abstrakte Anfragen, wie: eine Wand gemeinsam zu bauen.",
       "Über den Bau von etwas Trennendem Gemeinsamkeiten herausfinden.",
