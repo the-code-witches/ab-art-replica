@@ -1,15 +1,15 @@
 import { Link, useSearchParams } from "react-router-dom";
-import { artistStatements } from "@/data/artistStatements";
 
-const artistStatementLabelsDE = artistStatements.map((s) => ({
-  label: s.labelDE,
-  slug: s.slug,
-}));
-
-const artistStatementLabelsEN = artistStatements.map((s) => ({
-  label: s.labelEN,
-  slug: s.slug,
-}));
+const artistStatementDE = [
+  "Ich arbeite mit skulpturalen und medialen Setups, in denen Systeme körperlich spürbar werden.",
+  "Mich interessiert der Moment, in dem Optimierung, Kontrolle und Begehren funktionieren, aber nichts mehr erfüllen.",
+  "Meine Arbeiten untersuchen den Zustand danach: Erschöpfung, Stillstand, Rest.",
+  "Meine Arbeiten entstehen aus der Beobachtung, dass Systeme selten scheitern, sondern weiterlaufen.",
+  "Sie funktionieren, regulieren, optimieren – auch dann, wenn Sinn, Lust oder Entlastung längst verschwunden sind.",
+  "In Installationen und räumlichen Setups wird diese Logik körperlich erfahrbar: durch Wärme, Dauer, Druck, Stillstand oder Wiederholung.",
+  "Der Körper erscheint dabei nicht als autonomes Subjekt, sondern als Messinstrument für Zustände, die oft erst später begriffen werden.",
+  "Am Ende interessiert mich weniger der Moment der Erfüllung als das, was bleibt: ein funktionierender Betrieb, erschöpfte Körper sowie materielle und atmosphärische Reste.",
+];
 
 const educationDE = [
   { years: "2024-2025", desc: "Meisterschüler bei Nasan Tur, Hochschule der Bildenden Künste Braunschweig" },
@@ -61,13 +61,12 @@ const Info = () => {
   const [searchParams] = useSearchParams();
   const lang = searchParams.get("lang") === "EN" ? "EN" : "DE";
 
-  const artistStatement = lang === "DE" ? artistStatementLabelsDE : artistStatementLabelsEN;
+  const artistStatement = artistStatementDE;
   const education = lang === "DE" ? educationDE : educationEN;
   const exhibitions = lang === "DE" ? exhibitionsDE : exhibitionsEN;
 
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col">
-      {/* Close button */}
       <div className="flex justify-end px-6 md:px-[25%] pt-6">
         <Link
           to="/"
@@ -78,26 +77,17 @@ const Info = () => {
       </div>
 
       <main className="flex-1 px-6 md:px-[25%] pb-16">
-        {/* Artist Statement */}
         <section className="mt-8 mb-16">
-          <h3 className="text-sm font-semibold tracking-wide mb-2 text-foreground">
+          <h3 className="text-sm font-semibold tracking-wide mb-4 text-foreground">
             Artist Statement:
           </h3>
-          <ul className="space-y-0.5">
-            {artistStatement.map((item) => (
-              <li key={item.slug}>
-                <Link
-                  to={`/statement/${item.slug}?lang=${lang}`}
-                  className="text-sm italic text-foreground hover:opacity-60 transition-opacity"
-                >
-                  {item.label}
-                </Link>
-              </li>
+          <div className="space-y-5 text-sm leading-relaxed text-foreground">
+            {artistStatement.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
             ))}
-          </ul>
+          </div>
         </section>
 
-        {/* Education */}
         <section className="mb-16">
           <h3 className="text-sm font-semibold tracking-wide mb-6 text-foreground">
             {lang === "DE" ? "Ausbilung / Studium" : "Training / studies"}
@@ -112,7 +102,6 @@ const Info = () => {
           </div>
         </section>
 
-        {/* Exhibitions */}
         <section className="mb-16">
           <h3 className="text-sm font-semibold tracking-wide mb-6 text-foreground">
             {lang === "DE" ? "Ausgewählte Ausstellungen und Installationen" : "Selected exhibitions and installations:"}
@@ -127,15 +116,12 @@ const Info = () => {
           </div>
         </section>
 
-        {/* Footer links */}
-        <div className="flex gap-6 text-sm mt-8">
-          <Link to={`/imprint?lang=${lang}`} className="text-foreground hover:opacity-60 transition-opacity underline">
-            {lang === "DE" ? "Impressum" : "Imprint"}
-          </Link>
-          <Link to={`/privacy?lang=${lang}`} className="text-foreground hover:opacity-60 transition-opacity underline">
-            {lang === "DE" ? "Datenschutz" : "Privacy"}
-          </Link>
-        </div>
+        <section className="mb-4">
+          <h3 className="text-sm font-semibold tracking-wide mb-3 text-foreground">
+            {lang === "DE" ? "Kontakt" : "Contact"}
+          </h3>
+          <p className="text-sm text-foreground">post@ab-art.info</p>
+        </section>
       </main>
     </div>
   );
