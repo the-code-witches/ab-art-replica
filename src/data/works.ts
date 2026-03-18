@@ -248,7 +248,7 @@ export const works: Work[] = [
     subtitleEN: "Performance, protocols, collaboration with Jakob Wirth",
     titleImage: beobachtungTitlePic,
     imageGroups: [1, 1, 1, 2, 2, 2],
-    images: [beobachtung11, beobachtung07, beobachtung05, beobachtungSpectE, beobachtungSpectA, beobachtungSpectC, beobachtungSpectF, beobachtungSpectB, beobachtungSpectD],
+    images: [beobachtung1, beobachtung2, beobachtung3, beobachtung4, beobachtung5, beobachtung6, beobachtung7, beobachtung8, beobachtung9],
     descriptionDE: [
       "Wer beobachtet, wer wird beobachtet? Welchen Dominanzen sind wir im öffentlichen Raum ausgesetzt, wer wird verdrängt? Eine Polizeitstation am Berliner Alexanderplatz sollte vor 3 Jahren für Ordnung und Sicherheit sorgen. Seitdem überwachen Kameras rund um die Uhr die Umgebung.",
       "Während der Intervention wurde die Polizeitstation, das exekutive Subjekt, observiert, und damit die Subjekt-Objekt-Ordnung kurzzeitig umgekehrt. Die Beamt*innen reagierten mit Unruhe auf den Verlust der Subjekt-Position. Die \"Beobachtung 2. Ordnung\" wurde abgeführt.",
