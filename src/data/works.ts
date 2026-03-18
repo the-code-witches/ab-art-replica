@@ -53,6 +53,8 @@ export interface Work {
   slug: string;
   titleDE: string;
   titleEN: string;
+  listTitleDE?: string;
+  listTitleEN?: string;
   year: string;
   subtitleDE: string;
   subtitleEN: string;
