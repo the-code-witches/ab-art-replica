@@ -42,6 +42,15 @@ import blauarbeit13 from "@/assets/blauarbeit/7_blauarbeit_13.jpg";
 import blauarbeit14 from "@/assets/blauarbeit/7_blauarbeit_14.jpg";
 import blauarbeit15 from "@/assets/blauarbeit/7_blauarbeit_15.jpg";
 import blauarbeit16 from "@/assets/blauarbeit/7_blauarbeit_16.jpg";
+import pos1TitlePic from "@/assets/blauarbeit/pos1_titlepicture.jpg";
+import pos1_1 from "@/assets/blauarbeit/pos1_1.jpg";
+import pos1_2 from "@/assets/blauarbeit/pos1_2.jpg";
+import pos1_3 from "@/assets/blauarbeit/pos1_3.jpg";
+import pos1_4 from "@/assets/blauarbeit/pos1_4.jpg";
+import pos1_5 from "@/assets/blauarbeit/pos1_5.jpg";
+import pos1_6 from "@/assets/blauarbeit/pos1_6.jpg";
+import pos1_7 from "@/assets/blauarbeit/pos1_7.jpg";
+import pos1_8 from "@/assets/blauarbeit/pos1_8.jpg";
 import gegenleistungKopf5 from "@/assets/gegenleistung/12_kopf_5.jpg";
 import gegenleistungKopf6 from "@/assets/gegenleistung/12_kopf_6.jpg";
 import gegenleistungHochformat from "@/assets/gegenleistung/A_Hochformat.jpg";
@@ -175,7 +184,7 @@ export const works: Work[] = [
     year: "2020",
     subtitleDE: "Videoanimation, Austausch / Angebote",
     subtitleEN: "Video animation, exchange / offers",
-    titleImage: blauarbeitTitlePic,
+     titleImage: pos1TitlePic,
     videoUrl: "https://player.vimeo.com/video/510338690",
     preambleDE: [
       "B(u)ilder schicken",
@@ -213,8 +222,7 @@ export const works: Work[] = [
       "turn off the light",
       "waiting for work",
     ],
-    imageGroups: [2, 2, 2, 2],
-    images: [blauarbeit16, blauarbeit12, blauarbeit13, blauarbeit8, blauarbeit7, blauarbeit11, blauarbeit14, blauarbeit15],
+    images: [pos1_1, pos1_2, pos1_3, pos1_4, pos1_5, pos1_6, pos1_7, pos1_8],
     descriptionDE: [
       "Ein Raum, der die Schnittstelle zwischen Kunst und Handwerk zeigt, eine Wand, die Beide trennt. Das Handwerk im digitalen Zeitalter: Arbeitskraft online anbieten, anonyme Bewertungen, abstrakte Anfragen, wie: eine Wand gemeinsam zu bauen.",
       "Über den Bau von etwas Trennendem Gemeinsamkeiten herausfinden.",
