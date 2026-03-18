@@ -28,7 +28,7 @@ const WorkDetail = () => {
         ✕
       </Link>
 
-      <main className="px-6 md:px-[25%] py-12">
+      <main className="px-6 md:px-[25%] lg:pl-[35%] lg:pr-[25%] py-12">
         {/* Title + Subtitle */}
         <div className="mb-8">
           <h1 className="text-2xl md:text-3xl font-normal">
