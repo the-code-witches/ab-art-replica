@@ -47,7 +47,7 @@ const Index = () => {
         <div className="flex-1 flex items-start">
           <ul className="space-y-1 py-4 mt-4">
             {works.map((work) => {
-              const title = lang === "DE" ? work.titleDE : work.titleEN;
+              const title = lang === "DE" ? (work.listTitleDE || work.titleDE) : (work.listTitleEN || work.titleEN);
               return (
                 <li key={work.slug}>
                   <Link

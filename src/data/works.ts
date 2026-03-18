@@ -53,6 +53,8 @@ export interface Work {
   slug: string;
   titleDE: string;
   titleEN: string;
+  listTitleDE?: string;
+  listTitleEN?: string;
   year: string;
   subtitleDE: string;
   subtitleEN: string;
@@ -114,9 +116,12 @@ export const works: Work[] = [
     slug: "ba-t",
     titleDE: "BA:T, Bevorstehender Abriss - Tischlerei",
     titleEN: "BA:T, Upcoming Demolition - Carpentry",
+    listTitleDE: "BA:T",
+    listTitleEN: "BA:T",
     year: "2022",
     subtitleDE: "Kurzfilm, Super-8, 17:43 min",
     subtitleEN: "Short film, Super-8, 17:43 min",
+    videoUrl: "https://player.vimeo.com/video/681392972",
     images: [],
     descriptionDE: [
       "BA:T: beleuchtet die Dynamik zwischen Kunst, Handwerk und wirtschaftlicher Verwertbarkeit. Produktionsprozesse erstrecken sich über lange, globale Ketten der Verantwortungsauslagerung, während kreative Arbeit oft zwischen Broterwerb und Selbstausbeutung schwankt. Was bedeutet Wertschöpfung in einem System, das künstlerische, manuelle und industrielle Arbeit gegeneinander ausspielt?",
