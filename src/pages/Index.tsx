@@ -8,7 +8,7 @@ const Index = () => {
   const [hoveredWork, setHoveredWork] = useState<string | null>(null);
 
   const hoveredWorkData = works.find(
-    (w) => (lang === "DE" ? w.titleDE : w.titleEN) === hoveredWork
+    (w) => (lang === "DE" ? (w.listTitleDE || w.titleDE) : (w.listTitleEN || w.titleEN)) === hoveredWork
   );
   const hoverImage = hoveredWorkData?.titleImage || hoveredWorkData?.images?.[0];
 
