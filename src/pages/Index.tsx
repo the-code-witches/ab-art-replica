@@ -20,7 +20,7 @@ const Index = () => {
           <img
             src={hoverImage}
             alt={hoveredWork}
-            className="max-w-[280px] max-h-[420px] object-contain"
+            className="max-w-[420px] max-h-[420px] object-contain"
           />
         </div>
       )}
