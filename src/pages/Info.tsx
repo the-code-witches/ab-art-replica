@@ -90,7 +90,7 @@ const Info = () => {
 
         <section className="mb-16">
           <h3 className="text-sm font-semibold tracking-wide mb-6 text-foreground">
-            {lang === "DE" ? "Ausbilung / Studium" : "Training / studies"}
+            {lang === "DE" ? "Ausbildung" : "Education"}
           </h3>
           <div className="space-y-2">
             {education.map((item, i) => (
