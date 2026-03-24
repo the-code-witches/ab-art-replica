@@ -277,9 +277,10 @@ export const works: Work[] = [
     imageGroups: [1, 1, 1, 1, 2, 1],
     images: [dichter1216, dichter1222, dichter1217, dichter6472, dichterMG1426, dichterMG1267, dichter6456],
     descriptionDE: [
-      "Der kopierte Sockel von Goethe und Schiller wird auf den Kopf gestellt. Ihre Figuren sind unter der Erde verschwunden, während eine leere, verspiegelt Plattform zurückbleibt.",
-      "Die Silhouette aus Bewehrungsstahl bleibt brüchig und unvollständig – eine gespiegelt-umgekehrte Präsenz.",
-      "In der Abwesenheit entsteht ein Raum der Aneignung und Entwertung, in dem Macht und Besitz nicht mehr als gegeben, sondern als durchbrechbar und fragil erscheinen. Wer besitzt den Raum, wer bleibt unbenannt? Ein Monument der Umkehrung, das Geschichte und Erinnerung neu verhandelt.",
+      "Auf dem Theaterplatz in Weimar steht das Denkmal von Goethe und Schiller als Symbol des deutschen Bildungskanons.",
+      "Die Arbeit greift dieses Monument auf und kehrt es um: Der Sockel wird kopiert und auf den Kopf gestellt. Die Figuren der Dichter verschwinden im Boden, während eine leere, verspiegelte Plattform zurückbleibt.",
+      "Die Struktur aus Bewehrungsstahl bildet nur noch eine fragile Silhouette des ursprünglichen Sockels. Das Monument erscheint als Umkehrung seiner selbst: brüchig, offen und unvollständig.",
+      "In der Abwesenheit der Figuren entsteht ein Raum, der Besitz und Autorität des Denkmals infrage stellt. Die Plattform wird zur Projektionsfläche für neue Aneignungen: Wer steht auf einem Sockel, wer bleibt unsichtbar?",
     ],
     descriptionEN: [
       "The copied pedestal of Goethe and Schiller is turned upside down. Their figures have disappeared underground, leaving an empty, mirrored platform.",
