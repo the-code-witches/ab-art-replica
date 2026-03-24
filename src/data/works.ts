@@ -306,8 +306,10 @@ export const works: Work[] = [
       follies03, follies04, folliesDSC1032,
     ],
     descriptionDE: [
-      "Rauchen, Schwimmen, Denken, Mitteilen, Trinken – alltägliche Rituale, eingefangen in architektonischen Fragmenten. Die Pavillons sind offene Räume des Erlebens, kreisförmig, ohne Grenzen, ohne Ecken, ohne Versteck.",
-      "Konkave und konvexe Formen fließen ineinander, Farben und Materialien treffen eklektisch aufeinander. Architektur wird zur Geste, zur stillen Einladung, zum Ort des Genusses und der Begegnung.",
+      "Rauchen, Schwimmen, Denken, Trinken, Sprechen: alltägliche Handlungen bilden den Ausgangspunkt dieser Reihe architektonischer Pavillons.",
+      "Die Strukturen funktionieren wie kleine Bühnen für einfache Rituale. Offen, kreisförmig und ohne klare Vorder- oder Rückseite laden sie dazu ein, sich aufzuhalten, zu beobachten oder selbst Teil der Situation zu werden.",
+      "Konkave und konvexe Formen greifen ineinander. Farben, Materialien und Maßstäbe folgen keiner festen Ordnung, sondern entstehen aus der jeweiligen Handlung heraus.",
+      "Die Pavillons sind weder Gebäude noch reine Skulpturen. Sie markieren temporäre Räume für Begegnung, Genuss und stilles Verweilen.",
     ],
     descriptionEN: [
       "Smoking, swimming, thinking, communicating, drinking – everyday rituals captured in architectural fragments. The pavilions are open spaces of experience, circular, without borders, without corners, without hiding places.",
