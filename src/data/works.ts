@@ -165,10 +165,10 @@ export const works: Work[] = [
     imageGroups: [1, 2, 2],
     images: [gegenleistung1, gegenleistung2, gegenleistung3, gegenleistung4, gegenleistung5],
     descriptionDE: [
-      "Während der Ausstellungsdauer wurde versucht, die Auftragssumme von den Besucher*innen einzusammeln, in dem sie das Geld in den Schlitz im Kopf werfen sollten. Reichte das Geld nicht, musste A.B. die offene Rechnung mit der eigenen Arbeitskraft bei Zimmerei Dahms begleichen.",
-      "Fazit:\n\nEs wurde nicht genug Geld gesammelt. A.B. hat die Rechnung im Anschluss beglichen und 3 Tage bei Zimmerei Dahms gearbeitet.",
-      "Die Arbeit zeigt den Alltag von Handwerker*innen. Was ist so eine Arbeit oder auch ein Handwerk in der Kunst wert? Bei einem Tausch treten zwei Tauschende in Kontakt. Sie geben jeweils etwas von sich, mit der Absicht, eine Gegenleistung dafür zu erhalten.",
-      "Dabei ist nicht fest geregelt, ob das Getauschte den gleichen Wert haben sollte. Auch entspricht es der moralischen Auffassung der Tauschenden, inwiefern sie sich auf einen fairen Tausch einlassen wollen. Mit einem Vertrag, der in schriftlicher oder mündlicher Form abgeschlossen werden kann, wird die Abmachung der verschiedenen Parteien festgehalten.",
+      "Für diese Arbeit wurde eine Dachkonstruktion von einer Zimmerei gebaut. Grundlage war ein realer Vertrag zwischen dem Künstler und dem Handwerksbetrieb. Der Bau der Struktur wurde mit 750 Euro veranschlagt.",
+      "Während der Ausstellung konnten Besucher*innen versuchen, diese Summe zu begleichen, indem sie Geld in einen Schlitz im Sockel eines Kopfes warfen. Sollte der Betrag nicht erreicht werden, musste die Künstlerin die offene Rechnung selbst begleichen: entweder finanziell oder durch eigene Arbeitsleistung im Betrieb.",
+      "Die benötigte Summe wurde nicht erreicht. Im Anschluss arbeitete der Künstler drei Tage in der Zimmerei, um die Kosten zu begleichen.",
+      "Die Arbeit verhandelt Wert, Arbeit und Austausch zwischen Kunst und Handwerk und macht sichtbar, wie ökonomische Beziehungen auch innerhalb künstlerischer Produktion wirken.",
     ],
     descriptionEN: [
       "During the exhibition, an attempt was made to collect the contract amount from visitors by asking them to drop money into the slot in the head. If the money wasn't enough, AB had to settle the outstanding invoice with his own labor at the Dahms carpentry shop.",
