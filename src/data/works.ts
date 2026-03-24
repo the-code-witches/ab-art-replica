@@ -123,7 +123,7 @@ export const works: Work[] = [
     descriptionDE: [
       "Die Arbeit verbindet Waschbecken und Toilette über ein verzweigtes Kupferrohr zu einer erhöhten Struktur. Wasser zirkuliert durch das System und tritt als kleiner Brunnen aus der Toilettenschüssel aus.",
       "Die Sanitärinstallationen erscheinen vertraut und zugleich unbrauchbar: zu hoch, zu verschoben, zu weit entfernt vom Körper. Infrastruktur wird sichtbar, aber nicht erreichbar.",
-      "„Ode Toilette" macht erfahrbar, wie grundlegende Bedürfnisse durch räumliche, soziale und ökonomische Bedingungen reguliert werden.",
+      `„Ode Toilette" macht erfahrbar, wie grundlegende Bedürfnisse durch räumliche, soziale und ökonomische Bedingungen reguliert werden.`,
     ],
     descriptionEN: [
       "Sanitation infrastructures reflect social power relations. Who has free access, and who is excluded? Gender, mobility, and financial means determine whether a basic need can be met.",
