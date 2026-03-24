@@ -229,9 +229,11 @@ export const works: Work[] = [
     imageGroups: [2, 2, 2, 2],
     images: [pos1_1, pos1_2, pos1_3, pos1_4, pos1_5, pos1_6, pos1_7, pos1_8],
     descriptionDE: [
-      "Ein Raum, der die Schnittstelle zwischen Kunst und Handwerk zeigt, eine Wand, die Beide trennt. Das Handwerk im digitalen Zeitalter: Arbeitskraft online anbieten, anonyme Bewertungen, abstrakte Anfragen, wie: eine Wand gemeinsam zu bauen.",
-      "Über den Bau von etwas Trennendem Gemeinsamkeiten herausfinden.",
-      "Es kommt nicht dazu. Eine materielle Wand entsteht nicht. Weil es genau diese Wand in geistiger Form von Anfang an gegeben hat, der Raum bleibt leer und ungeteilt.",
+      "Für die Arbeit wurde über eine Online-Plattform für Handwerksdienstleistungen eine Anzeige geschaltet. Gesucht wurde ein Handwerker, der gemeinsam mit dem Künstler eine Wand baut.",
+      "Auf die Anfrage folgten Angebote, Preisberechnungen und Nachrichten. Die Kommunikation verlief anonym und funktional, vermittelt über Bewertungen, Kalkulationen und standardisierte Leistungsbeschreibungen.",
+      "Aus den Angeboten, Chats und Dokumenten entstand eine Videoarbeit und eine räumliche Installation. Die geplante Wand bildet den Ausgangspunkt der Arbeit.",
+      "Gebaut wird sie jedoch nie.",
+      "Die Wand existiert nur als Projekt, als Angebot und als Kommunikation. Der Raum bleibt leer.",
     ],
     descriptionEN: [
       "A space that demonstrates the intersection between art and craft, a wall separating the two. Crafts in the digital age: offering labor online, anonymous evaluations, abstract requests, such as building a wall together.",
