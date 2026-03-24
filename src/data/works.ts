@@ -254,8 +254,10 @@ export const works: Work[] = [
     imageGroups: [1, 1, 1, 2, 2, 2],
     images: [beobachtung1, beobachtung2, beobachtung3, beobachtung4, beobachtung5, beobachtung6, beobachtung7, beobachtung8, beobachtung9],
     descriptionDE: [
-      "Wer beobachtet, wer wird beobachtet? Welchen Dominanzen sind wir im öffentlichen Raum ausgesetzt, wer wird verdrängt? Eine Polizeitstation am Berliner Alexanderplatz sollte vor 3 Jahren für Ordnung und Sicherheit sorgen. Seitdem überwachen Kameras rund um die Uhr die Umgebung.",
-      "Während der Intervention wurde die Polizeitstation, das exekutive Subjekt, observiert, und damit die Subjekt-Objekt-Ordnung kurzzeitig umgekehrt. Die Beamt*innen reagierten mit Unruhe auf den Verlust der Subjekt-Position. Die \"Beobachtung 2. Ordnung\" wurde abgeführt.",
+      "Vor der „temporären" Polizeiwache am Berliner Alexanderplatz wurde eine Beobachtungssituation eingerichtet. Auf einem Klappstuhl sitzend protokollierte die beobachtende Person die Aktivitäten der Polizeistation und ihrer Umgebung.",
+      "Ausgestattet mit einem Formular, das an polizeiliche Beobachtungsprotokolle angelehnt ist, wurden Bewegungen, Verhalten und Reaktionen der Beamt*innen festgehalten.",
+      "Damit kehrte sich die übliche Beobachtungsordnung kurzfristig um: Die Institution, die den öffentlichen Raum überwacht, wurde selbst zum Gegenstand der Beobachtung.",
+      "Die Situation führte zu Irritationen bei den Beamt*innen. Die beobachtende Person wurde schließlich von der Polizei abgeführt.",
     ],
     descriptionEN: [
       "Who is watching, who is being watched? What dominance are we exposed to in public spaces, and who is being pushed out? Three years ago, a police station at Berlin's Alexanderplatz was supposed to ensure order and security. Since then, cameras have been monitoring the area around the clock.",
