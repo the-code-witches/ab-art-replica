@@ -326,8 +326,10 @@ export const works: Work[] = [
     titleImage: titlepicture,
     images: [luecke, spur, treppe],
     descriptionDE: [
-      "Spuren von Vergangenem wecken in uns Erinnerungen. Was passiert, wenn wir diesen Momenten besondere Aufmerksamkeit schenken? Wenn wir das Gedächtnis des Auges nutzen, um Neues zu erschaffen? Fragmentarische Erinnerungsbilder wurden an verschiedenen Orten festgehalten und zu fiktiven Realitäten montiert. Imaginäre Konstruktionen im Stadtraum.",
-      "Neue Erinnerungen die zwischen Realität und Fiktion changieren. Fiktion ist dabei nicht unbedingt mit Fantasie gleichzusetzen. Sie zieht ihre Kraft vielmehr aus der Fähigkeit, eine Reflexion über die Realität anzustoßen.",
+      "Die Arbeiten basieren auf Fotografien verschiedener Orte im Stadtraum. Einzelne architektonische Fragmente werden aus ihrem ursprünglichen Kontext gelöst und zu neuen, fiktiven Situationen zusammengesetzt.",
+      "Durch Montage entstehen Konstruktionen, die vertraut wirken und zugleich unmöglich sind. Perspektiven, Gebäude und Räume verschieben sich und bilden neue architektonische Zusammenhänge.",
+      "Die Bilder bewegen sich zwischen dokumentierter Realität und erfundener Architektur. Sie greifen vorhandene Orte auf, verändern sie jedoch so weit, dass neue Erinnerungsräume entstehen.",
+      "Fiktion dient dabei nicht als reine Fantasie, sondern als Mittel, die Wahrnehmung realer Orte zu hinterfragen.",
     ],
     descriptionEN: [
       "Traces of the past awaken memories in us. What happens when we pay special attention to these moments? When we use the memory of the eye to create something new? Fragmentary images of memories were captured at various locations and assembled into fictitious realities. Imaginary constructions in urban space.",
