@@ -254,7 +254,7 @@ export const works: Work[] = [
     imageGroups: [1, 1, 1, 2, 2, 2],
     images: [beobachtung1, beobachtung2, beobachtung3, beobachtung4, beobachtung5, beobachtung6, beobachtung7, beobachtung8, beobachtung9],
     descriptionDE: [
-      "Vor der „temporären" Polizeiwache am Berliner Alexanderplatz wurde eine Beobachtungssituation eingerichtet. Auf einem Klappstuhl sitzend protokollierte die beobachtende Person die Aktivitäten der Polizeistation und ihrer Umgebung.",
+      `Vor der „temporären" Polizeiwache am Berliner Alexanderplatz wurde eine Beobachtungssituation eingerichtet. Auf einem Klappstuhl sitzend protokollierte die beobachtende Person die Aktivitäten der Polizeistation und ihrer Umgebung.`,
       "Ausgestattet mit einem Formular, das an polizeiliche Beobachtungsprotokolle angelehnt ist, wurden Bewegungen, Verhalten und Reaktionen der Beamt*innen festgehalten.",
       "Damit kehrte sich die übliche Beobachtungsordnung kurzfristig um: Die Institution, die den öffentlichen Raum überwacht, wurde selbst zum Gegenstand der Beobachtung.",
       "Die Situation führte zu Irritationen bei den Beamt*innen. Die beobachtende Person wurde schließlich von der Polizei abgeführt.",
