@@ -121,8 +121,9 @@ export const works: Work[] = [
     images: [odeToilette1, odeToilette2, odeToilette3, odeToilette4, odeToilette5, odeToilette6],
     imageGroups: [1, 1, 1, 1, 2],
     descriptionDE: [
-      "Sanitärinfrastrukturen spiegeln gesellschaftliche Machtverhältnisse wider. Wer hat freien Zugang, wer wird ausgeschlossen? Geschlecht, Mobilität und finanzielle Mittel entscheiden darüber, ob ein Grundbedürfnis erfüllt werden kann.",
-      "Toiletten sind existenziell, universell – und gerade deshalb ein wirkungsvolles Instrument sozialer Kontrolle. Die Arbeit macht die Unerreichbarkeit grundlegender Infrastruktur erfahrbar und verdeutlicht, wie tief soziale Spaltungen in die Stadt eingeschrieben sind und wie grundlegende Bedürfnisse durch ökonomische und politische Strukturen reguliert werden.",
+      "Die Arbeit verbindet Waschbecken und Toilette über ein verzweigtes Kupferrohr zu einer erhöhten Struktur. Wasser zirkuliert durch das System und tritt als kleiner Brunnen aus der Toilettenschüssel aus.",
+      "Die Sanitärinstallationen erscheinen vertraut und zugleich unbrauchbar: zu hoch, zu verschoben, zu weit entfernt vom Körper. Infrastruktur wird sichtbar, aber nicht erreichbar.",
+      `„Ode Toilette" macht erfahrbar, wie grundlegende Bedürfnisse durch räumliche, soziale und ökonomische Bedingungen reguliert werden.`,
     ],
     descriptionEN: [
       "Sanitation infrastructures reflect social power relations. Who has free access, and who is excluded? Gender, mobility, and financial means determine whether a basic need can be met.",
@@ -144,8 +145,9 @@ export const works: Work[] = [
     titleImage: batTitlePic,
     images: [],
     descriptionDE: [
-      "BA:T: beleuchtet die Dynamik zwischen Kunst, Handwerk und wirtschaftlicher Verwertbarkeit. Produktionsprozesse erstrecken sich über lange, globale Ketten der Verantwortungsauslagerung, während kreative Arbeit oft zwischen Broterwerb und Selbstausbeutung schwankt. Was bedeutet Wertschöpfung in einem System, das künstlerische, manuelle und industrielle Arbeit gegeneinander ausspielt?",
-      "Wer profitiert, wer trägt die Last? Die Arbeit hinterfragt Anerkennung, ökonomische Zwänge und die Bedingungen, unter denen künstlerische Praxis existiert.",
+      "BA:T ist eine Videoarbeit über Arbeit, Wert und die Bedingungen künstlerischer Produktion.\nAusgangspunkt ist eine Tischlerei, die kurz vor dem Abriss steht. Zwischen Werkstatt, Baustelle und Alltagsszenen entsteht ein fragmentarischer Blick auf manuelle Arbeit, ökonomischen Druck und die Frage nach Verwertbarkeit.",
+      "Die Arbeit verknüpft Bilder aus Handwerk, Bau und Produktion mit Textfragmenten über Arbeit, Profit und Abhängigkeit. Dabei verschieben sich die Rollen von Künstler, Arbeiter und Produzent: Wer arbeitet für wen? Wer profitiert?",
+      "BA:T fragt nach dem Wert von Arbeit in einem System, in dem kreative, manuelle und industrielle Tätigkeiten ständig gegeneinander ausgespielt werden.",
     ],
     descriptionEN: [
       "BA:T: explores the dynamics between art, craft, and economic viability. Production processes extend across long, global chains of outsourcing, while creative work often fluctuates between earning a living and self-exploitation. What does value creation mean in a system that pits artistic, manual, and industrial labor against each other?",
@@ -163,10 +165,10 @@ export const works: Work[] = [
     imageGroups: [1, 2, 2],
     images: [gegenleistung1, gegenleistung2, gegenleistung3, gegenleistung4, gegenleistung5],
     descriptionDE: [
-      "Während der Ausstellungsdauer wurde versucht, die Auftragssumme von den Besucher*innen einzusammeln, in dem sie das Geld in den Schlitz im Kopf werfen sollten. Reichte das Geld nicht, musste A.B. die offene Rechnung mit der eigenen Arbeitskraft bei Zimmerei Dahms begleichen.",
-      "Fazit:\n\nEs wurde nicht genug Geld gesammelt. A.B. hat die Rechnung im Anschluss beglichen und 3 Tage bei Zimmerei Dahms gearbeitet.",
-      "Die Arbeit zeigt den Alltag von Handwerker*innen. Was ist so eine Arbeit oder auch ein Handwerk in der Kunst wert? Bei einem Tausch treten zwei Tauschende in Kontakt. Sie geben jeweils etwas von sich, mit der Absicht, eine Gegenleistung dafür zu erhalten.",
-      "Dabei ist nicht fest geregelt, ob das Getauschte den gleichen Wert haben sollte. Auch entspricht es der moralischen Auffassung der Tauschenden, inwiefern sie sich auf einen fairen Tausch einlassen wollen. Mit einem Vertrag, der in schriftlicher oder mündlicher Form abgeschlossen werden kann, wird die Abmachung der verschiedenen Parteien festgehalten.",
+      "Für diese Arbeit wurde eine Dachkonstruktion von einer Zimmerei gebaut. Grundlage war ein realer Vertrag zwischen dem Künstler und dem Handwerksbetrieb. Der Bau der Struktur wurde mit 750 Euro veranschlagt.",
+      "Während der Ausstellung konnten Besucher*innen versuchen, diese Summe zu begleichen, indem sie Geld in einen Schlitz im Sockel eines Kopfes warfen. Sollte der Betrag nicht erreicht werden, musste die Künstlerin die offene Rechnung selbst begleichen: entweder finanziell oder durch eigene Arbeitsleistung im Betrieb.",
+      "Die benötigte Summe wurde nicht erreicht. Im Anschluss arbeitete der Künstler drei Tage in der Zimmerei, um die Kosten zu begleichen.",
+      "Die Arbeit verhandelt Wert, Arbeit und Austausch zwischen Kunst und Handwerk und macht sichtbar, wie ökonomische Beziehungen auch innerhalb künstlerischer Produktion wirken.",
     ],
     descriptionEN: [
       "During the exhibition, an attempt was made to collect the contract amount from visitors by asking them to drop money into the slot in the head. If the money wasn't enough, AB had to settle the outstanding invoice with his own labor at the Dahms carpentry shop.",
@@ -227,9 +229,11 @@ export const works: Work[] = [
     imageGroups: [2, 2, 2, 2],
     images: [pos1_1, pos1_2, pos1_3, pos1_4, pos1_5, pos1_6, pos1_7, pos1_8],
     descriptionDE: [
-      "Ein Raum, der die Schnittstelle zwischen Kunst und Handwerk zeigt, eine Wand, die Beide trennt. Das Handwerk im digitalen Zeitalter: Arbeitskraft online anbieten, anonyme Bewertungen, abstrakte Anfragen, wie: eine Wand gemeinsam zu bauen.",
-      "Über den Bau von etwas Trennendem Gemeinsamkeiten herausfinden.",
-      "Es kommt nicht dazu. Eine materielle Wand entsteht nicht. Weil es genau diese Wand in geistiger Form von Anfang an gegeben hat, der Raum bleibt leer und ungeteilt.",
+      "Für die Arbeit wurde über eine Online-Plattform für Handwerksdienstleistungen eine Anzeige geschaltet. Gesucht wurde ein Handwerker, der gemeinsam mit dem Künstler eine Wand baut.",
+      "Auf die Anfrage folgten Angebote, Preisberechnungen und Nachrichten. Die Kommunikation verlief anonym und funktional, vermittelt über Bewertungen, Kalkulationen und standardisierte Leistungsbeschreibungen.",
+      "Aus den Angeboten, Chats und Dokumenten entstand eine Videoarbeit und eine räumliche Installation. Die geplante Wand bildet den Ausgangspunkt der Arbeit.",
+      "Gebaut wird sie jedoch nie.",
+      "Die Wand existiert nur als Projekt, als Angebot und als Kommunikation. Der Raum bleibt leer.",
     ],
     descriptionEN: [
       "A space that demonstrates the intersection between art and craft, a wall separating the two. Crafts in the digital age: offering labor online, anonymous evaluations, abstract requests, such as building a wall together.",
@@ -250,8 +254,10 @@ export const works: Work[] = [
     imageGroups: [1, 1, 1, 2, 2, 2],
     images: [beobachtung1, beobachtung2, beobachtung3, beobachtung4, beobachtung5, beobachtung6, beobachtung7, beobachtung8, beobachtung9],
     descriptionDE: [
-      "Wer beobachtet, wer wird beobachtet? Welchen Dominanzen sind wir im öffentlichen Raum ausgesetzt, wer wird verdrängt? Eine Polizeitstation am Berliner Alexanderplatz sollte vor 3 Jahren für Ordnung und Sicherheit sorgen. Seitdem überwachen Kameras rund um die Uhr die Umgebung.",
-      "Während der Intervention wurde die Polizeitstation, das exekutive Subjekt, observiert, und damit die Subjekt-Objekt-Ordnung kurzzeitig umgekehrt. Die Beamt*innen reagierten mit Unruhe auf den Verlust der Subjekt-Position. Die \"Beobachtung 2. Ordnung\" wurde abgeführt.",
+      `Vor der „temporären" Polizeiwache am Berliner Alexanderplatz wurde eine Beobachtungssituation eingerichtet. Auf einem Klappstuhl sitzend protokollierte die beobachtende Person die Aktivitäten der Polizeistation und ihrer Umgebung.`,
+      "Ausgestattet mit einem Formular, das an polizeiliche Beobachtungsprotokolle angelehnt ist, wurden Bewegungen, Verhalten und Reaktionen der Beamt*innen festgehalten.",
+      "Damit kehrte sich die übliche Beobachtungsordnung kurzfristig um: Die Institution, die den öffentlichen Raum überwacht, wurde selbst zum Gegenstand der Beobachtung.",
+      "Die Situation führte zu Irritationen bei den Beamt*innen. Die beobachtende Person wurde schließlich von der Polizei abgeführt.",
     ],
     descriptionEN: [
       "Who is watching, who is being watched? What dominance are we exposed to in public spaces, and who is being pushed out? Three years ago, a police station at Berlin's Alexanderplatz was supposed to ensure order and security. Since then, cameras have been monitoring the area around the clock.",
@@ -271,9 +277,10 @@ export const works: Work[] = [
     imageGroups: [1, 1, 1, 1, 2, 1],
     images: [dichter1216, dichter1222, dichter1217, dichter6472, dichterMG1426, dichterMG1267, dichter6456],
     descriptionDE: [
-      "Der kopierte Sockel von Goethe und Schiller wird auf den Kopf gestellt. Ihre Figuren sind unter der Erde verschwunden, während eine leere, verspiegelt Plattform zurückbleibt.",
-      "Die Silhouette aus Bewehrungsstahl bleibt brüchig und unvollständig – eine gespiegelt-umgekehrte Präsenz.",
-      "In der Abwesenheit entsteht ein Raum der Aneignung und Entwertung, in dem Macht und Besitz nicht mehr als gegeben, sondern als durchbrechbar und fragil erscheinen. Wer besitzt den Raum, wer bleibt unbenannt? Ein Monument der Umkehrung, das Geschichte und Erinnerung neu verhandelt.",
+      "Auf dem Theaterplatz in Weimar steht das Denkmal von Goethe und Schiller als Symbol des deutschen Bildungskanons.",
+      "Die Arbeit greift dieses Monument auf und kehrt es um: Der Sockel wird kopiert und auf den Kopf gestellt. Die Figuren der Dichter verschwinden im Boden, während eine leere, verspiegelte Plattform zurückbleibt.",
+      "Die Struktur aus Bewehrungsstahl bildet nur noch eine fragile Silhouette des ursprünglichen Sockels. Das Monument erscheint als Umkehrung seiner selbst: brüchig, offen und unvollständig.",
+      "In der Abwesenheit der Figuren entsteht ein Raum, der Besitz und Autorität des Denkmals infrage stellt. Die Plattform wird zur Projektionsfläche für neue Aneignungen: Wer steht auf einem Sockel, wer bleibt unsichtbar?",
     ],
     descriptionEN: [
       "The copied pedestal of Goethe and Schiller is turned upside down. Their figures have disappeared underground, leaving an empty, mirrored platform.",
@@ -299,8 +306,10 @@ export const works: Work[] = [
       follies03, follies04, folliesDSC1032,
     ],
     descriptionDE: [
-      "Rauchen, Schwimmen, Denken, Mitteilen, Trinken – alltägliche Rituale, eingefangen in architektonischen Fragmenten. Die Pavillons sind offene Räume des Erlebens, kreisförmig, ohne Grenzen, ohne Ecken, ohne Versteck.",
-      "Konkave und konvexe Formen fließen ineinander, Farben und Materialien treffen eklektisch aufeinander. Architektur wird zur Geste, zur stillen Einladung, zum Ort des Genusses und der Begegnung.",
+      "Rauchen, Schwimmen, Denken, Trinken, Sprechen: alltägliche Handlungen bilden den Ausgangspunkt dieser Reihe architektonischer Pavillons.",
+      "Die Strukturen funktionieren wie kleine Bühnen für einfache Rituale. Offen, kreisförmig und ohne klare Vorder- oder Rückseite laden sie dazu ein, sich aufzuhalten, zu beobachten oder selbst Teil der Situation zu werden.",
+      "Konkave und konvexe Formen greifen ineinander. Farben, Materialien und Maßstäbe folgen keiner festen Ordnung, sondern entstehen aus der jeweiligen Handlung heraus.",
+      "Die Pavillons sind weder Gebäude noch reine Skulpturen. Sie markieren temporäre Räume für Begegnung, Genuss und stilles Verweilen.",
     ],
     descriptionEN: [
       "Smoking, swimming, thinking, communicating, drinking – everyday rituals captured in architectural fragments. The pavilions are open spaces of experience, circular, without borders, without corners, without hiding places.",
@@ -317,8 +326,10 @@ export const works: Work[] = [
     titleImage: titlepicture,
     images: [luecke, spur, treppe],
     descriptionDE: [
-      "Spuren von Vergangenem wecken in uns Erinnerungen. Was passiert, wenn wir diesen Momenten besondere Aufmerksamkeit schenken? Wenn wir das Gedächtnis des Auges nutzen, um Neues zu erschaffen? Fragmentarische Erinnerungsbilder wurden an verschiedenen Orten festgehalten und zu fiktiven Realitäten montiert. Imaginäre Konstruktionen im Stadtraum.",
-      "Neue Erinnerungen die zwischen Realität und Fiktion changieren. Fiktion ist dabei nicht unbedingt mit Fantasie gleichzusetzen. Sie zieht ihre Kraft vielmehr aus der Fähigkeit, eine Reflexion über die Realität anzustoßen.",
+      "Die Arbeiten basieren auf Fotografien verschiedener Orte im Stadtraum. Einzelne architektonische Fragmente werden aus ihrem ursprünglichen Kontext gelöst und zu neuen, fiktiven Situationen zusammengesetzt.",
+      "Durch Montage entstehen Konstruktionen, die vertraut wirken und zugleich unmöglich sind. Perspektiven, Gebäude und Räume verschieben sich und bilden neue architektonische Zusammenhänge.",
+      "Die Bilder bewegen sich zwischen dokumentierter Realität und erfundener Architektur. Sie greifen vorhandene Orte auf, verändern sie jedoch so weit, dass neue Erinnerungsräume entstehen.",
+      "Fiktion dient dabei nicht als reine Fantasie, sondern als Mittel, die Wahrnehmung realer Orte zu hinterfragen.",
     ],
     descriptionEN: [
       "Traces of the past awaken memories in us. What happens when we pay special attention to these moments? When we use the memory of the eye to create something new? Fragmentary images of memories were captured at various locations and assembled into fictitious realities. Imaginary constructions in urban space.",
