@@ -145,8 +145,9 @@ export const works: Work[] = [
     titleImage: batTitlePic,
     images: [],
     descriptionDE: [
-      "BA:T: beleuchtet die Dynamik zwischen Kunst, Handwerk und wirtschaftlicher Verwertbarkeit. Produktionsprozesse erstrecken sich über lange, globale Ketten der Verantwortungsauslagerung, während kreative Arbeit oft zwischen Broterwerb und Selbstausbeutung schwankt. Was bedeutet Wertschöpfung in einem System, das künstlerische, manuelle und industrielle Arbeit gegeneinander ausspielt?",
-      "Wer profitiert, wer trägt die Last? Die Arbeit hinterfragt Anerkennung, ökonomische Zwänge und die Bedingungen, unter denen künstlerische Praxis existiert.",
+      "BA:T ist eine Videoarbeit über Arbeit, Wert und die Bedingungen künstlerischer Produktion.\nAusgangspunkt ist eine Tischlerei, die kurz vor dem Abriss steht. Zwischen Werkstatt, Baustelle und Alltagsszenen entsteht ein fragmentarischer Blick auf manuelle Arbeit, ökonomischen Druck und die Frage nach Verwertbarkeit.",
+      "Die Arbeit verknüpft Bilder aus Handwerk, Bau und Produktion mit Textfragmenten über Arbeit, Profit und Abhängigkeit. Dabei verschieben sich die Rollen von Künstler, Arbeiter und Produzent: Wer arbeitet für wen? Wer profitiert?",
+      "BA:T fragt nach dem Wert von Arbeit in einem System, in dem kreative, manuelle und industrielle Tätigkeiten ständig gegeneinander ausgespielt werden.",
     ],
     descriptionEN: [
       "BA:T: explores the dynamics between art, craft, and economic viability. Production processes extend across long, global chains of outsourcing, while creative work often fluctuates between earning a living and self-exploitation. What does value creation mean in a system that pits artistic, manual, and industrial labor against each other?",
