@@ -26,29 +26,35 @@ const educationEN = [
 ];
 
 const exhibitionsDE = [
-  { year: "2024", desc: "Diplom, Montagehalle HBK Braunschweig, Gruppenausstellung" },
+  { year: "2026", desc: "Wie möchtest du erinnert werden, Städtische Galerie KUBUS, Hannover, Gruppenausstellung" },
+  { year: "2025", desc: "Europa ohne Ende - One Night Group Show, Spor Klübü, Berlin, Gruppenausstellung" },
+  { year: "2025", desc: "Meisterschüler*innen-Ausstellung, Kunstverein Braunschweig, Braunschweig, Gruppenausstellung" },
+  { year: "2024", desc: "Diplom, Montagehalle HBK Braunschweig, Braunschweig, Gruppenausstellung" },
   { year: "2023", desc: "Elternzeit" },
-  { year: "2022", desc: "BauArt ohne Plan, Projektraum 0rplid, Braunschweig, Einzelausstellung" },
+  { year: "2022", desc: "BauArt ohne Plan, Projektraum Orplid, Braunschweig, Einzelausstellung" },
   { year: "2022", desc: "Alles wie gewohnt, Vierte Welt, Berlin, Bühnenbild" },
   { year: "2021", desc: "kon.:takt, Projektraum Make-up e.V., Berlin, Gruppenausstellung" },
   { year: "2020", desc: "Politik / Poetik des Raumes, n.b.k., Berlin, Gruppenausstellung" },
   { year: "2019", desc: "Beobachtung 2. Ordnung, Alexanderplatz, Berlin, Performance im öffentlichen Raum" },
   { year: "2018", desc: "Dichter unter uns, Theaterplatz, Weimar, Installation im öffentlichen Raum" },
   { year: "2017", desc: "Genius Loci Festival, Weimar, partizipative Installation im öffentlichen Raum" },
-  { year: "2017", desc: "Ein Gespenst geht um.., Kunstfest, Weimar, Audiowalk" },
+  { year: "2017", desc: `Ein Gespenst geht um…, Kunstfest, Weimar, Audiowalk` },
 ];
 
 const exhibitionsEN = [
-  { year: "2024", desc: "Diploma, Assembly Hall HBK Braunschweig, Group Exhibition" },
+  { year: "2026", desc: "How Do You Want to Be Remembered, Städtische Galerie KUBUS, Hannover, Group Exhibition" },
+  { year: "2025", desc: "Europa ohne Ende - One Night Group Show, Spor Klübü, Berlin, Group Exhibition" },
+  { year: "2025", desc: "Master Students Exhibition, Kunstverein Braunschweig, Braunschweig, Group Exhibition" },
+  { year: "2024", desc: "Diploma, Assembly Hall HBK Braunschweig, Braunschweig, Group Exhibition" },
   { year: "2023", desc: "Parental Leave" },
-  { year: "2022", desc: "BauArt ohne Plan, Project Space 0rplid, Braunschweig, solo exhibition" },
-  { year: "2022", desc: "Everything as usual, Fourth World, Berlin, stage design" },
-  { year: "2021", desc: "kon.:takt, Project Space Make-up eV, Berlin, group exhibition" },
-  { year: "2020", desc: "Politics / Poetics of Space, nbk, Berlin, group exhibition" },
-  { year: "2019", desc: "Observation 2nd Order, Alexanderplatz, Berlin, performance in public space" },
-  { year: "2018", desc: "Poets among us, Theaterplatz, Weimar, installation in public space" },
-  { year: "2017", desc: "Genius Loci Festival, Weimar, participatory installation in public space" },
-  { year: "2017", desc: "A Ghost Is Haunting..., Art Festival, Weimar, Audiowalk" },
+  { year: "2022", desc: "BauArt ohne Plan, Project Space Orplid, Braunschweig, Solo Exhibition" },
+  { year: "2022", desc: "Everything as usual, Fourth World, Berlin, Stage Design" },
+  { year: "2021", desc: "kon.:takt, Project Space Make-up eV, Berlin, Group Exhibition" },
+  { year: "2020", desc: "Politics / Poetics of Space, n.b.k., Berlin, Group Exhibition" },
+  { year: "2019", desc: "Observation 2nd Order, Alexanderplatz, Berlin, Performance in Public Space" },
+  { year: "2018", desc: "Poets Among Us, Theaterplatz, Weimar, Installation in Public Space" },
+  { year: "2017", desc: "Genius Loci Festival, Weimar, Participatory Installation in Public Space" },
+  { year: "2017", desc: "A Ghost Is Haunting…, Art Festival, Weimar, Audiowalk" },
 ];
 
 const Info = () => {
@@ -84,7 +90,7 @@ const Info = () => {
 
         <section className="mb-16">
           <h3 className="text-sm font-semibold tracking-wide mb-6 text-foreground">
-            {lang === "DE" ? "Ausbilung / Studium" : "Training / studies"}
+            {lang === "DE" ? "Ausbildung" : "Education"}
           </h3>
           <div className="space-y-2">
             {education.map((item, i) => (
