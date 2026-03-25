@@ -121,7 +121,7 @@ const WorkDetail = () => {
         {/* Description text */}
         <div className="max-w-3xl space-y-6 mt-10 mb-8">
           {descriptions.map((paragraph, i) => (
-            <p key={i} className="text-base md:text-lg leading-relaxed whitespace-pre-line">
+            <p key={i} className="text-sm md:text-base leading-relaxed whitespace-pre-line">
               {paragraph}
             </p>
           ))}
