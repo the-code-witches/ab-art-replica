@@ -73,6 +73,7 @@ export interface Work {
   titleEN: string;
   listTitleDE?: string;
   listTitleEN?: string;
+  comingSoon?: boolean;
   year: string;
   subtitleDE: string;
   subtitleEN: string;
