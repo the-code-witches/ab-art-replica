@@ -1,16 +1,28 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { works } from "@/data/works";
-import placeholder from "/placeholder.svg";
 
 const Index = () => {
   const [lang, setLang] = useState<"DE" | "EN">("DE");
   const [hoveredWork, setHoveredWork] = useState<string | null>(null);
+  const [comingSoon, setComingSoon] = useState(false);
 
   const hoveredWorkData = works.find(
     (w) => (lang === "DE" ? (w.listTitleDE || w.titleDE) : (w.listTitleEN || w.titleEN)) === hoveredWork
   );
   const hoverImage = hoveredWorkData?.titleImage || hoveredWorkData?.images?.[0];
+
+  if (comingSoon) {
+    return (
+      <div
+        className="min-h-screen flex items-center justify-center cursor-pointer"
+        style={{ backgroundColor: "#0000FF" }}
+        onClick={() => setComingSoon(false)}
+      >
+        <p className="text-foreground text-2xl md:text-4xl tracking-wide">coming soon...</p>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col relative">
@@ -48,6 +60,20 @@ const Index = () => {
           <ul className="space-y-1 py-4 mt-4">
             {works.map((work) => {
               const title = lang === "DE" ? (work.listTitleDE || work.titleDE) : (work.listTitleEN || work.titleEN);
+              if (work.comingSoon) {
+                return (
+                  <li key={work.slug}>
+                    <button
+                      onClick={() => setComingSoon(true)}
+                      className="text-lg md:text-xl lg:text-2xl leading-relaxed text-foreground transition-all duration-200 cursor-pointer hover:italic text-left"
+                      onMouseEnter={() => setHoveredWork(title)}
+                      onMouseLeave={() => setHoveredWork(null)}
+                    >
+                      {title}
+                    </button>
+                  </li>
+                );
+              }
               return (
                 <li key={work.slug}>
                   <Link
