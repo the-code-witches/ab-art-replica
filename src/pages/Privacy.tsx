@@ -11,10 +11,10 @@ const Privacy = () => {
 
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col">
-      <div className="px-6 md:px-[25%] pt-6 flex justify-end">
+      <div className="fixed top-0 right-0 left-0 px-6 md:px-[25%] pt-6 flex justify-end z-50">
         <Link
           to={`/info?lang=${lang}`}
-          className="text-2xl text-foreground z-50 hover:opacity-60 transition-opacity no-underline"
+          className="text-2xl text-foreground hover:opacity-60 transition-opacity no-underline"
         >
           x
         </Link>
