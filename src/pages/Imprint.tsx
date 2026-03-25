@@ -39,34 +39,35 @@ const Imprint = () => {
 
       <main className="flex-1 px-6 md:px-[25%] pb-16">
         <section className="mt-8">
-          <h1 className="text-2xl md:text-3xl font-semibold mb-2 text-foreground">
+          <h1 className="text-2xl md:text-3xl font-semibold mb-8 text-foreground">
             {content.heading}
           </h1>
-          <a
-            href={`mailto:${content.email}`}
-            className="text-sm text-foreground hover:opacity-60 transition-opacity"
-          >
-            {content.email}
-          </a>
-        </section>
 
-        <section className="mt-8">
-          <p className="text-sm text-foreground mb-1">
-            {content.source}{" "}
-            <a
-              href="http://www.e-recht24.de"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:opacity-60 transition-opacity"
-            >
-              http://www.e-recht24.de
-            </a>
-          </p>
-        </section>
+          <div className="space-y-6 text-sm text-foreground leading-relaxed">
+            <p>
+              <a
+                href={`mailto:${content.email}`}
+                className="hover:opacity-60 transition-opacity"
+              >
+                {content.email}
+              </a>
+            </p>
 
-        <section className="mt-8">
-          <p className="text-sm text-foreground mb-4">{content.copyright}</p>
-          <p className="text-sm text-foreground leading-relaxed">{content.text}</p>
+            <p>
+              {content.source}{" "}
+              <a
+                href="http://www.e-recht24.de"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:opacity-60 transition-opacity"
+              >
+                http://www.e-recht24.de
+              </a>
+            </p>
+
+            <p>{content.copyright}</p>
+            <p>{content.text}</p>
+          </div>
         </section>
       </main>
     </div>
