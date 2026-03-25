@@ -14,12 +14,18 @@ const Index = () => {
 
   if (comingSoon) {
     return (
-      <div
-        className="min-h-screen flex items-center justify-center cursor-pointer"
-        style={{ backgroundColor: "#0000FF" }}
-        onClick={() => setComingSoon(false)}
-      >
-        <p className="text-foreground text-2xl md:text-4xl tracking-wide">coming soon...</p>
+      <div className="min-h-screen bg-background flex flex-col">
+        <div className="flex justify-end px-6 md:px-[25%] pt-6">
+          <button
+            onClick={() => setComingSoon(false)}
+            className="text-2xl text-foreground hover:opacity-60 transition-opacity"
+          >
+            x
+          </button>
+        </div>
+        <div className="flex-1 flex items-center justify-center">
+          <p className="text-foreground text-2xl md:text-4xl tracking-wide">coming soon...</p>
+        </div>
       </div>
     );
   }
