@@ -136,7 +136,7 @@ const WorkDetail = () => {
 
         {/* Exhibition */}
         {exhibition && (
-          <p className="text-sm text-foreground opacity-70 mt-4 mb-12">
+          <p className="text-xs text-foreground mt-4 mb-12">
             {exhibition}
           </p>
         )}

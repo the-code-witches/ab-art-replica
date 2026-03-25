@@ -79,7 +79,7 @@ const Info = () => {
       <main className="flex-1 px-6 md:px-[25%] pb-16">
         <section className="mt-8 mb-16">
           <h3 className="text-sm font-semibold tracking-wide mb-4 text-foreground">
-            Artist Statement:
+            Artist Statement
           </h3>
           <div className="space-y-5 text-sm leading-relaxed text-foreground">
             {artistStatement.map((paragraph, index) => (
