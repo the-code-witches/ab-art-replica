@@ -10,7 +10,7 @@ const contentDE = {
 
 const contentEN = {
   heading: "Alexander Böckel",
-  email: "post@ab-art.info",
+  email: "alexander.boeckel@posteo.de",
   source: "Source:",
   copyright: "All images © Alexander Böckel",
   text: "This website was designed by Alexander Böckel. Reproduction, editing, distribution, and any type of exploitation outside the limits of copyright law require the written consent of the respective author or creator (Alexander Böckel). Downloads and copies of this site are not permitted for private or commercial use. To the extent that the content on this site was not created by the operator, the copyrights of third parties are respected. In particular, third-party content is marked as such. This website may contain links to other websites that are not operated by me. If you click on a third-party link, you will be redirected to that third-party website. I strongly recommend that you review the privacy policies of every website you visit. I have no control over, and assume no responsibility for, the content, privacy policies, or practices of third-party websites or services.",
