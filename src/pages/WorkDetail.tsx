@@ -23,9 +23,9 @@ const WorkDetail = () => {
       {/* Close button */}
       <Link
         to={`/?lang=${lang}`}
-        className="fixed top-6 right-6 md:right-[25%] lg:right-[25%] text-3xl font-light text-foreground z-50 hover:opacity-60 transition-opacity no-underline"
+        className="fixed top-6 right-6 md:right-[25%] lg:right-[25%] text-2xl text-foreground z-50 hover:opacity-60 transition-opacity no-underline"
       >
-        ✕
+        x
       </Link>
 
       <main className="px-6 md:px-[25%] lg:pl-[35%] lg:pr-[25%] py-12">
