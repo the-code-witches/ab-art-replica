@@ -2,7 +2,7 @@ import { Link, useSearchParams } from "react-router-dom";
 
 const contentDE = {
   heading: "Alexander Böckel",
-  email: "post@ab-art.info",
+  email: "alexander.boeckel@posteo.de",
   source: "Quelle:",
   copyright: "Alle Abbildungen © Alexander Böckel",
   text: "Diese Website wurde von Alexander Böckel gestaltet. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers (Alexander Böckel). Downloads und Kopien dieser Seite sind weder für den privaten, noch für den kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Diese Website kann Links zu anderen Websites enthalten, die nicht von mir betrieben werden. Wenn Sie auf einen Link eines Drittanbieters klicken, werden Sie auf die Website dieses Drittanbieters weitergeleitet. Ich empfehle Ihnen dringend, die Datenschutzrichtlinien aller von Ihnen besuchten Websites zu überprüfen. Ich habe keine Kontrolle über und übernehme keine Verantwortung für den Inhalt, die Datenschutzrichtlinien oder die Praktiken von Websites oder Diensten Dritter.",
