@@ -57,7 +57,7 @@ const WorkDetail = () => {
         {preamble && preamble.length > 0 && (
           <div className="mb-8 space-y-1">
             {preamble.map((line, i) => (
-              <p key={i} className="text-base md:text-lg leading-relaxed">
+              <p key={i} className="text-sm md:text-base leading-relaxed">
                 {line}
               </p>
             ))}
