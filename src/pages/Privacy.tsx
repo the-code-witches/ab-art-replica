@@ -1,17 +1,24 @@
+import { useEffect } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 
 const Privacy = () => {
   const [searchParams] = useSearchParams();
   const lang = searchParams.get("lang") === "EN" ? "EN" : "DE";
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [lang]);
+
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col">
-      <Link
-        to={`/info?lang=${lang}`}
-        className="fixed top-6 right-6 md:right-[25%] text-2xl text-foreground z-50 hover:opacity-60 transition-opacity no-underline"
-      >
-        x
-      </Link>
+      <div className="px-6 md:px-[25%] pt-6 flex justify-end">
+        <Link
+          to={`/info?lang=${lang}`}
+          className="text-2xl text-foreground z-50 hover:opacity-60 transition-opacity no-underline"
+        >
+          x
+        </Link>
+      </div>
 
       <main className="flex-1 px-6 md:px-[25%] pb-16">
         <section className="mt-8">
