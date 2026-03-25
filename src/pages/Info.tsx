@@ -122,24 +122,24 @@ const Info = () => {
           </h3>
           <p className="text-sm text-foreground"><p className="text-sm text-foreground">alexander.boeckel@posteo.de</p></p>
         </section>
-
-        <section className="mt-auto pb-6">
-          <div className="flex gap-6 text-sm">
-            <Link
-              to={`/imprint?lang=${lang}`}
-              className="text-foreground hover:opacity-60 transition-opacity"
-            >
-              {lang === "DE" ? "Impressum" : "Imprint"}
-            </Link>
-            <Link
-              to={`/privacy?lang=${lang}`}
-              className="text-foreground hover:opacity-60 transition-opacity"
-            >
-              {lang === "DE" ? "Datenschutz" : "Privacy"}
-            </Link>
-          </div>
-        </section>
       </main>
+
+      <footer className="px-6 md:px-[25%] pb-6">
+        <div className="flex gap-6 text-sm">
+          <Link
+            to={`/imprint?lang=${lang}`}
+            className="text-foreground hover:opacity-60 transition-opacity"
+          >
+            {lang === "DE" ? "Impressum" : "Imprint"}
+          </Link>
+          <Link
+            to={`/privacy?lang=${lang}`}
+            className="text-foreground hover:opacity-60 transition-opacity"
+          >
+            {lang === "DE" ? "Datenschutz" : "Privacy"}
+          </Link>
+        </div>
+      </footer>
     </div>
   );
 };
