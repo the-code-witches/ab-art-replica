@@ -34,7 +34,7 @@ const WorkDetail = () => {
           <h1 className="text-lg md:text-xl font-normal">
             {title}, {work.year}
           </h1>
-          <p className="text-lg md:text-xl italic text-foreground opacity-90 mt-1 whitespace-pre-line">
+          <p className="text-sm md:text-base italic text-foreground mt-1 whitespace-pre-line">
             {subtitle}
           </p>
         </div>
