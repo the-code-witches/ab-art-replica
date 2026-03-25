@@ -31,10 +31,10 @@ const WorkDetail = () => {
       <main className="px-6 md:px-[25%] lg:pl-[35%] lg:pr-[25%] py-12">
         {/* Title + Subtitle */}
         <div className="mb-8">
-          <h1 className="text-2xl md:text-3xl font-normal">
+          <h1 className="text-lg md:text-xl font-normal">
             {title}, {work.year}
           </h1>
-          <p className="text-lg md:text-xl italic text-foreground opacity-90 mt-1 whitespace-pre-line">
+          <p className="text-sm md:text-base italic text-foreground mt-1 whitespace-pre-line">
             {subtitle}
           </p>
         </div>
@@ -57,7 +57,7 @@ const WorkDetail = () => {
         {preamble && preamble.length > 0 && (
           <div className="mb-8 space-y-1">
             {preamble.map((line, i) => (
-              <p key={i} className="text-base md:text-lg leading-relaxed">
+              <p key={i} className="text-sm md:text-base leading-relaxed">
                 {line}
               </p>
             ))}
@@ -121,7 +121,7 @@ const WorkDetail = () => {
         {/* Description text */}
         <div className="max-w-3xl space-y-6 mt-10 mb-8">
           {descriptions.map((paragraph, i) => (
-            <p key={i} className="text-base md:text-lg leading-relaxed whitespace-pre-line">
+            <p key={i} className="text-sm md:text-base leading-relaxed whitespace-pre-line">
               {paragraph}
             </p>
           ))}
@@ -129,14 +129,14 @@ const WorkDetail = () => {
 
         {/* Credit */}
         {credit && (
-          <p className="text-sm text-foreground opacity-70 whitespace-pre-line mt-8">
+          <p className="text-xs text-foreground whitespace-pre-line mt-8">
             {credit}
           </p>
         )}
 
         {/* Exhibition */}
         {exhibition && (
-          <p className="text-sm text-foreground opacity-70 mt-4 mb-12">
+          <p className="text-xs text-foreground mt-4 mb-12">
             {exhibition}
           </p>
         )}
