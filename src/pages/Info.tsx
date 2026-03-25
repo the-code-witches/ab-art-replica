@@ -116,11 +116,28 @@ const Info = () => {
           </div>
         </section>
 
-        <section className="mb-4">
+        <section className="mb-16">
           <h3 className="text-sm font-semibold tracking-wide mb-3 text-foreground">
             {lang === "DE" ? "Kontakt" : "Contact"}
           </h3>
           <p className="text-sm text-foreground">post@ab-art.info</p>
+        </section>
+
+        <section className="mb-4">
+          <div className="flex gap-6 text-sm">
+            <Link
+              to={`/imprint?lang=${lang}`}
+              className="text-foreground hover:opacity-60 transition-opacity"
+            >
+              {lang === "DE" ? "Impressum" : "Imprint"}
+            </Link>
+            <Link
+              to={`/privacy?lang=${lang}`}
+              className="text-foreground hover:opacity-60 transition-opacity"
+            >
+              {lang === "DE" ? "Datenschutz" : "Privacy"}
+            </Link>
+          </div>
         </section>
       </main>
     </div>

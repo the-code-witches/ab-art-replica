@@ -77,7 +77,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="px-6 md:px-[25%] pb-6 pt-2">
-        <p className="text-xs text-foreground opacity-50">
+        <p className="text-xs text-foreground">
           {lang === "DE" ? "A.B. - Alexander Böckel" : "AB - Alexander Böckel"}
         </p>
       </footer>
