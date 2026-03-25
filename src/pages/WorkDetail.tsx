@@ -129,7 +129,7 @@ const WorkDetail = () => {
 
         {/* Credit */}
         {credit && (
-          <p className="text-sm text-foreground opacity-70 whitespace-pre-line mt-8">
+          <p className="text-xs text-foreground whitespace-pre-line mt-8">
             {credit}
           </p>
         )}
