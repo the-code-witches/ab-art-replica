@@ -2,7 +2,7 @@ import { Link, useSearchParams } from "react-router-dom";
 
 const contentDE = {
   heading: "Alexander Böckel",
-  email: "post@ab-art.info",
+  email: "alexander.boeckel@posteo.de",
   source: "Quelle:",
   copyright: "Alle Abbildungen © Alexander Böckel",
   text: "Diese Website wurde von Alexander Böckel gestaltet. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers (Alexander Böckel). Downloads und Kopien dieser Seite sind weder für den privaten, noch für den kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Diese Website kann Links zu anderen Websites enthalten, die nicht von mir betrieben werden. Wenn Sie auf einen Link eines Drittanbieters klicken, werden Sie auf die Website dieses Drittanbieters weitergeleitet. Ich empfehle Ihnen dringend, die Datenschutzrichtlinien aller von Ihnen besuchten Websites zu überprüfen. Ich habe keine Kontrolle über und übernehme keine Verantwortung für den Inhalt, die Datenschutzrichtlinien oder die Praktiken von Websites oder Diensten Dritter.",
@@ -10,7 +10,7 @@ const contentDE = {
 
 const contentEN = {
   heading: "Alexander Böckel",
-  email: "post@ab-art.info",
+  email: "alexander.boeckel@posteo.de",
   source: "Source:",
   copyright: "All images © Alexander Böckel",
   text: "This website was designed by Alexander Böckel. Reproduction, editing, distribution, and any type of exploitation outside the limits of copyright law require the written consent of the respective author or creator (Alexander Böckel). Downloads and copies of this site are not permitted for private or commercial use. To the extent that the content on this site was not created by the operator, the copyrights of third parties are respected. In particular, third-party content is marked as such. This website may contain links to other websites that are not operated by me. If you click on a third-party link, you will be redirected to that third-party website. I strongly recommend that you review the privacy policies of every website you visit. I have no control over, and assume no responsibility for, the content, privacy policies, or practices of third-party websites or services.",

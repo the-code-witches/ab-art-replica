@@ -120,7 +120,7 @@ const Info = () => {
           <h3 className="text-sm font-semibold tracking-wide mb-3 text-foreground">
             {lang === "DE" ? "Kontakt" : "Contact"}
           </h3>
-          <p className="text-sm text-foreground">post@ab-art.info</p>
+          <p className="text-sm text-foreground"><p className="text-sm text-foreground">alexander.boeckel@posteo.de</p></p>
         </section>
 
         <section className="mb-4">
