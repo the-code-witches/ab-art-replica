@@ -1,3 +1,4 @@
+import shopfliftTitlePic from "@/assets/shopflift/titlepicture.jpg";
 import titlepicture from "@/assets/titlepicture.jpg";
 import luecke from "@/assets/1_Lücke.jpg";
 import spur from "@/assets/1_Spur.jpg";
