@@ -128,13 +128,13 @@ const Info = () => {
             to={`/imprint?lang=${lang}`}
             className="text-foreground hover:opacity-60 transition-opacity"
           >
-            Imprint
+            {lang === "DE" ? "Impressum" : "Imprint"}
           </Link>
           <Link
             to={`/privacy?lang=${lang}`}
             className="text-foreground hover:opacity-60 transition-opacity"
           >
-            Privacy
+            {lang === "DE" ? "Datenschutz" : "Privacy"}
           </Link>
         </div>
       </footer>
