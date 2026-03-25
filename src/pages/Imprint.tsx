@@ -27,7 +27,7 @@ const Imprint = () => {
   }, [lang]);
 
   return (
-    <div className="min-h-screen bg-background text-foreground flex flex-col">
+    <div className="min-h-screen bg-background text-foreground flex flex-col overflow-y-scroll">
       <div className="px-6 md:px-[25%] pt-6 flex justify-end">
         <Link
           to={`/info?lang=${lang}`}
