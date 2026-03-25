@@ -123,7 +123,7 @@ const Info = () => {
           <p className="text-sm text-foreground"><p className="text-sm text-foreground">alexander.boeckel@posteo.de</p></p>
         </section>
 
-        <section className="mb-4">
+        <section className="mt-auto pb-6">
           <div className="flex gap-6 text-sm">
             <Link
               to={`/imprint?lang=${lang}`}
