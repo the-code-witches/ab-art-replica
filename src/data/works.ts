@@ -139,6 +139,7 @@ export const works: Work[] = [
     descriptionEN: [],
   },
   {
+    slug: "ode-toilette",
     titleDE: "Ode Toilette",
     titleEN: "Ode Toilet",
     year: "2023",
