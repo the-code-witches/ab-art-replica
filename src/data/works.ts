@@ -94,6 +94,18 @@ export interface Work {
 
 export const works: Work[] = [
   {
+    slug: "augmented-pleasure",
+    titleDE: "Augmented Pleasure",
+    titleEN: "Augmented Pleasure",
+    comingSoon: true,
+    year: "2025",
+    subtitleDE: "",
+    subtitleEN: "",
+    images: [],
+    descriptionDE: [],
+    descriptionEN: [],
+  },
+  {
     slug: "shop-lift-to-fill-the-void",
     titleDE: "shop lift - to fill the void",
     titleEN: "shop lift - to fill the void",
@@ -113,6 +125,18 @@ export const works: Work[] = [
     ],
     exhibitionDE: "Diplomausstellung, Montagehalle HBK, Braunschweig",
     exhibitionEN: "Diploma exhibition, assembly hall HBK, Braunschweig",
+  },
+  {
+    slug: "apex",
+    titleDE: "apex",
+    titleEN: "apex",
+    comingSoon: true,
+    year: "2024",
+    subtitleDE: "",
+    subtitleEN: "",
+    images: [],
+    descriptionDE: [],
+    descriptionEN: [],
   },
   {
     slug: "ode-toilette",
