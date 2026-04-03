@@ -94,6 +94,18 @@ export interface Work {
 
 export const works: Work[] = [
   {
+    slug: "augmented-pleasure",
+    titleDE: "Augmented Pleasure",
+    titleEN: "Augmented Pleasure",
+    comingSoon: true,
+    year: "2025",
+    subtitleDE: "",
+    subtitleEN: "",
+    images: [],
+    descriptionDE: [],
+    descriptionEN: [],
+  },
+  {
     slug: "shop-lift-to-fill-the-void",
     titleDE: "shop lift - to fill the void",
     titleEN: "shop lift - to fill the void",
