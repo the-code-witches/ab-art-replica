@@ -122,7 +122,7 @@ const Index = () => {
         </div>
 
         <div className="pb-12 text-center">
-          <span className="text-xs text-foreground/40 tracking-widest">
+          <span className="text-xs text-foreground tracking-widest">
             {lang === "DE" ? "weitere arbeiten" : "more works"}
           </span>
         </div>
