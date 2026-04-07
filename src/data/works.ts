@@ -2,6 +2,7 @@ import augmentedPleasureTitle from "@/assets/augmented-pleasure/title.jpg";
 import augmentedPleasure1 from "@/assets/augmented-pleasure/1.jpg";
 import augmentedPleasure2 from "@/assets/augmented-pleasure/2.jpg";
 import shopfliftTitlePic from "@/assets/shopflift/titlepicture.jpg";
+import shopflift1 from "@/assets/shopflift/1.jpg";
 import titlepicture from "@/assets/titlepicture.jpg";
 import luecke from "@/assets/1_Lücke.jpg";
 import spur from "@/assets/1_Spur.jpg";
