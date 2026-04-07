@@ -122,7 +122,8 @@ const Index = () => {
             <li className="pt-4">
               <button
                 onClick={() => setShowMore(true)}
-                className="text-lg md:text-xl lg:text-2xl leading-relaxed text-foreground transition-opacity duration-200 hover:opacity-60 text-left cursor-pointer"
+                className="text-[0.7em] md:text-[0.7em] lg:text-[0.7em] leading-relaxed text-foreground transition-opacity duration-200 hover:opacity-60 text-left cursor-pointer"
+                style={{ fontSize: '70%' }}
               >
                 {lang === "DE" ? "weitere arbeiten" : "more works"}
               </button>
@@ -130,7 +131,19 @@ const Index = () => {
           )}
 
           {/* Additional works */}
-          {showMore && section2Works.map((work) => renderWorkItem(work))}
+          {showMore && (
+            <>
+              {section2Works.map((work) => renderWorkItem(work))}
+              <li className="pt-4">
+                <button
+                  onClick={() => setShowMore(false)}
+                  className="text-lg md:text-xl lg:text-2xl text-foreground hover:opacity-60 transition-opacity cursor-pointer"
+                >
+                  x
+                </button>
+              </li>
+            </>
+          )}
         </ul>
       </div>
 
