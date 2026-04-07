@@ -172,7 +172,7 @@ export const works: Work[] = [
     year: "2026",
     subtitleDE: "Gips, Stoff, Edelstahl, Stahl, Elektronik\nca 330 × 50 × 50 cm",
     subtitleEN: "Plaster, fabric, stainless steel, steel, electronics\nApprox. 330 × 50 × 50 cm",
-    images: [apex1_6, apex2_8, apex5, apex6],
+    images: [apex1_6, apex2_8, apex3_8, apex5, apex6],
     descriptionDE: [
       "apex besteht aus drei übereinander angeordneten Unterkörpern in weißer Arbeitskleidung. Die Figuren stehen auf Edelstahlkochtöpfen, die wie provisorische Stufen einen vertikalen Aufbau bilden.",
       "Die Körperspannung steigert sich von unten nach oben und kippt in eine instabile Haltung.",
