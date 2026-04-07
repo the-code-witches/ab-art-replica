@@ -8,6 +8,7 @@ import shopflift3 from "@/assets/shopflift/3.jpg";
 import shopflift4 from "@/assets/shopflift/4.jpg";
 import shopflift5 from "@/assets/shopflift/5.jpg";
 import shopflift6 from "@/assets/shopflift/6.jpg";
+import shopflift7 from "@/assets/shopflift/7.jpg";
 import titlepicture from "@/assets/titlepicture.jpg";
 import luecke from "@/assets/1_Lücke.jpg";
 import spur from "@/assets/1_Spur.jpg";
