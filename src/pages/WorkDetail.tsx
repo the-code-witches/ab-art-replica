@@ -107,6 +107,23 @@ const WorkDetail = () => {
           </div>
         ) : null}
 
+        {/* Preamble (after images, before description) */}
+        {preamble && preamble.length > 0 && (
+          <div className="mb-8 mt-10 space-y-4">
+            {preamble.map((line, i) => {
+              const lines = line.split("\n");
+              const preambleTitle = lines[0];
+              const rest = lines.slice(1).join("\n");
+              return (
+                <div key={i} className="text-sm md:text-base leading-relaxed">
+                  <p>{preambleTitle}</p>
+                  {rest && <p className="italic whitespace-pre-line">{rest}</p>}
+                </div>
+              );
+            })}
+          </div>
+        )}
+
         {/* Description text */}
         <div className="max-w-3xl space-y-6 mt-10 mb-8">
           {descriptions.map((paragraph, i) => (
