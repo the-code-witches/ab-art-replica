@@ -7,6 +7,7 @@ import shopflift2 from "@/assets/shopflift/2.jpg";
 import shopflift3 from "@/assets/shopflift/3.jpg";
 import shopflift4 from "@/assets/shopflift/4.jpg";
 import shopflift5 from "@/assets/shopflift/5.jpg";
+import shopflift6 from "@/assets/shopflift/6.jpg";
 import titlepicture from "@/assets/titlepicture.jpg";
 import luecke from "@/assets/1_Lücke.jpg";
 import spur from "@/assets/1_Spur.jpg";
@@ -144,7 +145,7 @@ export const works: Work[] = [
       "Faded Glory\n\"stolen images\", 3D print made of PLA, digital print on silicone\nDimensions variable",
       "Neverfull\nDigital print on PVC\n31 × 28 × 14 cm",
     ],
-    images: [shopflift1, shopflift2, shopflift3, shopflift4, shopflift5],
+    images: [shopflift1, shopflift2, shopflift3, shopflift4, shopflift5, shopflift6],
     descriptionDE: [
       "Die Installation greift die Ästhetik von Luxusdisplays auf. Auf schwarzen Präsentationstischen liegen transparente Objekte, die aus gestohlenen Bildern von Schmuck und Luxusartikeln generiert wurden.",
       "Die Formen wirken fragil und entleert. Sie verweisen auf Objekte, ohne diese tatsächlich zu sein.",
