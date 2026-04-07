@@ -1,3 +1,4 @@
+import augmentedPleasureTitle from "@/assets/augmented-pleasure/title.jpg";
 import augmentedPleasure1 from "@/assets/augmented-pleasure/1.jpg";
 import augmentedPleasure2 from "@/assets/augmented-pleasure/2.jpg";
 import shopfliftTitlePic from "@/assets/shopflift/titlepicture.jpg";
@@ -103,6 +104,7 @@ export const works: Work[] = [
     subtitleDE: "Kurzfilm, 4K, 6:30 min",
     subtitleEN: "Short film, 4K, 6:30 min",
     videoUrl: "https://player.vimeo.com/video/1172953475",
+    titleImage: augmentedPleasureTitle,
     images: [augmentedPleasure1, augmentedPleasure2],
     descriptionDE: [
       "Augmented Pleasure untersucht das Verhältnis von digitaler Perfektion und körperlicher Wahrnehmung.",
