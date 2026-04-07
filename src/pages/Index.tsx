@@ -110,10 +110,10 @@ const Index = () => {
       <div className="flex-1 flex items-center px-6 md:px-[25%] relative z-20">
         <ul className="space-y-1">
           {allWorks.map((work) => (
-            <React.Fragment key={work.slug}>
+            <Fragment key={work.slug}>
               {renderWorkItem(work)}
               {work.slug === "ode-toilette" && <li className="h-[1.75em]" aria-hidden="true" />}
-            </React.Fragment>
+            </Fragment>
           ))}
         </ul>
       </div>
