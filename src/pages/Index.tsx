@@ -2,14 +2,11 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { works } from "@/data/works";
 
-const SECTION1_SLUGS = [
+const WORK_SLUGS = [
   "augmented-pleasure",
   "shop-lift-to-fill-the-void",
   "apex",
   "ode-toilette",
-];
-
-const SECTION2_SLUGS = [
   "dichter-unter-uns",
   "ba-t",
   "beobachtung-2-ordnung",
@@ -23,10 +20,8 @@ const Index = () => {
   const [lang, setLang] = useState<"DE" | "EN">("DE");
   const [hoveredWork, setHoveredWork] = useState<string | null>(null);
   const [comingSoon, setComingSoon] = useState(false);
-  const [showMore, setShowMore] = useState(false);
 
-  const section1Works = SECTION1_SLUGS.map((slug) => works.find((w) => w.slug === slug)!).filter(Boolean);
-  const section2Works = SECTION2_SLUGS.map((slug) => works.find((w) => w.slug === slug)!).filter(Boolean);
+  const allWorks = WORK_SLUGS.map((slug) => works.find((w) => w.slug === slug)!).filter(Boolean);
 
   const hoveredWorkData = works.find(
     (w) => (lang === "DE" ? (w.listTitleDE || w.titleDE) : (w.listTitleEN || w.titleEN)) === hoveredWork
@@ -96,16 +91,6 @@ const Index = () => {
         </div>
       )}
 
-      {/* Close button (visible when additional works are shown) */}
-      {showMore && (
-        <button
-          onClick={() => setShowMore(false)}
-          className="fixed top-6 right-6 md:right-[25%] text-2xl text-foreground z-50 hover:opacity-60 transition-opacity cursor-pointer"
-        >
-          x
-        </button>
-      )}
-
       <nav className="flex justify-end gap-4 px-6 md:px-[25%] pt-4 text-sm tracking-wide relative z-20">
         <button
           onClick={() => setLang("DE")}
@@ -124,23 +109,7 @@ const Index = () => {
       {/* Works List */}
       <div className="flex-1 flex items-center px-6 md:px-[25%] relative z-20">
         <ul className="space-y-1">
-          {section1Works.map((work) => renderWorkItem(work))}
-
-          {/* Weitere Arbeiten trigger */}
-          {!showMore && (
-            <li className="pt-4">
-              <button
-                onClick={() => setShowMore(true)}
-                className="text-[0.7em] md:text-[0.7em] lg:text-[0.7em] leading-relaxed text-foreground transition-opacity duration-200 hover:opacity-60 text-left cursor-pointer"
-                style={{ fontSize: '70%' }}
-              >
-                {lang === "DE" ? "weitere arbeiten" : "more works"}
-              </button>
-            </li>
-          )}
-
-          {/* Additional works */}
-          {showMore && section2Works.map((work) => renderWorkItem(work))}
+          {allWorks.map((work) => renderWorkItem(work))}
         </ul>
       </div>
 
