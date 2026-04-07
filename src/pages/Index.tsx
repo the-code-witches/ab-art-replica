@@ -96,7 +96,16 @@ const Index = () => {
         </div>
       )}
 
-      {/* Language Toggle */}
+      {/* Close button (visible when additional works are shown) */}
+      {showMore && (
+        <button
+          onClick={() => setShowMore(false)}
+          className="fixed top-6 right-6 md:right-[25%] text-2xl text-foreground z-50 hover:opacity-60 transition-opacity cursor-pointer"
+        >
+          x
+        </button>
+      )}
+
       <nav className="flex justify-end gap-4 px-6 md:px-[25%] pt-4 text-sm tracking-wide relative z-20">
         <button
           onClick={() => setLang("DE")}
@@ -131,19 +140,7 @@ const Index = () => {
           )}
 
           {/* Additional works */}
-          {showMore && (
-            <>
-              {section2Works.map((work) => renderWorkItem(work))}
-              <li className="pt-4">
-                <button
-                  onClick={() => setShowMore(false)}
-                  className="text-lg md:text-xl lg:text-2xl text-foreground hover:opacity-60 transition-opacity cursor-pointer"
-                >
-                  x
-                </button>
-              </li>
-            </>
-          )}
+          {showMore && section2Works.map((work) => renderWorkItem(work))}
         </ul>
       </div>
 
