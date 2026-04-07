@@ -104,6 +104,7 @@ export const works: Work[] = [
     subtitleDE: "Kurzfilm, 4K, 6:30 min",
     subtitleEN: "Short film, 4K, 6:30 min",
     videoUrl: "https://player.vimeo.com/video/1172953475",
+    titleImage: augmentedPleasureTitle,
     images: [augmentedPleasure1, augmentedPleasure2],
     descriptionDE: [
       "Augmented Pleasure untersucht das Verhältnis von digitaler Perfektion und körperlicher Wahrnehmung.",
