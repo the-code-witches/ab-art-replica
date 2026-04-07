@@ -77,6 +77,7 @@ import odeToilette4 from "@/assets/ode-toilette/4.jpg";
 import odeToilette5 from "@/assets/ode-toilette/5.jpg";
 import odeToilette6 from "@/assets/ode-toilette/6.jpg";
 import apex1_6 from "@/assets/apex/1-6.jpg";
+import apex2_8 from "@/assets/apex/2-8.jpg";
 import apex5 from "@/assets/apex/5.jpg";
 import apex6 from "@/assets/apex/6.jpg";
 
