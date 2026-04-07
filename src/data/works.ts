@@ -130,8 +130,8 @@ export const works: Work[] = [
     subtitleEN: "Installation\nWood, cardboard, wrapping paper, sheet metal, electronics, digital print, 3D print, sound\n260 × 190 × 20 cm + variable elements",
     preambleDE: [
       "Shop Lift\nHolz, Pappe, Geschenkpapier, Blech, Minicomputer, Taster, Matrix, Roboter, Sound\n260 × 190 × 20 cm",
-      "Meltdown Gems\n„gestohlene Bilder", Digitaldruck auf Plexiglas\nMaße variabel",
-      "Faded Glory\n„gestohlene Bilder", 3D-Druck aus PLA, Digitaldruck auf Silikon\nMaße variabel",
+      "Meltdown Gems\n\u201Egestohlene Bilder\u201C, Digitaldruck auf Plexiglas\nMa\u00DFe variabel",
+      "Faded Glory\n\u201Egestohlene Bilder\u201C, 3D-Druck aus PLA, Digitaldruck auf Silikon\nMa\u00DFe variabel",
       "Neverfull\nDigitaldruck auf PVC\n31 × 28 × 14 cm",
     ],
     preambleEN: [
