@@ -78,6 +78,7 @@ import odeToilette5 from "@/assets/ode-toilette/5.jpg";
 import odeToilette6 from "@/assets/ode-toilette/6.jpg";
 import apex1_6 from "@/assets/apex/1-6.jpg";
 import apex2_8 from "@/assets/apex/2-8.jpg";
+import apex3_8 from "@/assets/apex/3-8.jpg";
 import apex5 from "@/assets/apex/5.jpg";
 import apex6 from "@/assets/apex/6.jpg";
 
@@ -171,7 +172,7 @@ export const works: Work[] = [
     year: "2026",
     subtitleDE: "Gips, Stoff, Edelstahl, Stahl, Elektronik\nca 330 × 50 × 50 cm",
     subtitleEN: "Plaster, fabric, stainless steel, steel, electronics\nApprox. 330 × 50 × 50 cm",
-    images: [apex1_6, apex2_8, apex5, apex6],
+    images: [apex1_6, apex2_8, apex3_8, apex5, apex6],
     descriptionDE: [
       "apex besteht aus drei übereinander angeordneten Unterkörpern in weißer Arbeitskleidung. Die Figuren stehen auf Edelstahlkochtöpfen, die wie provisorische Stufen einen vertikalen Aufbau bilden.",
       "Die Körperspannung steigert sich von unten nach oben und kippt in eine instabile Haltung.",
