@@ -76,6 +76,8 @@ import odeToilette3 from "@/assets/ode-toilette/3.jpg";
 import odeToilette4 from "@/assets/ode-toilette/4.jpg";
 import odeToilette5 from "@/assets/ode-toilette/5.jpg";
 import odeToilette6 from "@/assets/ode-toilette/6.jpg";
+import apex5 from "@/assets/apex/5.jpg";
+import apex6 from "@/assets/apex/6.jpg";
 
 export interface Work {
   slug: string;
@@ -164,11 +166,10 @@ export const works: Work[] = [
     slug: "apex",
     titleDE: "apex",
     titleEN: "apex",
-    comingSoon: true,
-    year: "2024",
-    subtitleDE: "",
-    subtitleEN: "",
-    images: [],
+    year: "2026",
+    subtitleDE: "Gips, Stoff, Edelstahl, Stahl, Elektronik\nCa 330 × 50 × 50 cm",
+    subtitleEN: "Plaster, fabric, stainless steel, steel, electronics\nApprox. 330 × 50 × 50 cm",
+    images: [apex5, apex6],
     descriptionDE: [
       "apex besteht aus drei übereinander angeordneten Unterkörpern in weißer Arbeitskleidung. Die Figuren stehen auf Edelstahlkochtöpfen, die wie provisorische Stufen einen vertikalen Aufbau bilden.",
       "Die Körperspannung steigert sich von unten nach oben und kippt in eine instabile Haltung.",
