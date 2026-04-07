@@ -386,8 +386,9 @@ export const works: Work[] = [
       "Die Bilder bewegen sich zwischen Dokument und Konstruktion. Vertraute Orte bleiben erkennbar, entziehen sich jedoch einer eindeutigen Zuordnung.",
     ],
     descriptionEN: [
-      "Traces of the past awaken memories in us. What happens when we pay special attention to these moments? When we use the memory of the eye to create something new? Fragmentary images of memories were captured at various locations and assembled into fictitious realities. Imaginary constructions in urban space.",
-      "New memories that oscillate between reality and fiction. Fiction is not necessarily to be equated with fantasy. Rather, it draws its power from the ability to trigger a reflection on reality.",
+      "The works are based on photographs of places in urban space that are fragmented and reassembled. Individual architectural elements detach from their original context and form constructions that appear familiar yet cannot exist.",
+      "Perspectives tilt, spaces shift, buildings interlock. Situations emerge that can be read like memories without ever having taken place.",
+      "The images move between document and construction. Familiar places remain recognizable yet elude clear identification.",
     ],
   },
 ];
