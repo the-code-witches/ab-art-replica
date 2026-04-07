@@ -2,6 +2,7 @@ import augmentedPleasureTitle from "@/assets/augmented-pleasure/title.jpg";
 import augmentedPleasure1 from "@/assets/augmented-pleasure/1.jpg";
 import augmentedPleasure2 from "@/assets/augmented-pleasure/2.jpg";
 import shopfliftTitlePic from "@/assets/shopflift/titlepicture.jpg";
+import shopflift1 from "@/assets/shopflift/1.jpg";
 import titlepicture from "@/assets/titlepicture.jpg";
 import luecke from "@/assets/1_Lücke.jpg";
 import spur from "@/assets/1_Spur.jpg";
@@ -121,14 +122,25 @@ export const works: Work[] = [
   },
   {
     slug: "shop-lift-to-fill-the-void",
-    titleDE: "shop lift - to fill the void",
-    titleEN: "shop lift - to fill the void",
-    comingSoon: true,
+    titleDE: "shop lift – to fill the void",
+    titleEN: "shop lift – to fill the void",
     year: "2024",
     titleImage: shopfliftTitlePic,
-    subtitleDE: "Shop Lift, Holz, Pappe, Geschenkpapier, Blech, Minicomputer, Taster, Matrix, Roboter, Sound, 260x190x20 cm\nMeltdown Gems, \"gestohlene Bilder\", Digitaldruck auf Plexiglas, Maße variabel\nFaded Glory, \"gestohlene Bilder\", 3D-Druck aus PLA, Digitaldruck auf Silikon, Maße variabel\nNeverfull, Digitaldruck auf PVC, 31x28x14 cm",
-    subtitleEN: "Shop lift, wood, cardboard, wrapping paper, sheet metal, minicomputer, pushbutton, matrix, robot, sound, 260x190x20 cm\nMeltdown Gems, \"stolen pictures\", digital print on plexiglass, dimensions variable\nFaded Glory, \"stolen images\", 3D print made of PLA, digital print on silicone, dimensions variable\nNeverfull, digital print on PVC, 31x28x14 cm",
-    images: ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+    subtitleDE: "Installation\nHolz, Pappe, Geschenkpapier, Blech, Elektronik, Digitaldruck, 3D-Druck, Sound\n260 × 190 × 20 cm + variable Elemente",
+    subtitleEN: "Installation\nWood, cardboard, wrapping paper, sheet metal, electronics, digital print, 3D print, sound\n260 × 190 × 20 cm + variable elements",
+    preambleDE: [
+      "Shop Lift\nHolz, Pappe, Geschenkpapier, Blech, Minicomputer, Taster, Matrix, Roboter, Sound\n260 × 190 × 20 cm",
+      "Meltdown Gems\n\u201Egestohlene Bilder\u201C, Digitaldruck auf Plexiglas\nMa\u00DFe variabel",
+      "Faded Glory\n\u201Egestohlene Bilder\u201C, 3D-Druck aus PLA, Digitaldruck auf Silikon\nMa\u00DFe variabel",
+      "Neverfull\nDigitaldruck auf PVC\n31 × 28 × 14 cm",
+    ],
+    preambleEN: [
+      "Shop Lift\nWood, cardboard, wrapping paper, sheet metal, minicomputer, pushbutton, matrix, robot, sound\n260 × 190 × 20 cm",
+      "Meltdown Gems\n\"stolen images\", digital print on plexiglass\nDimensions variable",
+      "Faded Glory\n\"stolen images\", 3D print made of PLA, digital print on silicone\nDimensions variable",
+      "Neverfull\nDigital print on PVC\n31 × 28 × 14 cm",
+    ],
+    images: [shopflift1],
     descriptionDE: [
       "Die Installation greift die Ästhetik von Luxusdisplays auf. Auf schwarzen Präsentationstischen liegen transparente Objekte, die aus gestohlenen Bildern von Schmuck und Luxusartikeln generiert wurden.",
       "Die Formen wirken fragil und entleert. Sie verweisen auf Objekte, ohne diese tatsächlich zu sein.",
