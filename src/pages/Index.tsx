@@ -109,7 +109,12 @@ const Index = () => {
       {/* Works List */}
       <div className="flex-1 flex items-center px-6 md:px-[25%] relative z-20">
         <ul className="space-y-1">
-          {allWorks.map((work) => renderWorkItem(work))}
+          {allWorks.map((work) => (
+            <li key={work.slug} className="contents">
+              {renderWorkItem(work)}
+              {work.slug === "ode-toilette" && <li className="h-[1.75em]" aria-hidden="true" />}
+            </li>
+          ))}
         </ul>
       </div>
 
