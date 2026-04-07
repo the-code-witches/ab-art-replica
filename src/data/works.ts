@@ -1,3 +1,5 @@
+import augmentedPleasure1 from "@/assets/augmented-pleasure/1.jpg";
+import augmentedPleasure2 from "@/assets/augmented-pleasure/2.jpg";
 import shopfliftTitlePic from "@/assets/shopflift/titlepicture.jpg";
 import titlepicture from "@/assets/titlepicture.jpg";
 import luecke from "@/assets/1_Lücke.jpg";
@@ -97,13 +99,23 @@ export const works: Work[] = [
     slug: "augmented-pleasure",
     titleDE: "Augmented Pleasure",
     titleEN: "Augmented Pleasure",
-    comingSoon: true,
     year: "2025",
-    subtitleDE: "",
-    subtitleEN: "",
-    images: [],
-    descriptionDE: [],
-    descriptionEN: [],
+    subtitleDE: "Kurzfilm, 4K, 6:30 min",
+    subtitleEN: "Short film, 4K, 6:30 min",
+    videoUrl: "https://player.vimeo.com/video/1172953475",
+    images: [augmentedPleasure1, augmentedPleasure2],
+    descriptionDE: [
+      "Augmented Pleasure untersucht das Verhältnis von digitaler Perfektion und körperlicher Wahrnehmung.",
+      "Fragmentierte Szenen zeigen künstliche Stimmen, Obstfiguren und Stillleben zwischen Oberfläche und Materialität.",
+      "Der Film wird auf ein Schaufenster projiziert, Duft und Mehrkanalsound erweitern die Situation in den Raum.",
+      "Ein deformierter 3D-Druck eines Eisbechers verweist auf den Ausgangspunkt: Genuss als Versprechen, das sich im Moment seiner Einlösung auflöst.",
+    ],
+    descriptionEN: [
+      "Augmented Pleasure examines the relationship between digital perfection and physical perception.",
+      "Fragmented scenes show artificial voices, fruit figures, and still lifes between surface and materiality.",
+      "The film is projected onto a shop window, scent and multi-channel sound extend the situation into the space.",
+      "A deformed 3D print of an ice cream sundae refers to the starting point: pleasure as a promise that dissolves at the moment of its fulfillment.",
+    ],
   },
   {
     slug: "shop-lift-to-fill-the-void",
