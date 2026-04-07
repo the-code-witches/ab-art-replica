@@ -5,6 +5,7 @@ import shopfliftTitlePic from "@/assets/shopflift/titlepicture.jpg";
 import shopflift1 from "@/assets/shopflift/1.jpg";
 import shopflift2 from "@/assets/shopflift/2.jpg";
 import shopflift3 from "@/assets/shopflift/3.jpg";
+import shopflift4 from "@/assets/shopflift/4.jpg";
 import titlepicture from "@/assets/titlepicture.jpg";
 import luecke from "@/assets/1_Lücke.jpg";
 import spur from "@/assets/1_Spur.jpg";
