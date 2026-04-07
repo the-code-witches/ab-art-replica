@@ -53,23 +53,6 @@ const WorkDetail = () => {
           </div>
         )}
 
-        {/* Preamble (poem-like text before images, e.g. B(l)auarbeit) */}
-        {preamble && preamble.length > 0 && (
-          <div className="mb-8 space-y-4">
-            {preamble.map((line, i) => {
-              const lines = line.split("\n");
-              const title = lines[0];
-              const rest = lines.slice(1).join("\n");
-              return (
-                <div key={i} className="text-sm md:text-base leading-relaxed">
-                  <p>{title}</p>
-                  {rest && <p className="italic whitespace-pre-line">{rest}</p>}
-                </div>
-              );
-            })}
-          </div>
-        )}
-
         {/* Images */}
         {work.images.length > 0 && work.imageGroups ? (
           <div className="space-y-6 mb-8">
