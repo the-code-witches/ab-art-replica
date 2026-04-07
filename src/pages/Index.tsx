@@ -130,19 +130,7 @@ const Index = () => {
           )}
 
           {/* Additional works */}
-          {showMore && (
-            <>
-              {section2Works.map((work, i) => (
-                <li
-                  key={work.slug}
-                  className="animate-fade-in"
-                  style={{ animationDelay: `${i * 40}ms`, animationFillMode: "both" }}
-                >
-                  {renderWorkItem(work).props.children}
-                </li>
-              ))}
-            </>
-          )}
+          {showMore && section2Works.map((work) => renderWorkItem(work))}
         </ul>
       </div>
 
