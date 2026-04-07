@@ -1,3 +1,4 @@
+import augmentedPleasureTitle from "@/assets/augmented-pleasure/title.jpg";
 import augmentedPleasure1 from "@/assets/augmented-pleasure/1.jpg";
 import augmentedPleasure2 from "@/assets/augmented-pleasure/2.jpg";
 import shopfliftTitlePic from "@/assets/shopflift/titlepicture.jpg";
