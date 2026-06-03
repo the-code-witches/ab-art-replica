@@ -120,7 +120,6 @@ export const works: Work[] = [
     titleImage: augmentedPleasureTitle,
     images: [augmentedPleasure1, augmentedPleasure2],
     descriptionDE: [
-    descriptionDE: [
       "Augmented Pleasure verbindet Video, Duft, Sound und Objekt zu einer räumlichen Situation zwischen digitaler Oberfläche und körperlicher Wahrnehmung.",
       "Fragmentierte Szenen zeigen künstliche Stimmen, Obstfiguren und Stillleben. Ein deformierter 3D-Druck eines Eisbechers bildet den Ausgangspunkt der Arbeit.",
       "Der Film wird auf ein Schaufenster projiziert, Sound und Duft erweitern die Situation in den Raum. Die Arbeit untersucht, was von Sinnlichkeit bleibt, wenn Genuss berechenbar, reproduzierbar und jederzeit verfügbar wird.",
@@ -153,7 +152,6 @@ export const works: Work[] = [
     ],
     images: [shopflift1, shopflift2, shopflift3, shopflift4, shopflift5, shopflift6, shopflift7],
     descriptionDE: [
-    descriptionDE: [
       "Die Installation greift die Ästhetik von Luxusdisplays auf. Auf schwarzen Präsentationstischen liegen transparente Objekte, die aus Bildern von Schmuck und Luxusartikeln generiert wurden.",
       "Die Formen wirken fragil und entleert. Sie verweisen auf Konsum und Besitz, ohne selbst funktionale Objekte zu sein. Der Raum bewegt sich zwischen Boutique, Ausstellung und Bühne.",
     ],
@@ -172,7 +170,6 @@ export const works: Work[] = [
     subtitleDE: "Gips, Stoff, Edelstahl, Stahl, Elektronik\nca 330 × 50 × 50 cm",
     subtitleEN: "Plaster, fabric, stainless steel, steel, electronics\nApprox. 330 × 50 × 50 cm",
     images: [apex1_6, apex2_8, apex3_8, apex4_7, apex5, apex6],
-    descriptionDE: [
     descriptionDE: [
       "apex besteht aus drei übereinander angeordneten Unterkörpern in weißer Arbeitskleidung. Die Figuren stehen auf Edelstahlkochtöpfen, die wie provisorische Stufen einen instabilen Aufbau bilden.",
       "Sichtbare Haltesysteme stabilisieren die Konstruktion. Sensorik, Licht und Vibration reagieren auf Nähe.",
@@ -194,7 +191,6 @@ export const works: Work[] = [
     titleImage: odeToiletteTitlePic,
     images: [odeToilette1, odeToilette2, odeToilette3, odeToilette4, odeToilette5, odeToilette6],
     imageGroups: [1, 1, 1, 1, 2],
-    descriptionDE: [
     descriptionDE: [
       "Die Arbeit verbindet Waschbecken und Toilette über ein verzweigtes Kupferrohrsystem zu einer erhöhten Konstruktion. Wasser zirkuliert durch die Struktur und tritt als kleiner Brunnen aus der Toilettenschüssel aus.",
       "Die Elemente wirken vertraut, bleiben jedoch unbenutzbar: zu hoch, zu weit entfernt, verschoben.",
@@ -219,7 +215,6 @@ export const works: Work[] = [
     titleImage: batTitlePic,
     images: [],
     descriptionDE: [
-    descriptionDE: [
       "BA:T basiert auf Aufnahmen einer Tischlerei kurz vor ihrem Abriss. Zwischen Werkstatt, Baustelle und Alltag entsteht ein fragmentierter Blick auf Arbeit und Produktion.",
       "Bilder aus Handwerk, Bau und industrieller Umgebung treffen auf Textfragmente zu Arbeit, Profit und Abhängigkeit.",
       "Die Rollen von Künstler, Arbeiter und Produzent bleiben bewusst unklar.",
@@ -240,7 +235,6 @@ export const works: Work[] = [
     titleImage: gegenleistungTitlePic,
     imageGroups: [1, 2, 2],
     images: [gegenleistung1, gegenleistung2, gegenleistung3, gegenleistung4, gegenleistung5],
-    descriptionDE: [
     descriptionDE: [
       "Für die Arbeit wurde eine Dachkonstruktion auf Grundlage eines realen Vertrags gefertigt.",
       "Während der Ausstellung konnten Besucher*innen versuchen, die Produktionskosten zu decken, indem sie Geld in einen Schlitz im Sockel eines Kopfes warfen.",
@@ -304,7 +298,6 @@ export const works: Work[] = [
     imageGroups: [2, 2, 2, 2],
     images: [pos1_1, pos1_2, pos1_3, pos1_4, pos1_5, pos1_6, pos1_7, pos1_8],
     descriptionDE: [
-    descriptionDE: [
       "Über eine Online-Plattform für Handwerksdienstleistungen wurde der Bau einer Wand ausgeschrieben. Es folgten Angebote, Preisberechnungen und standardisierte Kommunikation.",
       "Aus Chats, Dokumenten und Angeboten entstand eine Installation und Videoarbeit. Die Wand selbst wird nie gebaut.",
     ],
@@ -325,7 +318,6 @@ export const works: Work[] = [
     titleImage: beobachtungTitlePic,
     imageGroups: [1, 1, 1, 2, 2, 2],
     images: [beobachtung1, beobachtung2, beobachtung3, beobachtung4, beobachtung5, beobachtung6, beobachtung7, beobachtung8, beobachtung9],
-    descriptionDE: [
     descriptionDE: [
       "Vor einer temporären Polizeiwache am Berliner Alexanderplatz wurde eine Beobachtungssituation eingerichtet. Auf einem Klappstuhl sitzend protokollierte eine Person die Aktivitäten der Polizeistation und ihrer Umgebung.",
       "Grundlage war ein Formular, das an polizeiliche Beobachtungsprotokolle angelehnt ist. Bewegungen und Reaktionen wurden systematisch erfasst.",
@@ -349,7 +341,6 @@ export const works: Work[] = [
     titleImage: dichterTitlePic,
     imageGroups: [1, 1, 1, 1, 2, 1],
     images: [dichter1216, dichter1222, dichter1217, dichter6472, dichterMG1426, dichterMG1267, dichter6456],
-    descriptionDE: [
     descriptionDE: [
       "Die Arbeit greift das Goethe-Schiller-Denkmal in Weimar auf und kehrt seine Struktur um. Der Sockel wird kopiert und auf den Kopf gestellt, die Figuren verschwinden im Boden.",
       "Zurück bleibt eine verspiegelte Plattform und eine Konstruktion aus Bewehrungsstahl, die den ursprünglichen Aufbau nur noch andeutet.",
@@ -377,7 +368,6 @@ export const works: Work[] = [
       follies03, follies04, folliesDSC1032,
     ],
     descriptionDE: [
-    descriptionDE: [
       "Die Reihe entwickelt architektonische Pavillons aus einfachen Handlungen wie Rauchen, Schwimmen oder Warten. Die Strukturen funktionieren wie reduzierte Bühnen ohne feste Abläufe oder eindeutige Nutzung. Sie bewegen sich zwischen Architektur, Skulptur und temporärer Situation.",
     ],
     descriptionEN: [
@@ -393,7 +383,6 @@ export const works: Work[] = [
     subtitleEN: "Photo collages, digital",
     titleImage: titlepicture,
     images: [luecke, spur, treppe],
-    descriptionDE: [
     descriptionDE: [
       "Die Arbeiten basieren auf Fotografien urbaner Räume, die fragmentiert und neu zusammengesetzt werden. Architektonische Elemente lösen sich aus ihrem ursprünglichen Zusammenhang und bilden Konstruktionen, die vertraut wirken, aber nicht existieren können. Die Bilder bewegen sich zwischen Dokumentation und Konstruktion.",
     ],
