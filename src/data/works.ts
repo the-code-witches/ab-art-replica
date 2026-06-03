@@ -2,13 +2,12 @@ import augmentedPleasureTitle from "@/assets/augmented-pleasure/title.jpg";
 import augmentedPleasure1 from "@/assets/augmented-pleasure/1.jpg";
 import augmentedPleasure2 from "@/assets/augmented-pleasure/2.jpg";
 import shopfliftTitlePic from "@/assets/shopflift/titlepicture.jpg";
-import shopflift1 from "@/assets/shopflift/1.jpg";
-import shopflift2 from "@/assets/shopflift/2.jpg";
-import shopflift3 from "@/assets/shopflift/3.jpg";
-import shopflift4 from "@/assets/shopflift/4.jpg";
-import shopflift5 from "@/assets/shopflift/5.jpg";
-import shopflift6 from "@/assets/shopflift/6.jpg";
-import shopflift7 from "@/assets/shopflift/7.jpg";
+import shopliftGif from "@/assets/shopflift-new/shoplift.gif.asset.json";
+import shopliftVideo from "@/assets/shopflift-new/Sequenz_01_4.mp4.asset.json";
+import shopliftNew1 from "@/assets/shopflift-new/shoplift1.jpg.asset.json";
+import shopliftNew1a from "@/assets/shopflift-new/shoplift1a.jpg.asset.json";
+import shopliftNew2 from "@/assets/shopflift-new/shoplift2.jpg.asset.json";
+import shopliftNew3 from "@/assets/shopflift-new/shoplift3.jpg.asset.json";
 import titlepicture from "@/assets/titlepicture.jpg";
 import luecke from "@/assets/1_Lücke.jpg";
 import spur from "@/assets/1_Spur.jpg";
@@ -102,6 +101,7 @@ export interface Work {
   videoUrl?: string;
   videoFile?: string;
   videoLoop?: boolean;
+  leadingImage?: string;
   images: string[];
   descriptionDE: string[];
   descriptionEN: string[];
@@ -141,7 +141,10 @@ export const works: Work[] = [
     titleImage: shopfliftTitlePic,
     subtitleDE: "Installation\nHolz, Pappe, Geschenkpapier, Blech, Elektronik, Digitaldruck, 3D-Druck, Sound\n260 × 190 × 20 cm + variable Elemente",
     subtitleEN: "Installation\nWood, cardboard, wrapping paper, sheet metal, electronics, digital print, 3D print, sound\n260 × 190 × 20 cm + variable elements",
-    images: [shopflift1, shopflift2, shopflift3, shopflift4, shopflift5, shopflift6, shopflift7],
+    leadingImage: shopliftGif.url,
+    videoFile: shopliftVideo.url,
+    videoLoop: true,
+    images: [shopliftNew1.url, shopliftNew1a.url, shopliftNew2.url, shopliftNew3.url],
     descriptionDE: [
       "Die Installation greift die Ästhetik von Luxusdisplays auf. Auf schwarzen Präsentationstischen liegen transparente Objekte, die aus Bildern von Schmuck und Luxusartikeln generiert wurden.",
       "Die Formen wirken fragil und entleert. Sie verweisen auf Konsum und Besitz, ohne selbst funktionale Objekte zu sein. Der Raum bewegt sich zwischen Boutique, Ausstellung und Bühne.",

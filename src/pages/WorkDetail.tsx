@@ -39,6 +39,13 @@ const WorkDetail = () => {
           </p>
         </div>
 
+        {/* Leading image (before video) */}
+        {work.leadingImage && (
+          <div className="mb-8">
+            <img src={work.leadingImage} alt={title} className="w-full h-auto object-contain" />
+          </div>
+        )}
+
         {/* Video embed */}
         {work.videoFile ? (
           <div className="mb-8">
