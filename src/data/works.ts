@@ -120,14 +120,14 @@ export const works: Work[] = [
     titleImage: augmentedPleasureTitle,
     images: [augmentedPleasure1, augmentedPleasure2],
     descriptionDE: [
-      "Augmented Pleasure verbindet Video, Duft, Sound und Objekt zu einer räumlichen Situation zwischen digitaler Oberfläche und körperlicher Wahrnehmung.",
-      "Fragmentierte Szenen zeigen künstliche Stimmen, Obstfiguren und Stillleben. Ein deformierter 3D-Druck eines Eisbechers bildet den Ausgangspunkt der Arbeit.",
-      "Der Film wird auf ein Schaufenster projiziert, Sound und Duft erweitern die Situation in den Raum. Die Arbeit untersucht, was von Sinnlichkeit bleibt, wenn Genuss berechenbar, reproduzierbar und jederzeit verfügbar wird.",
+      "Augmented Pleasure verbindet Film, Duft, Sound und Objekt zu einer räumlichen Situation zwischen Genuss und Erschöpfung.",
+      "Künstliche Stimmen, Obstfiguren und Stillleben erscheinen präzise organisiert, bleiben jedoch körperlich leer.",
+      "Ein deformierter 3D-Druck eines Eisbechers verweist auf Genuss als Versprechen, das sich im Moment seiner Einlösung auflöst.",
     ],
     descriptionEN: [
-      "Augmented Pleasure combines video, scent, sound, and object into a spatial situation between digital surface and physical perception.",
-      "Fragmented scenes show artificial voices, fruit figures, and still lifes. A deformed 3D print of an ice cream sundae forms the starting point of the work.",
-      "The film is projected onto a shop window; sound and scent extend the situation into the space. The work examines what remains of sensuality when pleasure becomes calculable, reproducible, and available at any time.",
+      "Augmented Pleasure combines film, scent, sound, and object into a spatial situation between pleasure and exhaustion.",
+      "Artificial voices, fruit figures, and still lifes appear precisely organized, yet remain physically empty.",
+      "A deformed 3D print of an ice cream sundae points to pleasure as a promise that dissolves at the moment of its fulfillment.",
     ],
   },
   {
@@ -171,14 +171,14 @@ export const works: Work[] = [
     subtitleEN: "Plaster, fabric, stainless steel, steel, electronics\nApprox. 330 × 50 × 50 cm",
     images: [apex1_6, apex2_8, apex3_8, apex4_7, apex5, apex6],
     descriptionDE: [
-      "apex besteht aus drei übereinander angeordneten Unterkörpern in weißer Arbeitskleidung. Die Figuren stehen auf Edelstahlkochtöpfen, die wie provisorische Stufen einen instabilen Aufbau bilden.",
-      "Sichtbare Haltesysteme stabilisieren die Konstruktion. Sensorik, Licht und Vibration reagieren auf Nähe.",
-      "Die Arbeit zeigt einen Aufstieg, der nur durch permanente Stützung möglich bleibt. Stabilität erscheint dabei nicht als Zustand, sondern als fortlaufende Anstrengung.",
+      "apex besteht aus drei übereinander angeordneten Unterkörpern in weißer Arbeitskleidung. Die Figuren stehen auf Edelstahlkochtöpfen, die den vertikalen Aufbau provisorisch stabilisieren.",
+      "Sichtbare Haltesysteme, Sensorik, Licht und Vibration halten die Konstruktion in Betrieb.",
+      "Die Arbeit zeigt keinen Aufstieg als Ziel, sondern als Zustand permanenter Korrektur.",
     ],
     descriptionEN: [
-      "apex consists of three lower bodies in white work clothing arranged on top of each other. The figures stand on stainless steel cooking pots that form an unstable structure like makeshift steps.",
-      "Visible support systems stabilize the construction. Sensors, light, and vibration react to proximity.",
-      "The work shows an ascent that remains possible only through permanent support. Stability appears here not as a state but as an ongoing effort.",
+      "apex consists of three lower bodies in white work clothing arranged on top of each other. The figures stand on stainless steel cooking pots that provisionally stabilize the vertical structure.",
+      "Visible support systems, sensors, light, and vibration keep the construction in operation.",
+      "The work shows ascent not as a goal but as a state of permanent correction.",
     ],
   },
   {
