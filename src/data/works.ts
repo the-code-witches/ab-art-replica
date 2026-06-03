@@ -138,29 +138,25 @@ export const works: Work[] = [
     titleImage: shopfliftTitlePic,
     subtitleDE: "Installation\nHolz, Pappe, Geschenkpapier, Blech, Elektronik, Digitaldruck, 3D-Druck, Sound\n260 × 190 × 20 cm + variable Elemente",
     subtitleEN: "Installation\nWood, cardboard, wrapping paper, sheet metal, electronics, digital print, 3D print, sound\n260 × 190 × 20 cm + variable elements",
-    preambleDE: [
+    images: [shopflift1, shopflift2, shopflift3, shopflift4, shopflift5, shopflift6, shopflift7],
+    descriptionDE: [
+      "Die Installation greift die Ästhetik von Luxusdisplays auf. Auf schwarzen Präsentationstischen liegen transparente Objekte, die aus Bildern von Schmuck und Luxusartikeln generiert wurden.",
+      "Die Formen wirken fragil und entleert. Sie verweisen auf Konsum und Besitz, ohne selbst funktionale Objekte zu sein. Der Raum bewegt sich zwischen Boutique, Ausstellung und Bühne.",
+      "Werkbestandteile",
       "Shop Lift\nHolz, Pappe, Geschenkpapier, Blech, Minicomputer, Taster, Matrix, Roboter, Sound\n260 × 190 × 20 cm",
       "Meltdown Gems\n\u201Egestohlene Bilder\u201C, Digitaldruck auf Plexiglas\nMa\u00DFe variabel",
       "Faded Glory\n\u201Egestohlene Bilder\u201C, 3D-Druck aus PLA, Digitaldruck auf Silikon\nMa\u00DFe variabel",
       "Neverfull\nDigitaldruck auf PVC\n31 × 28 × 14 cm",
     ],
-    preambleEN: [
+    descriptionEN: [
+      "The installation takes up the aesthetics of luxury displays. On black presentation tables lie transparent objects generated from images of jewelry and luxury goods.",
+      "The forms appear fragile and emptied. They reference consumption and ownership without being functional objects themselves. The space moves between boutique, exhibition, and stage.",
+      "Work components",
       "Shop Lift\nWood, cardboard, wrapping paper, sheet metal, minicomputer, pushbutton, matrix, robot, sound\n260 × 190 × 20 cm",
       "Meltdown Gems\n\"stolen images\", digital print on plexiglass\nDimensions variable",
       "Faded Glory\n\"stolen images\", 3D print made of PLA, digital print on silicone\nDimensions variable",
       "Neverfull\nDigital print on PVC\n31 × 28 × 14 cm",
     ],
-    images: [shopflift1, shopflift2, shopflift3, shopflift4, shopflift5, shopflift6, shopflift7],
-    descriptionDE: [
-      "Die Installation greift die Ästhetik von Luxusdisplays auf. Auf schwarzen Präsentationstischen liegen transparente Objekte, die aus Bildern von Schmuck und Luxusartikeln generiert wurden.",
-      "Die Formen wirken fragil und entleert. Sie verweisen auf Konsum und Besitz, ohne selbst funktionale Objekte zu sein. Der Raum bewegt sich zwischen Boutique, Ausstellung und Bühne.",
-    ],
-    descriptionEN: [
-      "The installation takes up the aesthetics of luxury displays. On black presentation tables lie transparent objects generated from images of jewelry and luxury goods.",
-      "The forms appear fragile and emptied. They reference consumption and ownership without being functional objects themselves. The space moves between boutique, exhibition, and stage.",
-    ],
-    exhibitionDE: "Diplomausstellung, Montagehalle HBK, Braunschweig",
-    exhibitionEN: "Diploma exhibition, assembly hall HBK, Braunschweig",
   },
   {
     slug: "apex",
