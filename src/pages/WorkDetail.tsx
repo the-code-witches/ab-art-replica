@@ -110,7 +110,11 @@ const WorkDetail = () => {
         {/* Preamble (after images, before description) */}
         {preamble && preamble.length > 0 && (
           <div className="mb-8 mt-10 space-y-4">
-            {preamble.map((line, i) => {
+            {preamble.every((l) => !l.includes("\n")) ? (
+              <p className="text-sm md:text-base leading-relaxed whitespace-pre-line">
+                {preamble.join("\n")}
+              </p>
+            ) : preamble.map((line, i) => {
               const lines = line.split("\n");
               const preambleTitle = lines[0];
               const rest = lines.slice(1).join("\n");

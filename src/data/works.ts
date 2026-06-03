@@ -199,8 +199,6 @@ export const works: Work[] = [
       "The work connects sink and toilet via a branching copper pipe system into an elevated construction. Water circulates through the structure and emerges as a small fountain from the toilet bowl.",
       "The elements appear familiar yet remain unusable: too high, too far away, displaced.",
     ],
-    exhibitionDE: "Außenbereich Blumenstraße, Braunschweig",
-    exhibitionEN: "Outdoor area Blumenstraße, Braunschweig",
   },
   {
     slug: "ba-t",
@@ -245,10 +243,6 @@ export const works: Work[] = [
       "During the exhibition, visitors could try to cover the production costs by dropping money into a slot in the base of a head.",
       "The sum was not reached. The outstanding bill was subsequently settled through the artist's own labor.",
     ],
-    creditDE: "aus Ausstellungskatalog, verfasst von\nMonja Remmers, Alice Tiralongo, Melina Rudolf, Anna Mosemann, Alrun Aßmus",
-    creditEN: "from the exhibition catalogue, written by\nMonja Remmers, Alice Tiralongo, Melina Rudolf, Anna Mosemann, Alrun Aßmus",
-    exhibitionDE: "Ausstellung \"kon.:takt\", Kunstproduktionsraum Make-up, Berlin",
-    exhibitionEN: "Exhibition \"kon.:takt\", art production space Make-up, Berlin",
   },
   {
     slug: "b-l-auarbeit-positionen-1-wand",
@@ -305,8 +299,6 @@ export const works: Work[] = [
       "The construction of a wall was put out for tender via an online platform for craft services. Offers, price calculations, and standardized communication followed.",
       "From chats, documents, and offers, an installation and video work emerged. The wall itself is never built.",
     ],
-    exhibitionDE: "Ausstellung, nbk Berlin, Berlin",
-    exhibitionEN: "Exhibition, nbk Berlin, Berlin",
   },
   {
     slug: "beobachtung-2-ordnung",
