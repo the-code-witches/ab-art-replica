@@ -82,6 +82,7 @@ import apex3 from "@/assets/apex/apex3.jpg";
 import apex4 from "@/assets/apex/apex4.jpg";
 import apex5 from "@/assets/apex/apex5.jpeg";
 import apexVideo from "@/assets/apex/Sequenz_A.mp4.asset.json";
+import apexTitle from "@/assets/apex/apex-title.jpg.asset.json";
 
 export interface Work {
   slug: string;
@@ -171,7 +172,8 @@ export const works: Work[] = [
     subtitleEN: "Plaster, fabric, stainless steel, steel, electronics\nApprox. 330 × 50 × 50 cm",
     videoFile: apexVideo.url,
     videoLoop: true,
-    images: [apex1, apex2, apex3, apex4, apex5],
+    titleImage: apexTitle.url,
+    images: [apex1, apex2, apex3, apex4, apexTitle.url],
     imageGroups: [1, 2, 2],
     descriptionDE: [
       "apex besteht aus drei übereinander angeordneten Unterkörpern in weißer Arbeitskleidung. Die Figuren stehen auf Edelstahlkochtöpfen, die den vertikalen Aufbau provisorisch stabilisieren.",
