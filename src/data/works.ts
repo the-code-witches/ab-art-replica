@@ -140,7 +140,9 @@ export const works: Work[] = [
     titleImage: shopfliftTitlePic,
     subtitleDE: "Installation\nHolz, Pappe, Geschenkpapier, Blech, Elektronik, Digitaldruck, 3D-Druck, Sound\n260 × 190 × 20 cm + variable Elemente",
     subtitleEN: "Installation\nWood, cardboard, wrapping paper, sheet metal, electronics, digital print, 3D print, sound\n260 × 190 × 20 cm + variable elements",
-    images: [shopflift1, shopflift2, shopflift3, shopflift4, shopflift5, shopflift6, shopflift7],
+    videoFile: shopliftVideo.url,
+    videoLoop: true,
+    images: [shopliftGif.url, shopliftNew1.url, shopliftNew1a.url, shopliftNew2.url, shopliftNew3.url],
     descriptionDE: [
       "Die Installation greift die Ästhetik von Luxusdisplays auf. Auf schwarzen Präsentationstischen liegen transparente Objekte, die aus Bildern von Schmuck und Luxusartikeln generiert wurden.",
       "Die Formen wirken fragil und entleert. Sie verweisen auf Konsum und Besitz, ohne selbst funktionale Objekte zu sein. Der Raum bewegt sich zwischen Boutique, Ausstellung und Bühne.",
