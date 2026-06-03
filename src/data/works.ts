@@ -101,6 +101,7 @@ export interface Work {
   videoUrl?: string;
   videoFile?: string;
   videoLoop?: boolean;
+  leadingImage?: string;
   images: string[];
   descriptionDE: string[];
   descriptionEN: string[];
