@@ -76,12 +76,12 @@ import odeToilette3 from "@/assets/ode-toilette/3.jpg";
 import odeToilette4 from "@/assets/ode-toilette/4.jpg";
 import odeToilette5 from "@/assets/ode-toilette/5.jpg";
 import odeToilette6 from "@/assets/ode-toilette/6.jpg";
-import apex1_6 from "@/assets/apex/1-6.jpg";
-import apex2_8 from "@/assets/apex/2-8.jpg";
-import apex3_8 from "@/assets/apex/3-8.jpg";
-import apex4_7 from "@/assets/apex/4-7.jpg";
-import apex5 from "@/assets/apex/5.jpg";
-import apex6 from "@/assets/apex/6.jpg";
+import apex1 from "@/assets/apex/apex1.jpg";
+import apex2 from "@/assets/apex/apex2.jpg";
+import apex3 from "@/assets/apex/apex3.jpg";
+import apex4 from "@/assets/apex/apex4.jpg";
+import apex5 from "@/assets/apex/apex5.jpeg";
+import apexVideo from "@/assets/apex/Sequenz_A.mp4.asset.json";
 
 export interface Work {
   slug: string;
@@ -99,6 +99,8 @@ export interface Work {
   imageLayout?: "stacked" | "paired-with-full";
   imageGroups?: number[];
   videoUrl?: string;
+  videoFile?: string;
+  videoLoop?: boolean;
   images: string[];
   descriptionDE: string[];
   descriptionEN: string[];
@@ -167,7 +169,10 @@ export const works: Work[] = [
     year: "2026",
     subtitleDE: "Gips, Stoff, Edelstahl, Stahl, Elektronik\nca 330 × 50 × 50 cm",
     subtitleEN: "Plaster, fabric, stainless steel, steel, electronics\nApprox. 330 × 50 × 50 cm",
-    images: [apex1_6, apex2_8, apex3_8, apex4_7, apex5, apex6],
+    videoFile: apexVideo.url,
+    videoLoop: true,
+    images: [apex1, apex2, apex3, apex4, apex5],
+    imageGroups: [1, 2, 2],
     descriptionDE: [
       "apex besteht aus drei übereinander angeordneten Unterkörpern in weißer Arbeitskleidung. Die Figuren stehen auf Edelstahlkochtöpfen, die den vertikalen Aufbau provisorisch stabilisieren.",
       "Sichtbare Haltesysteme, Sensorik, Licht und Vibration halten die Konstruktion in Betrieb.",

@@ -40,7 +40,19 @@ const WorkDetail = () => {
         </div>
 
         {/* Video embed */}
-        {work.videoUrl && (
+        {work.videoFile ? (
+          <div className="mb-8">
+            <video
+              src={work.videoFile}
+              className="w-full h-auto"
+              autoPlay
+              loop={work.videoLoop !== false}
+              muted
+              playsInline
+              controls
+            />
+          </div>
+        ) : work.videoUrl && (
           <div className="mb-8 aspect-video">
             <iframe
               src={work.videoUrl}
