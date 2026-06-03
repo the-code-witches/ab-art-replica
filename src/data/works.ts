@@ -328,8 +328,6 @@ export const works: Work[] = [
       "The basis was a form modeled on police observation protocols. Movements and reactions were systematically recorded.",
       "The situation ended with the observer being taken away.",
     ],
-    exhibitionDE: "Alexanderplatz, Berlin",
-    exhibitionEN: "Alexanderplatz, Berlin",
   },
   {
     slug: "dichter-unter-uns",
