@@ -10,6 +10,7 @@ const WORK_SLUGS = [
   "ba-t",
   "auf-gegenleistung-gebaut",
   "b-l-auarbeit-positionen-1-wand",
+  "dichter-unter-uns",
   "beobachtung-2-ordnung",
   "follies-of-quiet-desires",
   "konstruktion-der-erinnerung",
@@ -111,7 +112,7 @@ const Index = () => {
           {allWorks.map((work) => (
             <Fragment key={work.slug}>
               {renderWorkItem(work)}
-              {work.slug === "beobachtung-2-ordnung" && <li className="h-[1.75em]" aria-hidden="true" />}
+              {work.slug === "ode-toilette" && <li className="h-[1.75em]" aria-hidden="true" />}
             </Fragment>
           ))}
         </ul>
