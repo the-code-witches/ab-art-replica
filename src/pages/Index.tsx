@@ -98,6 +98,7 @@ const Index = () => {
             src={hoverImage}
             alt={hoveredWork}
             className="max-w-[420px] max-h-[420px] object-contain"
+            decoding="async"
           />
         </div>
       )}
