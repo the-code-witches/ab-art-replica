@@ -2,10 +2,10 @@ import augmentedPleasureTitle from "@/assets/augmented-pleasure/title.jpg";
 import augmentedPleasure1 from "@/assets/augmented-pleasure/1.jpg";
 import augmentedPleasure2 from "@/assets/augmented-pleasure/2.jpg";
 import shopfliftTitlePic from "@/assets/shopflift/titlepicture.jpg";
-import shopliftVideo from "@/assets/shopflift-new/Sequenz_01_4.mp4.asset.json";
-import shopliftNew1 from "@/assets/shopflift-new/shoplift1.jpg.asset.json";
-import shopliftNew2 from "@/assets/shopflift-new/shoplift2.jpg.asset.json";
-import shopliftNew3 from "@/assets/shopflift-new/shoplift3.jpg.asset.json";
+import shopliftVideo from "@/assets/shopflift-new/Sequenz_01_4.mp4";
+import shopliftNew1 from "@/assets/shopflift-new/shoplift1.jpg";
+import shopliftNew2 from "@/assets/shopflift-new/shoplift2.jpg";
+import shopliftNew3 from "@/assets/shopflift-new/shoplift3.jpg";
 import titlepicture from "@/assets/titlepicture.jpg";
 import luecke from "@/assets/1_Lücke.jpg";
 import spur from "@/assets/1_Spur.jpg";
@@ -74,9 +74,9 @@ import odeToilette4 from "@/assets/ode-toilette/4.jpg";
 import odeToilette5 from "@/assets/ode-toilette/5.jpg";
 import odeToilette6 from "@/assets/ode-toilette/6.jpg";
 import apex1 from "@/assets/apex/apex1.jpg";
-import apexVideo from "@/assets/apex/Sequenz_A.mp4.asset.json";
-import apexHover from "@/assets/apex/apex-hover.jpg.asset.json";
-import apex2new from "@/assets/apex/apex-2new.jpg.asset.json";
+import apexVideo from "@/assets/apex/Sequenz_A.mp4";
+import apexHover from "@/assets/apex/apex-hover.jpg";
+import apex2new from "@/assets/apex/apex-2new.jpg";
 
 export interface Work {
   slug: string;
@@ -136,9 +136,9 @@ export const works: Work[] = [
     titleImage: shopfliftTitlePic,
     subtitleDE: "Installation\nHolz, Pappe, Geschenkpapier, Blech, Elektronik, Digitaldruck, 3D-Druck, Sound\n260 × 190 × 20 cm + variable Elemente",
     subtitleEN: "Installation\nWood, cardboard, wrapping paper, sheet metal, electronics, digital print, 3D print, sound\n260 × 190 × 20 cm + variable elements",
-    videoFile: shopliftVideo.url,
+    videoFile: shopliftVideo,
     videoLoop: true,
-    images: [shopliftNew1.url, shopliftNew2.url, shopliftNew3.url],
+    images: [shopliftNew1, shopliftNew2, shopliftNew3],
     descriptionDE: [
       "Die Installation greift die Ästhetik von Luxusdisplays auf. Auf schwarzen Präsentationstischen liegen transparente Objekte, die aus Bildern von Schmuck und Luxusartikeln generiert wurden.",
       "Die Formen wirken fragil und entleert. Sie verweisen auf Konsum und Besitz, ohne selbst funktionale Objekte zu sein. Der Raum bewegt sich zwischen Boutique, Ausstellung und Bühne.",
@@ -169,10 +169,10 @@ export const works: Work[] = [
     year: "2026",
     subtitleDE: "Gips, Stoff, Edelstahl, Stahl, Elektronik\nca 330 × 50 × 50 cm",
     subtitleEN: "Plaster, fabric, stainless steel, steel, electronics\nApprox. 330 × 50 × 50 cm",
-    videoFile: apexVideo.url,
+    videoFile: apexVideo,
     videoLoop: true,
-    titleImage: apexHover.url,
-    images: [apex1, apex2new.url, apexHover.url],
+    titleImage: apexHover,
+    images: [apex1, apex2new, apexHover],
     imageGroups: [1, 2],
     descriptionDE: [
       "apex besteht aus drei übereinander angeordneten Unterkörpern in weißer Arbeitskleidung. Die Figuren stehen auf Edelstahlkochtöpfen, die den vertikalen Aufbau provisorisch stabilisieren.",
