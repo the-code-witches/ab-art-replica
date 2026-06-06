@@ -180,7 +180,7 @@ export const works: Work[] = [
     videoLoop: true,
     titleImage: apexHover.url,
     images: [apex1, apex2new.url, apexHover.url],
-    imageGroups: [1, 1, 1],
+    imageGroups: [1, 2],
     descriptionDE: [
       "apex besteht aus drei übereinander angeordneten Unterkörpern in weißer Arbeitskleidung. Die Figuren stehen auf Edelstahlkochtöpfen, die den vertikalen Aufbau provisorisch stabilisieren.",
       "Sichtbare Haltesysteme, Sensorik, Licht und Vibration halten die Konstruktion in Betrieb.",
