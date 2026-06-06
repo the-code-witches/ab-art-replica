@@ -1,4 +1,4 @@
-import { useState, Fragment } from "react";
+import { useState, Fragment, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { works } from "@/data/works";
 
@@ -22,6 +22,17 @@ const Index = () => {
   const [comingSoon, setComingSoon] = useState(false);
 
   const allWorks = WORK_SLUGS.map((slug) => works.find((w) => w.slug === slug)!).filter(Boolean);
+
+  useEffect(() => {
+    const urls = allWorks
+      .map((w) => w.titleImage || w.images?.[0])
+      .filter(Boolean) as string[];
+    urls.forEach((url) => {
+      const img = new Image();
+      img.src = url;
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const hoveredWorkData = works.find(
     (w) => (lang === "DE" ? (w.listTitleDE || w.titleDE) : (w.listTitleEN || w.titleEN)) === hoveredWork
