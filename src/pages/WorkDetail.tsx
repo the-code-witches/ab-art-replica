@@ -42,7 +42,7 @@ const WorkDetail = () => {
         {/* Leading image (before video) */}
         {work.leadingImage && (
           <div className="mb-8">
-            <img src={work.leadingImage} alt={title} className="w-full h-auto object-contain" />
+            <img src={work.leadingImage} alt={title} className="w-full h-auto object-contain" loading="eager" fetchPriority="high" decoding="async" />
           </div>
         )}
 
@@ -82,14 +82,14 @@ const WorkDetail = () => {
                 const count = work.imageGroups[g];
                 if (count === 1 && work.images[idx]) {
                   elements.push(
-                    <img key={idx} src={work.images[idx]} alt={`${title} ${idx + 1}`} className="w-full h-auto object-contain" />
+                    <img key={idx} src={work.images[idx]} alt={`${title} ${idx + 1}`} className="w-full h-auto object-contain" loading="lazy" decoding="async" />
                   );
                   idx++;
                 } else if (count === 2) {
                   elements.push(
                     <div key={`pair-${idx}`} className="grid grid-cols-2 gap-4">
-                      {work.images[idx] && <img src={work.images[idx]} alt={`${title} ${idx + 1}`} className="w-full h-auto object-contain" />}
-                      {work.images[idx + 1] && <img src={work.images[idx + 1]} alt={`${title} ${idx + 2}`} className="w-full h-auto object-contain" />}
+                      {work.images[idx] && <img src={work.images[idx]} alt={`${title} ${idx + 1}`} className="w-full h-auto object-contain" loading="lazy" decoding="async" />}
+                      {work.images[idx + 1] && <img src={work.images[idx + 1]} alt={`${title} ${idx + 2}`} className="w-full h-auto object-contain" loading="lazy" decoding="async" />}
                     </div>
                   );
                   idx += 2;
@@ -105,13 +105,13 @@ const WorkDetail = () => {
               for (let i = 0; i < work.images.length; i += 3) {
                 elements.push(
                   <div key={`pair-${i}`} className="grid grid-cols-2 gap-4">
-                    {work.images[i] && <img src={work.images[i]} alt={`${title} ${i + 1}`} className="w-full h-auto object-contain" />}
-                    {work.images[i + 1] && <img src={work.images[i + 1]} alt={`${title} ${i + 2}`} className="w-full h-auto object-contain" />}
+                    {work.images[i] && <img src={work.images[i]} alt={`${title} ${i + 1}`} className="w-full h-auto object-contain" loading="lazy" decoding="async" />}
+                    {work.images[i + 1] && <img src={work.images[i + 1]} alt={`${title} ${i + 2}`} className="w-full h-auto object-contain" loading="lazy" decoding="async" />}
                   </div>
                 );
                 if (work.images[i + 2]) {
                   elements.push(
-                    <img key={`full-${i}`} src={work.images[i + 2]} alt={`${title} ${i + 3}`} className="w-full h-auto object-contain" />
+                    <img key={`full-${i}`} src={work.images[i + 2]} alt={`${title} ${i + 3}`} className="w-full h-auto object-contain" loading="lazy" decoding="async" />
                   );
                 }
               }
@@ -121,7 +121,7 @@ const WorkDetail = () => {
         ) : work.images.length > 0 ? (
           <div className="space-y-6 mb-8">
             {work.images.map((img, i) => (
-              <img key={i} src={img} alt={`${title} ${i + 1}`} className="w-full h-auto object-contain" />
+              <img key={i} src={img} alt={`${title} ${i + 1}`} className="w-full h-auto object-contain" loading={i === 0 ? "eager" : "lazy"} decoding="async" {...(i === 0 ? { fetchPriority: "high" as const } : {})} />
             ))}
           </div>
         ) : null}
