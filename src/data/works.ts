@@ -2,10 +2,10 @@ import augmentedPleasureTitle from "@/assets/augmented-pleasure/title.jpg";
 import augmentedPleasure1 from "@/assets/augmented-pleasure/1.jpg";
 import augmentedPleasure2 from "@/assets/augmented-pleasure/2.jpg";
 import shopfliftTitlePic from "@/assets/shopflift/titlepicture.jpg";
-import shopliftVideo from "@/assets/shopflift-new/Sequenz_01_4.mp4.asset.json";
-import shopliftNew1 from "@/assets/shopflift-new/shoplift1.jpg.asset.json";
-import shopliftNew2 from "@/assets/shopflift-new/shoplift2.jpg.asset.json";
-import shopliftNew3 from "@/assets/shopflift-new/shoplift3.jpg.asset.json";
+import shopliftVideo from "@/assets/shopflift-new/Sequenz_01_4.mp4";
+import shopliftNew1 from "@/assets/shopflift-new/shoplift1.jpg";
+import shopliftNew2 from "@/assets/shopflift-new/shoplift2.jpg";
+import shopliftNew3 from "@/assets/shopflift-new/shoplift3.jpg";
 import titlepicture from "@/assets/titlepicture.jpg";
 import luecke from "@/assets/1_Lücke.jpg";
 import spur from "@/assets/1_Spur.jpg";
@@ -74,9 +74,9 @@ import odeToilette4 from "@/assets/ode-toilette/4.jpg";
 import odeToilette5 from "@/assets/ode-toilette/5.jpg";
 import odeToilette6 from "@/assets/ode-toilette/6.jpg";
 import apex1 from "@/assets/apex/apex1.jpg";
-import apexVideo from "@/assets/apex/Sequenz_A.mp4.asset.json";
-import apexHover from "@/assets/apex/apex-hover.jpg.asset.json";
-import apex2new from "@/assets/apex/apex-2new.jpg.asset.json";
+import apexVideo from "@/assets/apex/Sequenz_A.mp4";
+import apexHover from "@/assets/apex/apex-hover.jpg";
+import apex2new from "@/assets/apex/apex-2new.jpg";
 
 export interface Work {
   slug: string;
