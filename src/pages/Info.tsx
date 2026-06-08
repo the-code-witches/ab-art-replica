@@ -2,7 +2,7 @@ import { Link, useSearchParams } from "react-router-dom";
 
 const artistStatementDE = [
   "Meine Arbeiten untersuchen Situationen, in denen Dinge weiter funktionieren, obwohl ihr ursprünglicher Sinn bereits verloren gegangen ist. Ausgangspunkt sind alltägliche Objekte, Räume und Infrastrukturen. In Installationen, Skulpturen und medialen Setups werden sie verschoben und neu angeordnet.",
-  "Mich interessieren die Spuren, die Systeme in Körpern, Dingen und Räumen hinterlassen – und die Zustände, die entstehen, wenn Funktion bleibt, während Bedeutung, Genuss oder Entlastung verschwinden.",
+  "Mich interessieren die Spuren, die Systeme in Körpern, Dingen und Räumen hinterlassen und die Zustände, die entstehen, wenn Funktion bleibt, während Bedeutung, Genuss oder Entlastung verschwinden.",
 ];
 
 const educationDE = [
